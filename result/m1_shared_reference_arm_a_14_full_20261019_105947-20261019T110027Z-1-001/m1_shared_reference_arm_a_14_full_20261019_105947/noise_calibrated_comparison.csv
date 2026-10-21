@@ -1,0 +1,11 @@
+mode,model,method_pair,mean_cross_explainer_disagreement,mean_pair_method_repeat_instability,descriptive_excess_over_repeat_instability,interpretation_note
+Baseline,LogisticRegression,LIME__vs__SHAP,0.4596626984126984,0.10984126984126985,0.34982142857142856,descriptive diagnostic only; not a p-value or formal bias correction
+Baseline,MLP,IG__vs__LIME,0.5729761904761904,0.24031746031746035,0.33265873015873004,descriptive diagnostic only; not a p-value or formal bias correction
+Baseline,MLP,IG__vs__SHAP,0.25107142857142856,0.15587301587301589,0.09519841269841267,descriptive diagnostic only; not a p-value or formal bias correction
+Baseline,MLP,LIME__vs__SHAP,0.5674404761904762,0.15111111111111114,0.4163293650793651,descriptive diagnostic only; not a p-value or formal bias correction
+Baseline,RandomForest,LIME__vs__SHAP,0.5299801587301587,0.2493650793650794,0.2806150793650793,descriptive diagnostic only; not a p-value or formal bias correction
+M1_shared_reference,LogisticRegression,LIME__vs__SHAP,0.35529761904761903,0.12952380952380954,0.2257738095238095,descriptive diagnostic only; not a p-value or formal bias correction
+M1_shared_reference,MLP,IG__vs__LIME,0.5644444444444444,0.2590476190476191,0.30539682539682533,descriptive diagnostic only; not a p-value or formal bias correction
+M1_shared_reference,MLP,IG__vs__SHAP,0.1616071428571429,0.1831746031746032,-0.02156746031746032,descriptive diagnostic only; not a p-value or formal bias correction
+M1_shared_reference,MLP,LIME__vs__SHAP,0.5472222222222222,0.146984126984127,0.40023809523809517,descriptive diagnostic only; not a p-value or formal bias correction
+M1_shared_reference,RandomForest,LIME__vs__SHAP,0.5266071428571428,0.2555555555555556,0.27105158730158724,descriptive diagnostic only; not a p-value or formal bias correction

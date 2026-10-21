@@ -1,0 +1,69 @@
+{
+  "title": "M1 Shared-Reference Mitigation Pipeline \u2014 BDHS 2022 Child Stunting",
+  "run_timestamp": "20261019_105947",
+  "data_file_basename": "BDKR81FL.DTA",
+  "feature_set_mode": "ARM_A_14",
+  "feature_set_label": "arm_a_14",
+  "features": [
+    "b4",
+    "b19",
+    "bord",
+    "v012",
+    "v106",
+    "v190",
+    "v025",
+    "v024",
+    "v130",
+    "v136",
+    "v151",
+    "v113",
+    "v116",
+    "v212"
+  ],
+  "target_definition": "hw70 < -200; valid target range [-600,600]",
+  "cluster_column": "v001",
+  "cv": {
+    "type": "StratifiedGroupKFold",
+    "n_splits": 5,
+    "seed": 31415
+  },
+  "run_mode": "full",
+  "explained_cases_per_fold": 40,
+  "reference_rows_per_fold": 30,
+  "shap_nsamples": 100,
+  "lime_num_samples": 1500,
+  "ig_steps": 24,
+  "noise_cases_per_fold": 5,
+  "noise_repeats_total": 3,
+  "models": [
+    "LogisticRegression",
+    "RandomForest",
+    "MLP"
+  ],
+  "explainers": {
+    "LogisticRegression": [
+      "SHAP",
+      "LIME"
+    ],
+    "RandomForest": [
+      "SHAP",
+      "LIME"
+    ],
+    "MLP": [
+      "SHAP",
+      "LIME",
+      "IG"
+    ]
+  },
+  "m1_definition": "same observed training-reference rows used by SHAP, LIME training data, and MLP IG baselines within each fold",
+  "faithfulness_definition": "one feature at a time replaced by an observed training donor nearest on all other transformed features",
+  "stunting_prevalence_unweighted_analytic": 0.23532277710109623,
+  "analytic_n": 4105,
+  "analytic_clusters": 670,
+  "warnings": [
+    "DEBUG_4 is not the Arm A 14-feature thesis configuration.",
+    "Explanations are associations with model outputs, not causal effects.",
+    "LIME's internal local perturbations are method-generated; the faithfulness check uses observed donor values.",
+    "Noise estimates differ in what is repeated by method; interpret them separately."
+  ]
+}
