@@ -1,0 +1,61 @@
+model,method,metric,floor_explainer_seed,floor_retrain_seed,note
+LR,SHAP,1-TV,0.9978128068189318,,LR solver deterministic (no retrain variation)
+LR,SHAP,Spearman,0.9993670329670329,,LR solver deterministic (no retrain variation)
+LR,SHAP,Jaccard@5,0.9966666666666667,,LR solver deterministic (no retrain variation)
+LR,SHAP,RBO,0.9969090168683559,,LR solver deterministic (no retrain variation)
+LR,LIME,1-TV,0.9430188417223573,,LR solver deterministic (no retrain variation)
+LR,LIME,Spearman,0.9423252747252748,,LR solver deterministic (no retrain variation)
+LR,LIME,Jaccard@5,0.8616190476190476,,LR solver deterministic (no retrain variation)
+LR,LIME,RBO,0.937324987574527,,LR solver deterministic (no retrain variation)
+LR,IG,1-TV,1.0,,deterministic explainer; LR solver deterministic (no retrain variation)
+LR,IG,Spearman,1.0,,deterministic explainer; LR solver deterministic (no retrain variation)
+LR,IG,Jaccard@5,1.0,,deterministic explainer; LR solver deterministic (no retrain variation)
+LR,IG,RBO,1.0,,deterministic explainer; LR solver deterministic (no retrain variation)
+LR,IG_sumabs,1-TV,1.0,,deterministic explainer; LR solver deterministic (no retrain variation)
+LR,IG_sumabs,Spearman,1.0,,deterministic explainer; LR solver deterministic (no retrain variation)
+LR,IG_sumabs,Jaccard@5,1.0,,deterministic explainer; LR solver deterministic (no retrain variation)
+LR,IG_sumabs,RBO,1.0,,deterministic explainer; LR solver deterministic (no retrain variation)
+LR,IG_medmode,1-TV,1.0,,deterministic explainer; LR solver deterministic (no retrain variation)
+LR,IG_medmode,Spearman,1.0,,deterministic explainer; LR solver deterministic (no retrain variation)
+LR,IG_medmode,Jaccard@5,1.0,,deterministic explainer; LR solver deterministic (no retrain variation)
+LR,IG_medmode,RBO,1.0,,deterministic explainer; LR solver deterministic (no retrain variation)
+LR,SHAP_bg,1-TV,0.9029579924067113,,LR solver deterministic (no retrain variation)
+LR,SHAP_bg,Spearman,0.8954285714285715,,LR solver deterministic (no retrain variation)
+LR,SHAP_bg,Jaccard@5,0.8176666666666667,,LR solver deterministic (no retrain variation)
+LR,SHAP_bg,RBO,0.9032081677178132,,LR solver deterministic (no retrain variation)
+RF,SHAP,1-TV,0.990794296080873,0.9198924504983979,
+RF,SHAP,Spearman,0.9922329670329673,0.8956967032967035,
+RF,SHAP,Jaccard@5,0.9846666666666667,0.8253809523809522,
+RF,SHAP,RBO,0.989501161206758,0.910632764043838,
+RF,LIME,1-TV,0.9283755079520714,0.9382183987651884,
+RF,LIME,Spearman,0.9004219780219782,0.9427560439560442,
+RF,LIME,Jaccard@5,0.8878214285714285,0.8833809523809525,
+RF,LIME,RBO,0.927966286792254,0.9352364426597916,
+RF,SHAP_bg,1-TV,0.8931384958825407,,
+RF,SHAP_bg,Spearman,0.8830373626373627,,
+RF,SHAP_bg,Jaccard@5,0.7999880952380951,,
+RF,SHAP_bg,RBO,0.887892780479409,,
+MLP,SHAP,1-TV,0.9696634976909091,0.8132440093122976,
+MLP,SHAP,Spearman,0.9769934065934066,0.7399692307692307,
+MLP,SHAP,Jaccard@5,0.9289047619047619,0.6631388888888888,
+MLP,SHAP,RBO,0.9579521406877509,0.7951074801497231,
+MLP,LIME,1-TV,0.9170578334639212,0.8544938149977953,
+MLP,LIME,Spearman,0.9043780219780221,0.8086505494505495,
+MLP,LIME,Jaccard@5,0.8689999999999999,0.7435238095238096,
+MLP,LIME,RBO,0.9029809310134337,0.8409893417537715,
+MLP,IG,1-TV,1.0,0.7520497757878813,deterministic explainer
+MLP,IG,Spearman,1.0,0.6690725274725275,deterministic explainer
+MLP,IG,Jaccard@5,1.0,0.574297619047619,deterministic explainer
+MLP,IG,RBO,1.0,0.7377153401780341,deterministic explainer
+MLP,IG_sumabs,1-TV,1.0,0.7990796936318884,deterministic explainer
+MLP,IG_sumabs,Spearman,1.0,0.7828395604395604,deterministic explainer
+MLP,IG_sumabs,Jaccard@5,1.0,0.6691428571428572,deterministic explainer
+MLP,IG_sumabs,RBO,1.0,0.7711717762807362,deterministic explainer
+MLP,IG_medmode,1-TV,1.0,0.7619222987164107,deterministic explainer
+MLP,IG_medmode,Spearman,1.0,0.9032390830369285,deterministic explainer
+MLP,IG_medmode,Jaccard@5,1.0,0.6862142857142857,deterministic explainer
+MLP,IG_medmode,RBO,1.0,0.7959862658879708,deterministic explainer
+MLP,SHAP_bg,1-TV,0.8770558986952663,,
+MLP,SHAP_bg,Spearman,0.8559648351648351,,
+MLP,SHAP_bg,Jaccard@5,0.7885714285714284,,
+MLP,SHAP_bg,RBO,0.8676881199788704,,
