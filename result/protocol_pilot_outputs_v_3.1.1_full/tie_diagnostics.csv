@@ -1,0 +1,16 @@
+model,method,n_vectors,all_zero,tie_at_topk_boundary,tie_share
+LR,IG,400,0,0,0.0
+LR,IG_medmode,400,0,2,0.005
+LR,IG_sumabs,400,0,0,0.0
+LR,LIME,1200,0,0,0.0
+LR,SHAP,1200,0,0,0.0
+LR,SHAP_bg,1000,0,0,0.0
+MLP,IG,1200,0,0,0.0
+MLP,IG_medmode,1200,0,6,0.005
+MLP,IG_sumabs,1200,0,0,0.0
+MLP,LIME,2000,0,0,0.0
+MLP,SHAP,2000,0,0,0.0
+MLP,SHAP_bg,1000,0,0,0.0
+RF,LIME,2000,0,0,0.0
+RF,SHAP,2000,0,0,0.0
+RF,SHAP_bg,1000,0,0,0.0
