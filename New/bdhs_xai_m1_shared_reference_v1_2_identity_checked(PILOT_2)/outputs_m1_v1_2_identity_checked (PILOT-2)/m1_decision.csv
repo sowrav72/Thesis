@@ -1,0 +1,8 @@
+model,pair,delta_mean,ci_adj,ci95,faithful_conditional,faithful_marginal,sharing_delta_M1_vs_C1,sharing_ci_adj,verdict
+LR,SHAP vs LIME,-0.01858009125377545,"[-0.033, -0.004]","[-0.029, -0.007]",True,True,0.017084094852515903,"[0.007, 0.028]",no clear change in excess agreement/disagreement
+LR,SHAP vs IG,0.043067360709466,"[0.030, 0.059]","[0.033, 0.054]",True,True,0.08273807595912862,"[0.071, 0.096]",no clear change in excess agreement/disagreement
+LR,LIME vs IG,-0.06915966840177366,"[-0.084, -0.054]","[-0.079, -0.058]",True,True,0.02501870059764796,"[0.012, 0.039]",INCREASED DISAGREEMENT (excess agreement decreased)
+RF,SHAP vs LIME,-0.017740453698348414,"[-0.034, -0.002]","[-0.029, -0.006]",True,True,0.012131970953023598,"[0.003, 0.022]",no clear change in excess agreement/disagreement
+MLP,SHAP vs LIME,-0.04087043249148513,"[-0.063, -0.018]","[-0.058, -0.023]",False,False,0.0023752896911406114,"[-0.015, 0.020]",no clear change in excess agreement/disagreement
+MLP,SHAP vs IG,0.15410032774243299,"[0.125, 0.187]","[0.130, 0.179]",False,True,0.08554540196645462,"[0.071, 0.100]",REDUCED-DISAGREEMENT SIGNAL (excess agreement increased); faithfulness NOT preserved; sharing effect supported (M1 > C1)
+MLP,LIME vs IG,-0.055139695392326965,"[-0.089, -0.021]","[-0.080, -0.030]",False,False,0.004379183851444648,"[-0.015, 0.024]",INCREASED DISAGREEMENT (excess agreement decreased)
