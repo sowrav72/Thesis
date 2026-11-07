@@ -1,0 +1,1239 @@
+variable,variable_label,data_type,unique_nonmissing_values,missing_count,system_missing_count,user_defined_missing_code_count,missing_percentage
+caseid,case identification,object,7697,0,0,0,0.0
+bidx,birth column number,int64,4,0,0,0,0.0
+v000,country code and phase,object,1,0,0,0,0.0
+v001,cluster number,int64,674,0,0,0,0.0
+v002,household number,int64,184,0,0,0,0.0
+v003,respondent's line number,int64,18,0,0,0,0.0
+v004,ultimate area unit,int64,674,0,0,0,0.0
+v005,women's individual sample weight (6 decimals),int64,660,0,0,0,0.0
+v006,month of interview,int64,7,0,0,0,0.0
+v007,year of interview,int64,1,0,0,0,0.0
+v008,date of interview (cmc),int64,7,0,0,0,0.0
+v008a,date of interview century day code (cdc),int64,125,0,0,0,0.0
+v009,respondent's month of birth,int64,12,0,0,0,0.0
+v010,respondent's year of birth,int64,35,0,0,0,0.0
+v011,date of birth (cmc),int64,367,0,0,0,0.0
+v012,respondent's current age,int64,35,0,0,0,0.0
+v013,age in 5-year groups,int64,7,0,0,0,0.0
+v014,completeness of age information,int64,4,0,0,0,0.0
+v015,result of individual interview,int64,1,0,0,0,0.0
+v016,day of interview,int64,31,0,0,0,0.0
+v017,cmc start of calendar,int64,1,0,0,0,0.0
+v018,row of month of interview,int64,7,0,0,0,0.0
+v019,length of calendar,int64,7,0,0,0,0.0
+v019a,number of calendar columns,int64,1,0,0,0,0.0
+v020,ever-married sample,int64,1,0,0,0,0.0
+v021,primary sampling unit,int64,674,0,0,0,0.0
+v022,sample strata for sampling errors,int64,16,0,0,0,0.0
+v023,stratification used in sample design,int64,16,0,0,0,0.0
+v024,division,int64,8,0,0,0,0.0
+v025,type of place of residence,int64,2,0,0,0,0.0
+v026,de facto place of residence,int64,3,0,0,0,0.0
+v027,number of visits,int64,5,0,0,0,0.0
+v028,interviewer identification,int64,102,0,0,0,0.0
+v029,na - keyer identification,object,0,8784,8784,0,100.0
+v030,field supervisor,int64,20,0,0,0,0.0
+v031,na - field editor,object,0,8784,8784,0,100.0
+v032,na - office editor,object,0,8784,8784,0,100.0
+v034,na - line number of husband,object,0,8784,8784,0,100.0
+v040,cluster altitude in meters,int64,64,0,0,0,0.0
+v042,na - household selected for hemoglobin,object,0,8784,8784,0,100.0
+v044,na - selected for domestic violence module,object,0,8784,8784,0,100.0
+v045a,language of questionnaire,int64,1,0,0,0,0.0
+v045b,language of interview,int64,3,0,0,0,0.0
+v045c,native language of respondent,int64,3,0,0,0,0.0
+v046,translator used,int64,2,0,0,0,0.0
+v047,team number,int64,20,0,0,0,0.0
+v048,team supervisor,int64,20,0,0,0,0.0
+v101,division,int64,8,0,0,0,0.0
+v102,type of place of residence,int64,2,0,0,0,0.0
+v103,na - childhood place of residence,object,0,8784,8784,0,100.0
+v104,years lived in place of residence,int64,40,0,0,0,0.0
+v105,type of place of previous residence,object,3,1917,1917,0,21.82377049180328
+v105a,division of previous residence,object,9,1917,1917,0,21.82377049180328
+v106,highest educational level,int64,4,0,0,0,0.0
+v107,highest year of education,int64,10,0,0,0,0.0
+v113,source of drinking water,int64,16,0,0,0,0.0
+v115,time to get to water source,object,1,7910,7910,0,90.05009107468123
+v116,type of toilet facility,int64,13,0,0,0,0.0
+v119,household has: electricity,int64,3,0,0,0,0.0
+v120,household has: radio,int64,3,0,0,0,0.0
+v121,household has: television,int64,3,0,0,0,0.0
+v122,household has: refrigerator,int64,3,0,0,0,0.0
+v123,household has: bicycle,int64,3,0,0,0,0.0
+v124,household has: motorcycle/scooter,int64,3,0,0,0,0.0
+v125,household has: car/truck,int64,3,0,0,0,0.0
+v127,main floor material,int64,11,0,0,0,0.0
+v128,main wall material,int64,15,0,0,0,0.0
+v129,main roof material,int64,12,0,0,0,0.0
+v130,religion,int64,5,0,0,0,0.0
+v131,na - ethnicity,object,0,8784,8784,0,100.0
+v133,education in single years,int64,19,0,0,0,0.0
+v134,de facto place of residence,int64,3,0,0,0,0.0
+v135,usual resident or visitor,int64,2,0,0,0,0.0
+v136,number of household members (listed),int64,23,0,0,0,0.0
+v137,number of children 5 and under in household (de jure),int64,7,0,0,0,0.0
+v138,number of eligible women in household (de facto),int64,6,0,0,0,0.0
+v139,de jure region of residence,int64,9,0,0,0,0.0
+v140,de jure type of place of residence,int64,3,0,0,0,0.0
+v141,de jure place of residence,int64,4,0,0,0,0.0
+v149,educational attainment,int64,6,0,0,0,0.0
+v150,relationship to household head,int64,11,0,0,0,0.0
+v151,sex of household head,int64,2,0,0,0,0.0
+v152,age of household head,int64,73,0,0,0,0.0
+v153,household has: telephone (land-line),int64,3,0,0,0,0.0
+awfactt,all woman factor - total,int64,15,0,0,0,0.0
+awfactu,all woman factor - urban/rural,int64,28,0,0,0,0.0
+awfactr,all woman factor - regional,int64,66,0,0,0,0.0
+awfacte,all woman factor - educational,int64,43,0,0,0,0.0
+awfactw,all woman factor - wealth index,int64,47,0,0,0,0.0
+v155,literacy,int64,4,0,0,0,0.0
+v156,na - ever participated in a literacy program outside of primary,object,0,8784,8784,0,100.0
+v157,frequency of reading newspaper or magazine,int64,3,0,0,0,0.0
+v158,frequency of listening to radio,int64,3,0,0,0,0.0
+v159,frequency of watching television,int64,3,0,0,0,0.0
+v160,toilet facilities shared with other households,object,3,31,31,0,0.35291438979963574
+v161,type of cooking fuel,object,1,7910,7910,0,90.05009107468123
+v166,result of salt test for iodine,object,0,8784,8784,0,100.0
+v167,na - number of trips in last 12 months,object,0,8784,8784,0,100.0
+v168,na - away for more than one month in last 12 months,object,0,8784,8784,0,100.0
+v169a,owns a mobile telephone,int64,2,0,0,0,0.0
+v169b,last 12 months use mobile telephone for financial transactions,int64,2,0,0,0,0.0
+v169c,is respondent's mobile phone a smart phone,object,2,2577,2577,0,29.337431693989068
+v170,has an account in a bank or other financial institution,int64,2,0,0,0,0.0
+v171a,use of internet,int64,3,0,0,0,0.0
+v171b,frequency of using internet last month,object,4,6011,6011,0,68.43123861566485
+v172,na - respondent state of birth,object,0,8784,8784,0,100.0
+v173,na - respondent country of birth,object,0,8784,8784,0,100.0
+v174m,month move to current place of residence,object,13,6825,6825,0,77.69808743169399
+v174y,year move to current place of residence,object,7,6825,6825,0,77.69808743169399
+v175,reason for moving to current place of residence,object,6,1917,1917,0,21.82377049180328
+v176,na - self reported health status,object,0,8784,8784,0,100.0
+v177,money put/taken from bank account last 12 months,object,2,7277,7277,0,82.84380692167578
+v190,wealth index combined,int64,5,0,0,0,0.0
+v191,wealth index factor score combined (5 decimals),int64,6860,0,0,0,0.0
+v190a,wealth index for urban/rural,int64,5,0,0,0,0.0
+v191a,wealth index factor score for urban/rural (5 decimals),int64,6865,0,0,0,0.0
+ml101,na - type of mosquito bed net(s) slept under last night,object,0,8784,8784,0,100.0
+v201,total children ever born,int64,10,0,0,0,0.0
+v202,sons at home,int64,7,0,0,0,0.0
+v203,daughters at home,int64,6,0,0,0,0.0
+v204,sons elsewhere,int64,4,0,0,0,0.0
+v205,daughters elsewhere,int64,5,0,0,0,0.0
+v206,sons who have died,int64,5,0,0,0,0.0
+v207,daughters who have died,int64,5,0,0,0,0.0
+v208,births in last five years,int64,4,0,0,0,0.0
+v209,births in past year,int64,3,0,0,0,0.0
+v210,births in month of interview,int64,2,0,0,0,0.0
+v211,date of first birth (cmc),int64,323,0,0,0,0.0
+v212,age of respondent at 1st birth,int64,28,0,0,0,0.0
+v213,currently pregnant,int64,2,0,0,0,0.0
+v214,duration of current pregnancy in months,object,10,8370,8370,0,95.28688524590164
+v214a,duration of current pregnancy original,object,27,8370,8370,0,95.28688524590164
+v215,time since last menstrual period,int64,122,0,0,0,0.0
+v216,menstruated in last six weeks,int64,2,0,0,0,0.0
+v217,na - knowledge of ovulatory cycle,object,0,8784,8784,0,100.0
+v218,number of living children,int64,10,0,0,0,0.0
+v219,living children + current pregnancy,int64,10,0,0,0,0.0
+v220,living children + current pregnancy (grouped),int64,7,0,0,0,0.0
+v221,marriage to first birth interval (months),int64,171,0,0,0,0.0
+v222,last birth to interview (months),int64,60,0,0,0,0.0
+v223,completeness of current pregnancy information,object,1,8370,8370,0,95.28688524590164
+v224,entries in birth history,int64,10,0,0,0,0.0
+v225,current pregnancy wanted,object,3,8370,8370,0,95.28688524590164
+v226,time since last period (comp) (months),int64,33,0,0,0,0.0
+v227,flag for last period,int64,6,0,0,0,0.0
+v228,ever had a terminated pregnancy,int64,2,0,0,0,0.0
+v229,month pregnancy ended,object,12,6961,6961,0,79.24635701275045
+v230,year pregnancy ended,object,27,6961,6961,0,79.24635701275045
+v231,cmc pregnancy ended,object,240,6961,6961,0,79.24635701275045
+v232,completeness of last termination information,object,4,6961,6961,0,79.24635701275045
+v233,months when pregnancy ended,object,10,6961,6961,0,79.24635701275045
+v234,other such pregnancies,object,2,6961,6961,0,79.24635701275045
+v235,index last child prior to maternity-health (calendar),int64,5,0,0,0,0.0
+v237,birth between last and interview,int64,2,0,0,0,0.0
+v238,births in last three years,int64,4,0,0,0,0.0
+v239,pregnancies terminated before calendar beginning,object,2,6961,6961,0,79.24635701275045
+v240,month of last termination prior to calendar,object,12,7858,7858,0,89.45810564663023
+v241,year of last termination prior to calendar,object,21,7858,7858,0,89.45810564663023
+v242,cmc termination ended prior to calendar,object,172,7858,7858,0,89.45810564663023
+v243,completeness of last termination date prior to calendar,object,3,7858,7858,0,89.45810564663023
+v244,na - can women get pregnant after birth and before period,object,0,8784,8784,0,100.0
+v245,pregnancy losses,int64,7,0,0,0,0.0
+v246,entries in pregnancy history,int64,11,0,0,0,0.0
+v247a,na - collection of menstrual blood: reusable sanitary pads,object,0,8784,8784,0,100.0
+v247b,na - collection of menstrual blood: disposable sanitary pads,object,0,8784,8784,0,100.0
+v247c,na - collection of menstrual blood: tampons,object,0,8784,8784,0,100.0
+v247d,na - collection of menstrual blood: menstrual cup,object,0,8784,8784,0,100.0
+v247e,na - collection of menstrual blood: cloth,object,0,8784,8784,0,100.0
+v247f,na - collection of menstrual blood: toilet paper,object,0,8784,8784,0,100.0
+v247g,na - collection of menstrual blood: cotton wool,object,0,8784,8784,0,100.0
+v247h,na - collection of menstrual blood: underwear only,object,0,8784,8784,0,100.0
+v247i,na - collection of menstrual blood: cs,object,0,8784,8784,0,100.0
+v247j,na - collection of menstrual blood: cs,object,0,8784,8784,0,100.0
+v247k,na - collection of menstrual blood: cs,object,0,8784,8784,0,100.0
+v247l,na - collection of menstrual blood: cs,object,0,8784,8784,0,100.0
+v247x,na - collection of menstrual blood: other,object,0,8784,8784,0,100.0
+v247y,na - collection of menstrual blood: nothing,object,0,8784,8784,0,100.0
+v248,na - able to change in privacy during last menstrual cycle,object,0,8784,8784,0,100.0
+v249,na - age at first menstrual period,object,0,8784,8784,0,100.0
+v310,na - living children at first use,object,0,8784,8784,0,100.0
+v311,na - children at first use (grouped),object,0,8784,8784,0,100.0
+v312,current contraceptive method,int64,15,0,0,0,0.0
+v313,current use by method type,int64,4,0,0,0,0.0
+v315,month of start of use of method,object,12,2465,2465,0,28.06238615664845
+v316,year of start of use of method,object,6,2465,2465,0,28.06238615664845
+v317,date of start of use of method (cmc),object,64,2465,2465,0,28.06238615664845
+v318,completeness of information,object,1,2465,2465,0,28.06238615664845
+v319,years since sterilization,object,3,8544,8544,0,97.26775956284153
+v320,age at sterilization,object,5,8544,8544,0,97.26775956284153
+v321,years since first union at sterilization,object,6,8544,8544,0,97.26775956284153
+v321a,years since current union at sterilization,object,1,8554,8554,0,97.3816029143898
+v322,parity at sterilization,object,5,8544,8544,0,97.26775956284153
+v323,brand of pill used,object,19,5755,5755,0,65.51684881602914
+v323a,brand of condom used,object,21,7928,7928,0,90.25500910746813
+v325a,na - cost of current method (in currency),object,0,8784,8784,0,100.0
+v326,last source for current users,object,25,3091,3091,0,35.18897996357013
+v327,last source for users by type,object,7,3091,3091,0,35.18897996357013
+v337,months of use of current method,object,61,2465,2465,0,28.06238615664845
+v359,last method discontinued in last 5 years,object,12,3466,3466,0,39.45810564663024
+v360,reason of last discontinuation,object,15,3466,3466,0,39.45810564663024
+v361,pattern of use,int64,4,0,0,0,0.0
+v362,intention to use,object,3,6319,6319,0,71.93761384335154
+v363,na - preferred future method,object,0,8784,8784,0,100.0
+v364,contraceptive use and intention,int64,4,0,0,0,0.0
+v367,wanted last child,object,3,2693,2693,0,30.658014571949
+v367a,wanted last pregnancy,object,3,2559,2559,0,29.132513661202186
+v372,na - shown pill package,object,0,8784,8784,0,100.0
+v372a,na - shown condom package,object,0,8784,8784,0,100.0
+v375a,na - main reason not using a method,object,0,8784,8784,0,100.0
+v376,na - main reason not to use a method,object,0,8784,8784,0,100.0
+v376a,na - would ever use method if married,object,0,8784,8784,0,100.0
+v379,source known for any method,int64,28,0,0,0,0.0
+v380,source known for any method,object,8,2814,2814,0,32.03551912568306
+v384a,heard family planning on radio last few months,int64,2,0,0,0,0.0
+v384b,heard family planning on tv last few months,int64,2,0,0,0,0.0
+v384c,heard family planning in newspaper/magazine last few months,int64,2,0,0,0,0.0
+v384d,heard family planning by text messages on mobile phone,int64,2,0,0,0,0.0
+v384e,"seen about family planning on facebook, twitter, instagram, others",int64,2,0,0,0,0.0
+v384f,"seen about family planning on poster, brochure",int64,2,0,0,0,0.0
+v384g,"seen about family planning on outdoor sign, billboard",int64,2,0,0,0,0.0
+v384h,heard family planning at community meetings events,int64,2,0,0,0,0.0
+v384i,na - heard/seen family planning cs,object,0,8784,8784,0,100.0
+v384j,na - heard/seen family planning cs,object,0,8784,8784,0,100.0
+v384k,na - heard/seen family planning cs,object,0,8784,8784,0,100.0
+v393,na - visited by fieldworker in last 12 months,object,0,8784,8784,0,100.0
+v393a,na - did fieldworker talk about family planning,object,0,8784,8784,0,100.0
+v394,na - visited health facility last 12 months,object,0,8784,8784,0,100.0
+v395,"na - at health facility, told of family planning",object,0,8784,8784,0,100.0
+v3a00a,source of family planning for non-users: specialized government hospital,object,2,6319,6319,0,71.93761384335154
+v3a00b,source of family planning for non-users:  medical college hospital,object,2,6319,6319,0,71.93761384335154
+v3a00c,source of family planning for non-users: district hospital,object,2,6319,6319,0,71.93761384335154
+v3a00d,source of family planning for non-users: mcwc,object,2,6319,6319,0,71.93761384335154
+v3a00e,source of family planning for non-users: upazila health complex,object,2,6319,6319,0,71.93761384335154
+v3a00f,source of family planning for non-users: uh & family welfare center,object,2,6319,6319,0,71.93761384335154
+v3a00g,source of family planning for non-users: community clinic,object,2,6319,6319,0,71.93761384335154
+v3a00h,source of family planning for non-users: satellite clinic/epi outreach,object,2,6319,6319,0,71.93761384335154
+v3a00i,source of family planning for non-users: govt. field worker (fwa),object,2,6319,6319,0,71.93761384335154
+v3a00q,source of family planning for non-users: other public sector,object,2,6319,6319,0,71.93761384335154
+v3a00j,source of family planning for non-users: private hospital,object,2,6319,6319,0,71.93761384335154
+v3a00k,source of family planning for non-users: pharmacy/drug store,object,2,6319,6319,0,71.93761384335154
+v3a00l,source of family planning for non-users: private doctors,object,2,6319,6319,0,71.93761384335154
+v3a00m,source of family planning for non-users: private medical collage hospital,object,2,6319,6319,0,71.93761384335154
+v3a00n,source of family planning for non-users: private clinic,object,2,6319,6319,0,71.93761384335154
+v3a00o,source of family planning for non-users: non-qualified doctor's chamber,object,2,6319,6319,0,71.93761384335154
+v3a00p,source of family planning for non-users: other private,object,1,6319,6319,0,71.93761384335154
+v3a00r,source of family planning for non-users: ngo static clinic,object,2,6319,6319,0,71.93761384335154
+v3a00s,source of family planning for non-users: ngo satellite clinic,object,2,6319,6319,0,71.93761384335154
+v3a00t,source of family planning for non-users: ngo depo holder,object,2,6319,6319,0,71.93761384335154
+v3a00u,source of family planning for non-users: ngo field worker,object,2,6319,6319,0,71.93761384335154
+v3a00v,source of family planning for non-users: other ngo,object,1,6319,6319,0,71.93761384335154
+v3a00w,source of family planning for non-users: shop,object,2,6319,6319,0,71.93761384335154
+v3a00x,source of family planning for non-users: others,object,1,6319,6319,0,71.93761384335154
+v3a00y,source of family planning for non-users: no source,object,2,6319,6319,0,71.93761384335154
+v3a00z,source of family planning for non-users: any source,object,2,6319,6319,0,71.93761384335154
+v3a01,na - told sterilization would mean no more children,object,0,8784,8784,0,100.0
+v3a02,na - told about side effects,object,0,8784,8784,0,100.0
+v3a03,na - told about side effects by health or family planning worker,object,0,8784,8784,0,100.0
+v3a04,na - told how to deal with side effects,object,0,8784,8784,0,100.0
+v3a05,na - told about other family planning methods,object,0,8784,8784,0,100.0
+v3a06,na - told about other family planning methods by health or family planning worke,object,0,8784,8784,0,100.0
+v3a07,first source for current method,object,11,8544,8544,0,97.26775956284153
+v3a08a,na - reason not using: not married,object,0,8784,8784,0,100.0
+v3a08b,reason not using: not having sex,object,2,7747,7747,0,88.19444444444444
+v3a08c,reason not using: infrequent sex,object,2,7747,7747,0,88.19444444444444
+v3a08d,reason not using: menopausal,object,2,7747,7747,0,88.19444444444444
+v3a08e,reason not using: subfecund/infecund,object,2,7747,7747,0,88.19444444444444
+v3a08f,reason not using: postpartum amenorrheic,object,2,7747,7747,0,88.19444444444444
+v3a08g,reason not using: breastfeeding,object,2,7747,7747,0,88.19444444444444
+v3a08h,reason not using: fatalistic,object,2,7747,7747,0,88.19444444444444
+v3a08i,reason not using: respondent opposed,object,2,7747,7747,0,88.19444444444444
+v3a08j,reason not using: husband/partner opposed,object,2,7747,7747,0,88.19444444444444
+v3a08k,reason not using: others opposed,object,2,7747,7747,0,88.19444444444444
+v3a08l,reason not using: religious prohibition,object,2,7747,7747,0,88.19444444444444
+v3a08m,reason not using: knows no method,object,2,7747,7747,0,88.19444444444444
+v3a08n,reason not using: knows no source,object,2,7747,7747,0,88.19444444444444
+v3a08o,na - reason not using: health concerns,object,0,8784,8784,0,100.0
+v3a08p,reason not using: other side effects,object,2,7747,7747,0,88.19444444444444
+v3a08q,reason not using: lack of access/too far,object,1,7747,7747,0,88.19444444444444
+v3a08r,reason not using: costs too much,object,1,7747,7747,0,88.19444444444444
+v3a08s,reason not using: inconvenient to use,object,2,7747,7747,0,88.19444444444444
+v3a08t,reason not using: interferes with body'??s processes,object,2,7747,7747,0,88.19444444444444
+v3a08u,reason not using: preferred method not available,object,2,7747,7747,0,88.19444444444444
+v3a08v,reason not using: no method available,object,1,7747,7747,0,88.19444444444444
+v3a08w,reason not using: changes in menstrual bleeding,object,2,7747,7747,0,88.19444444444444
+v3a08aa,reason not using: methods could cause infertility,object,2,7747,7747,0,88.19444444444444
+v3a08ab,reason not using: hysterectomy,object,2,7747,7747,0,88.19444444444444
+v3a08ac,na - reason not using: cs,object,0,8784,8784,0,100.0
+v3a08ad,na - reason not using: cs,object,0,8784,8784,0,100.0
+v3a08ae,na - reason not using: cs,object,0,8784,8784,0,100.0
+v3a08af,na - reason not using: cs,object,0,8784,8784,0,100.0
+v3a08x,reason not using: other,object,2,7747,7747,0,88.19444444444444
+v3a08z,reason not using: don't know,object,2,7747,7747,0,88.19444444444444
+v3a09a,na - how many pill cycles did get last time,object,0,8784,8784,0,100.0
+v3a09b,na - how many condoms did get last time,object,0,8784,8784,0,100.0
+v3a10,probe for respondent/husband sterilized,object,2,6781,6781,0,77.19717668488161
+v3a11,na - type of injectable based on picture observation,object,0,8784,8784,0,100.0
+v3a12,na - person who injected last time,object,0,8784,8784,0,100.0
+v3a13,used emergency contraception in past 12 months,int64,2,0,0,0,0.0
+v3a14,na - could switch method if wanted/needed,object,0,8784,8784,0,100.0
+v401,last birth a caesarean section,object,2,2706,2693,13,30.806010928961747
+v404,currently breastfeeding,int64,2,0,0,0,0.0
+v405,currently amenorrheic,int64,2,0,0,0,0.0
+v406,currently abstaining,int64,2,0,0,0,0.0
+v407,na - number of times breastfed during night,object,0,8784,8784,0,100.0
+v408,na - number of times breastfed during day,object,0,8784,8784,0,100.0
+v415,drank from bottle with nipple yesterday/last night,object,3,2847,2847,0,32.41120218579235
+v416,na - heard of oral rehydration,object,0,8784,8784,0,100.0
+v417,entries in pregnancy and postnatal care roster,int64,5,0,0,0,0.0
+v418,na - entries in immunization roster,object,0,8784,8784,0,100.0
+v418a,entries in child health roster,int64,5,0,0,0,0.0
+v419,entries in height/weight roster,int64,5,0,0,0,0.0
+v420,measurer's code,object,47,4344,4344,0,49.45355191256831
+v421,assistant measurer's code,object,50,4439,4344,95,50.53506375227686
+v426,when child put to breast,object,31,3002,3002,0,34.17577413479053
+v437,respondent's weight in kilograms (1 decimal),object,516,4344,4344,0,49.45355191256831
+v438,respondent's height in centimeters (1 decimal),object,313,4344,4344,0,49.45355191256831
+v445,body mass index,object,1485,4386,4344,42,49.93169398907104
+v447,result of measurement - height/weight,int64,5,0,0,0,0.0
+v446a,height/age standard deviation (new who) (women age 15-19),object,192,8394,8391,3,95.56010928961749
+v446d,bmi/age standard deviation (new who) (women age 15-19),object,239,8394,8391,3,95.56010928961749
+v447a,women's age in years (from household questionnaire),object,34,4344,4344,0,49.45355191256831
+v452a,na - under age 18 (from household questionnaire),object,0,8784,8784,0,100.0
+v452b,na - line number of parent/caretaker,object,0,8784,8784,0,100.0
+v452c,na - read consent statement - hemoglobin,object,0,8784,8784,0,100.0
+v453,na - hemoglobin level (g/dl - 1 decimal),object,0,8784,8784,0,100.0
+v454,na - currently pregnant (from household questionnaire),object,0,8784,8784,0,100.0
+v455,na - result of measurement - hemoglobin,object,0,8784,8784,0,100.0
+v456,na - hemoglobin level adjusted for altitude and smoking (g/dl - 1 decimal),object,0,8784,8784,0,100.0
+v457,na - anemia level,object,0,8784,8784,0,100.0
+v458,na - agrees to referral - anemia,object,0,8784,8784,0,100.0
+v459,na - have mosquito bed net for sleeping (from household questionnaire),object,0,8784,8784,0,100.0
+v460,na - children under 5 slept under mosquito bed net last night (household questio,object,0,8784,8784,0,100.0
+v461,na - respondent slept under mosquito bed net,object,0,8784,8784,0,100.0
+v462,na - washed hands before preparing last meal,object,0,8784,8784,0,100.0
+v463a,na - smokes cigarettes,object,0,8784,8784,0,100.0
+v463b,na - smokes pipe full of tobacco,object,0,8784,8784,0,100.0
+v463c,na - chews tobacco,object,0,8784,8784,0,100.0
+v463d,na - snuffs by nose,object,0,8784,8784,0,100.0
+v463e,na - smokes kreteks,object,0,8784,8784,0,100.0
+v463f,"na - smokes cigars, cheroots or cigarillos",object,0,8784,8784,0,100.0
+v463g,na - smokes water pipe,object,0,8784,8784,0,100.0
+v463h,na - snuff by mouth,object,0,8784,8784,0,100.0
+v463i,na - chews betel quid with tobacco,object,0,8784,8784,0,100.0
+v463j,na - smokes/uses country specific,object,0,8784,8784,0,100.0
+v463k,na - smokes/uses country specific,object,0,8784,8784,0,100.0
+v463l,na - smokes/uses country specific,object,0,8784,8784,0,100.0
+v463x,na - smokes/uses other,object,0,8784,8784,0,100.0
+v463z,na - does not use cigarettes and tobacco,object,0,8784,8784,0,100.0
+v463aa,na - frequency smokes cigarettes,object,0,8784,8784,0,100.0
+v463ab,na - frequency currently uses other type of tobacco,object,0,8784,8784,0,100.0
+v464,na - number of cigarettes in last 24 hours,object,0,8784,8784,0,100.0
+v466,"na - when child is seriously ill, can decide whether medical treatment sought",object,0,8784,8784,0,100.0
+v467a,na - getting medical help for self: know where to go,object,0,8784,8784,0,100.0
+v467b,getting medical help for self: getting permission to go,int64,2,0,0,0,0.0
+v467c,getting medical help for self: getting money needed for treatment,int64,2,0,0,0,0.0
+v467d,getting medical help for self: distance to health facility,int64,2,0,0,0,0.0
+v467e,na - getting medical help for self: having to take transport,object,0,8784,8784,0,100.0
+v467f,getting medical help for self: not wanting to go alone,int64,2,0,0,0,0.0
+v467g,na - getting medical help for self: concern no female health provider,object,0,8784,8784,0,100.0
+v467h,na - getting medical help for self: concern no provider,object,0,8784,8784,0,100.0
+v467i,na - getting medical help for self: concern no drugs available,object,0,8784,8784,0,100.0
+v467j,na - getting medical help for self: cs,object,0,8784,8784,0,100.0
+v467k,na - getting medical help for self: cs,object,0,8784,8784,0,100.0
+v467l,na - getting medical help for self: cs,object,0,8784,8784,0,100.0
+v467m,na - getting medical help for self: cs,object,0,8784,8784,0,100.0
+v468,record for last birth,int64,1,0,0,0,0.0
+v471a,"na - woman had tinned, powdered or fresh milk",object,0,8784,8784,0,100.0
+v471b,na - woman had tea or coffee,object,0,8784,8784,0,100.0
+v471c,na - woman had any other liquid,object,0,8784,8784,0,100.0
+v471cs,na - woman other liquid - sweetened,object,0,8784,8784,0,100.0
+v471d,na - woman had sodas/malt/sports/energy drinks,object,0,8784,8784,0,100.0
+v471e,"na - woman had fruit juice, fruit-flavored drinks",object,0,8784,8784,0,100.0
+v471f,na - woman had cs liquid,object,0,8784,8784,0,100.0
+v471g,na - woman had cs liquid,object,0,8784,8784,0,100.0
+v471h,na - woman had cs liquid,object,0,8784,8784,0,100.0
+v471i,na - woman had cs liquid,object,0,8784,8784,0,100.0
+v472a,na - woman had other vegetables,object,0,8784,8784,0,100.0
+v472b,"na - woman had sausages, hot dogs, frankfurters, ham, bacon, salami, canned food",object,0,8784,8784,0,100.0
+v472c,"na - woman had nuts, seeds",object,0,8784,8784,0,100.0
+v472d,na - woman had any insects,object,0,8784,8784,0,100.0
+v472e,"na - woman had porridge, bread, rice, noodles, pasta",object,0,8784,8784,0,100.0
+v472f,"na - woman had plantains, white potatoes, yams, manioc cassava, or other tubers",object,0,8784,8784,0,100.0
+v472g,na - woman had eggs,object,0,8784,8784,0,100.0
+v472h,"na - woman had any other meat (beef, pork, lamb, chicken, etc)",object,0,8784,8784,0,100.0
+v472i,"na - woman had pumpkin, carrots, squash, sweet potatoes (yellow or orange inside",object,0,8784,8784,0,100.0
+v472j,na - woman had any dark green leafy vegetables,object,0,8784,8784,0,100.0
+v472k,"na - woman had mangoes, papayas, other vitamin a fruits",object,0,8784,8784,0,100.0
+v472l,na - woman had any other fruits,object,0,8784,8784,0,100.0
+v472m,"na - woman had liver, heart, other organs",object,0,8784,8784,0,100.0
+v472n,na - woman had fish or shellfish,object,0,8784,8784,0,100.0
+v472o,"na - woman had food made from beans, peas, lentils",object,0,8784,8784,0,100.0
+v472p,"na - woman had cheese, yogurt, other milk products",object,0,8784,8784,0,100.0
+v472q,"na - woman had oil, fats, butter, products made of them",object,0,8784,8784,0,100.0
+v472r,"na - woman had sweet foods, chocolates, candies, pastries, cakes, ice cream, etc",object,0,8784,8784,0,100.0
+v472s,na - woman had any other food,object,0,8784,8784,0,100.0
+v472t,"na - woman had chips, crisps, french fries, fried dough, instant noodles",object,0,8784,8784,0,100.0
+v472u,na - woman had red palm oil,object,0,8784,8784,0,100.0
+v472v,"na - woman had sweetened tea, coffee or herbal drinks",object,0,8784,8784,0,100.0
+v472w,na - woman had [common sentinel sweet food],object,0,8784,8784,0,100.0
+v472wa,na - woman had cs foods,object,0,8784,8784,0,100.0
+v472wb,na - woman had cs foods,object,0,8784,8784,0,100.0
+v472wc,na - woman had cs foods,object,0,8784,8784,0,100.0
+v472wd,na - woman had cs foods,object,0,8784,8784,0,100.0
+v472we,na - woman had cs foods,object,0,8784,8784,0,100.0
+v473a,na - read consent statement - hiv,object,0,8784,8784,0,100.0
+v473b,na - result of measurement - hiv,object,0,8784,8784,0,100.0
+v477,na - number of injections in last 12 months,object,0,8784,8784,0,100.0
+v478,na - number of injections administered by a health worker,object,0,8784,8784,0,100.0
+v479,na - place of injection by health worker,object,0,8784,8784,0,100.0
+v480,"na - syringe and needle from new, unopened package",object,0,8784,8784,0,100.0
+v481,covered by health insurance,int64,2,0,0,0,0.0
+v481a,health insurance type: mutual/community organization,int64,2,0,0,0,0.0
+v481b,health insurance type: provided by employer,int64,1,0,0,0,0.0
+v481c,health insurance type: social security,int64,2,0,0,0,0.0
+v481d,health insurance type: private/commercially purchased,int64,2,0,0,0,0.0
+v481e,na - health insurance type: cs,object,0,8784,8784,0,100.0
+v481f,na - health insurance type: cs,object,0,8784,8784,0,100.0
+v481g,na - health insurance type: cs,object,0,8784,8784,0,100.0
+v481h,na - health insurance type: cs,object,0,8784,8784,0,100.0
+v481x,health insurance type: other,int64,2,0,0,0,0.0
+v482a,na - arrange care of biological children under age 18,object,0,8784,8784,0,100.0
+v482b,na - primary caregiver of children under age 18,object,0,8784,8784,0,100.0
+v482c,na - arrange care of non-biological children < 18,object,0,8784,8784,0,100.0
+v483a,na - minutes to nearest healthcare facility,object,0,8784,8784,0,100.0
+v483b,na - mode of transportation to nearest healthcare facility,object,0,8784,8784,0,100.0
+v484a,na - breasts examined for cancer by health care provider,object,0,8784,8784,0,100.0
+v484b,na - ever tested for cervical cancer by health care provider,object,0,8784,8784,0,100.0
+v485a,na - number of days respondent drank alcoholic drinks in the past month,object,0,8784,8784,0,100.0
+v485b,na - number of alcoholic drinks per day,object,0,8784,8784,0,100.0
+v501,current marital status,int64,4,0,0,0,0.0
+v502,currently/formerly/never in union,int64,2,0,0,0,0.0
+v503,number of unions,int64,2,0,0,0,0.0
+v504,currently residing with husband/partner,object,3,117,117,0,1.331967213114754
+v505,na - number of other wives,object,0,8784,8784,0,100.0
+v506,na - respondent's rank among wives,object,0,8784,8784,0,100.0
+v507,month of first cohabitation,int64,12,0,0,0,0.0
+v508,year of first cohabitation,int64,35,0,0,0,0.0
+v509,date of first cohabitation (cmc),int64,356,0,0,0,0.0
+v510,completeness of date information in v509,int64,4,0,0,0,0.0
+v511,age at first cohabitation,int64,29,0,0,0,0.0
+v507a,na - month of current cohabitation,object,0,8784,8784,0,100.0
+v508a,na - year of current cohabitation,object,0,8784,8784,0,100.0
+v509a,na - date of current cohabitation (cmc),object,0,8784,8784,0,100.0
+v510a,na - completeness of date information in v509a,object,0,8784,8784,0,100.0
+v511a,na - age at current cohabitation,object,0,8784,8784,0,100.0
+v512,years since first cohabitation,int64,36,0,0,0,0.0
+v513,cohabitation duration (grouped),int64,7,0,0,0,0.0
+v525,age at first sex,int64,26,0,0,0,0.0
+v527,time since last sex,int64,88,0,0,0,0.0
+v528,time since last sex (in days),int64,32,0,0,0,0.0
+v529,time since last sex (in months),int64,19,0,0,0,0.0
+v530,flag for v529,int64,5,0,0,0,0.0
+v531,age at first sex (imputed),int64,27,0,0,0,0.0
+v532,flag for v531,int64,4,0,0,0,0.0
+v535,ever been married or in union,int64,1,0,0,0,0.0
+v536,recent sexual activity,int64,3,0,0,0,0.0
+v537,months of abstinence,object,40,6927,6927,0,78.85928961748634
+v538,na - how previous marriage or union ended,object,0,8784,8784,0,100.0
+v539,na - person who received most of late husband's property,object,0,8784,8784,0,100.0
+v540,na - respondent received any of late husband's assets or valuables,object,0,8784,8784,0,100.0
+v541,na - intends to wait until marriage to have sex,object,0,8784,8784,0,100.0
+v542,na - has a marriage certificate for current marriage/union,object,0,8784,8784,0,100.0
+v543a,"na - marriage certificate from church, mosque or other religious institution",object,0,8784,8784,0,100.0
+v543b,na - marriage certificate from civil authority,object,0,8784,8784,0,100.0
+v543c,na - other document from religious institution,object,0,8784,8784,0,100.0
+v543d,na - other document from civil authority,object,0,8784,8784,0,100.0
+v543e,na - marriage document: cs,object,0,8784,8784,0,100.0
+v543f,na - marriage document: cs,object,0,8784,8784,0,100.0
+v543g,na - marriage document: cs,object,0,8784,8784,0,100.0
+v543x,na - other marriage document:,object,0,8784,8784,0,100.0
+v544,na - current marriage ever registered with civil authority,object,0,8784,8784,0,100.0
+v602,fertility preference,int64,5,0,0,0,0.0
+v603,preferred waiting time for birth of a/another child,object,30,5344,5344,0,60.83788706739527
+v604,preferred waiting time for birth of a/another child (grouped),object,9,5344,5344,0,60.83788706739527
+v605,desire for more children,int64,7,0,0,0,0.0
+v613,ideal number of children,int64,11,0,0,0,0.0
+v614,ideal number of children (grouped),int64,8,0,0,0,0.0
+v616,time for future birth,object,31,5339,5339,0,60.78096539162113
+v621,husband's desire for children,object,4,357,357,0,4.064207650273223
+v623,exposure,int64,4,0,0,0,0.0
+v624,unmet need,object,9,13,0,13,0.14799635701275046
+v625,exposure (definition 2),int64,4,0,0,0,0.0
+v626,unmet need (definition 2),int64,9,0,0,0,0.0
+v625a,exposure to need for contraception (definition 3),int64,4,0,0,0,0.0
+v626a,unmet need for contraception (definition 3),int64,7,0,0,0,0.0
+v627,ideal number of boys,int64,7,0,0,0,0.0
+v628,ideal number of girls,int64,8,0,0,0,0.0
+v629,ideal number of either sex,int64,7,0,0,0,0.0
+v631,na - problem if became pregnant,object,0,8784,8784,0,100.0
+v632,decision maker for using contraception,object,5,117,117,0,1.331967213114754
+v632a,na - decision maker for not using contraception,object,0,8784,8784,0,100.0
+v633a,na - reason for not having sex: husband has sti,object,0,8784,8784,0,100.0
+v633b,na - reason for not having sex: husband has other women,object,0,8784,8784,0,100.0
+v633c,na - reason for not having sex: recent birth,object,0,8784,8784,0,100.0
+v633d,"na - reason for not having sex: tired, not in mood",object,0,8784,8784,0,100.0
+v633e,na - reason for not having sex: cs,object,0,8784,8784,0,100.0
+v633f,na - reason for not having sex: cs,object,0,8784,8784,0,100.0
+v633g,na - reason for not having sex: cs,object,0,8784,8784,0,100.0
+v634,na - husband knows that respondent is using contraception,object,0,8784,8784,0,100.0
+v635,respondent opinion compared to husband's on use of contraception,object,3,1831,1831,0,20.844717668488162
+v636,husband or family member pressured respondent to become pregnant,object,2,117,117,0,1.331967213114754
+v701,husband/partner's education level,object,5,117,117,0,1.331967213114754
+v702,husband/partner's highest year of education (at level in v701),object,9,1500,1500,0,17.076502732240435
+v704,husband/partner's occupation,object,18,117,117,0,1.331967213114754
+v704a,husband/partner worked in last 7 days/12 months,object,4,117,117,0,1.331967213114754
+v705,husband/partner's occupation (grouped),object,10,117,117,0,1.331967213114754
+v714,respondent currently working,int64,2,0,0,0,0.0
+v714a,"respondent has a job, but currently absent",object,2,2136,2136,0,24.316939890710383
+v715,husband/partner's total number of years of education,object,20,117,117,0,1.331967213114754
+v716,respondent's occupation,int64,15,0,0,0,0.0
+v717,respondent's occupation (grouped),int64,9,0,0,0,0.0
+v719,"respondent works for family, others, self",object,3,6222,6222,0,70.83333333333334
+v721,na - respondent works at home or away,object,0,8784,8784,0,100.0
+v729,husband/partner's educational attainment,int64,7,0,0,0,0.0
+v730,husband/partner's age,object,55,117,117,0,1.331967213114754
+v731,respondent worked in last 12 months,int64,4,0,0,0,0.0
+v732,respondent employed all year/seasonal,object,3,6222,6222,0,70.83333333333334
+v739,person who usually decides how to spend respondent's earnings,object,4,6486,6486,0,73.83879781420765
+v740,na - type of land where respondent works,object,0,8784,8784,0,100.0
+v741,type of earnings from respondent's work,object,4,6222,6222,0,70.83333333333334
+v743a,person who usually decides on: respondent's health care,object,5,117,117,0,1.331967213114754
+v743b,person who usually decides on: large household purchases,object,5,117,117,0,1.331967213114754
+v743c,na - person who usually decides on: household purchases for daily needs,object,0,8784,8784,0,100.0
+v743d,person who usually decides on: visits to family or relatives,object,5,117,117,0,1.331967213114754
+v743e,na - person who usually decides on: food to be cooked each day,object,0,8784,8784,0,100.0
+v743f,person who usually decides on: what to do with money husband earns,object,5,117,117,0,1.331967213114754
+v744a,beating justified if wife goes out without telling husband,int64,3,0,0,0,0.0
+v744b,beating justified if wife neglects the children,int64,3,0,0,0,0.0
+v744c,beating justified if wife argues with husband,int64,3,0,0,0,0.0
+v744d,beating justified if wife refuses to have sex with husband,int64,3,0,0,0,0.0
+v744e,beating justified if wife burns the food,int64,3,0,0,0,0.0
+v745a,owns a house alone or jointly,int64,6,0,0,0,0.0
+v745b,owns land alone or jointly,int64,6,0,0,0,0.0
+v745c,title deed on house own by respondent,object,5,8429,8429,0,95.95856102003643
+v745d,title deed on land own by respondent,object,4,8548,8548,0,97.31329690346084
+v746,na - respondent earns more than husband/partner,object,0,8784,8784,0,100.0
+bidxp,index to pregnancy history,int64,4,0,0,0,0.0
+bord,birth order number,int64,10,0,0,0,0.0
+b0,child is twin,int64,3,0,0,0,0.0
+b1,month of birth,int64,12,0,0,0,0.0
+b2,year of birth,int64,6,0,0,0,0.0
+b3,date of birth (cmc),int64,65,0,0,0,0.0
+b4,sex of child,int64,2,0,0,0,0.0
+b5,child is alive,int64,2,0,0,0,0.0
+b6,age at death,object,43,8508,8508,0,96.85792349726776
+b7,"age at death (months, imputed)",object,23,8508,8508,0,96.85792349726776
+b8,current age of child,object,5,276,276,0,3.1420765027322406
+b9,child lives with whom,object,2,276,276,0,3.1420765027322406
+b10,completeness of information,int64,4,0,0,0,0.0
+b11,preceding birth interval (months),object,201,3364,3364,0,38.29690346083789
+b12,succeeding birth interval (months),object,51,7771,7771,0,88.46766848816029
+b13,flag for age at death,object,1,8508,8508,0,96.85792349726776
+b15,live birth between births,int64,2,0,0,0,0.0
+b16,child's line number in household,object,22,276,276,0,3.1420765027322406
+b17,day of birth,int64,31,0,0,0,0.0
+b18,century day code of birth (cdc),int64,1893,0,0,0,0.0
+b19,current age of child in months (months since birth for dead children),int64,60,0,0,0,0.0
+b20,duration of pregnancy in months,int64,5,0,0,0,0.0
+b21,duration of pregnancy,int64,13,0,0,0,0.0
+midx,index to birth history,object,3,3442,3442,0,39.18488160291439
+midxp,index to pregnancy history,object,4,3442,3442,0,39.18488160291439
+m1,number of tetanus injections before birth,object,9,3720,3720,0,42.349726775956285
+m1a,number of tetanus injections before pregnancy,object,9,4980,4980,0,56.69398907103825
+m1b,na - month of last tetanus injection before pregnancy,object,0,8784,8784,0,100.0
+m1c,na - year of last tetanus injection before pregnancy,object,0,8784,8784,0,100.0
+m1d,years ago received last tetanus injection before pregnancy,object,27,5404,5404,0,61.520947176684885
+m1e,na - last tetanus injection before pregnancy (cmc),object,0,8784,8784,0,100.0
+m2a,prenatal: doctor,object,2,3720,3720,0,42.349726775956285
+m2b,prenatal: nurse/midwife/parademic,object,2,3720,3720,0,42.349726775956285
+m2c,prenatal: fwv,object,2,3720,3720,0,42.349726775956285
+m2d,prenatal: csba,object,2,3720,3720,0,42.349726775956285
+m2e,prenatal: sacmo,object,2,3720,3720,0,42.349726775956285
+m2f,prenatal: chcp,object,2,3720,3720,0,42.349726775956285
+m2g,prenatal: traditional birth attendant (trained),object,2,3720,3720,0,42.349726775956285
+m2h,prenatal: health assistance,object,2,3720,3720,0,42.349726775956285
+m2i,prenatal: fwac- cs,object,2,3720,3720,0,42.349726775956285
+m2j,prenatal: ngo worker,object,2,3720,3720,0,42.349726775956285
+m2l,prenatal: untrained tba,object,2,3720,3720,0,42.349726775956285
+m2m,prenatal: unqualified doctor,object,2,3720,3720,0,42.349726775956285
+m2k,prenatal: other,object,2,3720,3720,0,42.349726775956285
+m2n,prenatal: no one,object,2,3720,3720,0,42.349726775956285
+m3a,assistance: doctor,object,2,3442,3442,0,39.18488160291439
+m3b,assistance: nurse/midwife/parademic,object,2,3442,3442,0,39.18488160291439
+m3c,assistance: fwv,object,2,3442,3442,0,39.18488160291439
+m3d,assistance: csba,object,2,3442,3442,0,39.18488160291439
+m3e,assistance: sacmo,object,2,3442,3442,0,39.18488160291439
+m3f,assistance: chcp,object,2,3442,3442,0,39.18488160291439
+m3h,assistance: ha,object,2,3442,3442,0,39.18488160291439
+m3i,assistance: fwa,object,2,3442,3442,0,39.18488160291439
+m3j,assistance: ngo worker,object,2,3442,3442,0,39.18488160291439
+m3g,assistance: traditional birth attendant (tba) trained,object,2,3442,3442,0,39.18488160291439
+m3k,assistance: untrained tba,object,2,3442,3442,0,39.18488160291439
+m3l,assistance: unqualified doctor,object,2,3442,3442,0,39.18488160291439
+m3m,assistance: relatives,object,2,3442,3442,0,39.18488160291439
+m3o,assistance: neighbor/friends,object,2,3442,3442,0,39.18488160291439
+m3x,assistance: other,object,2,3442,3442,0,39.18488160291439
+m3n,assistance: no one,object,2,3442,3442,0,39.18488160291439
+m4,duration of breastfeeding,object,3,3442,3442,0,39.18488160291439
+m5,months of breastfeeding,object,38,3442,3442,0,39.18488160291439
+m6,duration of amenorrhea,object,2,3757,3757,0,42.770947176684885
+m7,months of amenorrhea,object,37,3757,3757,0,42.770947176684885
+m8,duration of abstinence,object,2,3757,3757,0,42.770947176684885
+m9,months of abstinence,object,37,3757,3757,0,42.770947176684885
+m10,wanted pregnancy when became pregnant,object,3,3442,3442,0,39.18488160291439
+m11,desired time would have waited,object,22,8152,8152,0,92.80510018214936
+m13,timing of 1st antenatal check (months),object,10,4123,4123,0,46.93761384335155
+m13a,timing of 1st antenatal check (original),object,21,4123,4123,0,46.93761384335155
+m14,number of antenatal visits during pregnancy,object,20,3720,3720,0,42.349726775956285
+m15,place of delivery,object,16,3442,3442,0,39.18488160291439
+m17,delivery by caesarean section,object,2,3453,3442,11,39.310109289617486
+m17a,na - timing on decision for caesarean section,object,0,8784,8784,0,100.0
+m18,size of child at birth,object,6,3442,3442,0,39.18488160291439
+m19,birth weight in kilograms (3 decimals),object,89,3442,3442,0,39.18488160291439
+m19a,weight at birth/recall,object,4,3442,3442,0,39.18488160291439
+m27,na - flag for breastfeeding,object,0,8784,8784,0,100.0
+m28,na - flag for amenorrhea,object,0,8784,8784,0,100.0
+m29,na - flag for abstinence,object,0,8784,8784,0,100.0
+m34,when child put to breast,object,34,3726,3726,0,42.41803278688525
+m35,na - number of times breastfed during previous night,object,0,8784,8784,0,100.0
+m36,na - number of times breastfed during previous day,object,0,8784,8784,0,100.0
+m38,drank from bottle with nipple yesterday/last night,object,3,3600,3600,0,40.98360655737705
+m39a,"did eat any solid, semi-solid or soft foods yesterday",object,2,5327,5327,0,60.6443533697632
+m39,"number of times ate solid, semi-solid or soft food yesterday",object,9,5327,5327,0,60.6443533697632
+m42a,during pregnancy: weighed,object,3,4123,4123,0,46.93761384335155
+m42b,na - during pregnancy: height measured,object,0,8784,8784,0,100.0
+m42c,during pregnancy: blood pressure taken,object,3,4123,4123,0,46.93761384335155
+m42d,during pregnancy: urine sample taken,object,3,4123,4123,0,46.93761384335155
+m42e,during pregnancy: blood sample taken,object,3,4123,4123,0,46.93761384335155
+m42f,na - during pregnancy: listen to baby's heartbeat,object,0,8784,8784,0,100.0
+m42g,na - during pregnancy: talk about foods to eat,object,0,8784,8784,0,100.0
+m42h,na - during pregnancy: talk about breastfeeding,object,0,8784,8784,0,100.0
+m42i,na - during pregnancy: ask about vaginal bleeding,object,0,8784,8784,0,100.0
+m42j,na - during pregnancy: talk about when baby is due,object,0,8784,8784,0,100.0
+m42k,na - during pregnancy: pay attention to baby movements,object,0,8784,8784,0,100.0
+m42l,during pregnancy: ultrasonograph,object,2,4123,4123,0,46.93761384335155
+m42m,during pregnancy: counseling about preg danger signs,object,3,4123,4123,0,46.93761384335155
+m42n,during pregnancy: counseling on fp method,object,3,4123,4123,0,46.93761384335155
+m43,na - told about pregnancy complications,object,0,8784,8784,0,100.0
+m44,na - told where to go for pregnancy complications,object,0,8784,8784,0,100.0
+m45,"during pregnancy, given or bought iron tablets/syrup",object,3,3720,3720,0,42.349726775956285
+m46,days tablets or syrup taken,object,96,4771,4771,0,54.31466302367942
+m47,"na - during pregnancy, had difficulty with daylight vision",object,0,8784,8784,0,100.0
+m48,"na - during pregnancy, had difficulty with night blindness",object,0,8784,8784,0,100.0
+m49a,na - during pregnancy took: sp/fansidar for malaria,object,0,8784,8784,0,100.0
+m49b,na - during pregnancy took: chloroquine for malaria,object,0,8784,8784,0,100.0
+m49c,na - during pregnancy took: cs drug for malaria,object,0,8784,8784,0,100.0
+m49d,na - during pregnancy took: cs drug for malaria,object,0,8784,8784,0,100.0
+m49e,na - during pregnancy took: cs drug for malaria,object,0,8784,8784,0,100.0
+m49f,na - during pregnancy took: cs drug for malaria,object,0,8784,8784,0,100.0
+m49g,na - during pregnancy took: cs drug for malaria,object,0,8784,8784,0,100.0
+m49x,na - during pregnancy took: other drug for malaria,object,0,8784,8784,0,100.0
+m49z,na - during pregnancy took: don't know,object,0,8784,8784,0,100.0
+m49y,na - during pregnancy took: no drug for malaria,object,0,8784,8784,0,100.0
+m54,na - received vitamin a dose in first 2 months after delivery,object,0,8784,8784,0,100.0
+m55,given child anything other than breast milk,object,2,3726,3726,0,42.41803278688525
+m57a,antenatal care: respondent's home,object,2,4123,4123,0,46.93761384335155
+m57b,na - antenatal care: other home,object,0,8784,8784,0,100.0
+m57c,na - antenatal care: cs home,object,0,8784,8784,0,100.0
+m57d,na - antenatal care: cs home,object,0,8784,8784,0,100.0
+m57e,antenatal care: government hospital,object,2,4123,4123,0,46.93761384335155
+m57f,antenatal care: medical collage hospital,object,2,4123,4123,0,46.93761384335155
+m57g,antenatal care: district hospital,object,2,4123,4123,0,46.93761384335155
+m57h,antenatal care: mcwc,object,2,4123,4123,0,46.93761384335155
+m57i,antenatal care: uhc,object,2,4123,4123,0,46.93761384335155
+m57j,antenatal care: uh & fwc,object,2,4123,4123,0,46.93761384335155
+m57k,antenatal care: community clinic,object,2,4123,4123,0,46.93761384335155
+m57l,antenatal care: satellite clinic/outreach,object,2,4123,4123,0,46.93761384335155
+m57lx,antenatal care: other public,object,2,4123,4123,0,46.93761384335155
+m57m,antenatal care: private hospital,object,2,4123,4123,0,46.93761384335155
+m57n,antenatal care: private medical collage hospital,object,2,4123,4123,0,46.93761384335155
+m57o,antenatal care: private clinic,object,2,4123,4123,0,46.93761384335155
+m57p,antenatal care: qualified doctor,object,2,4123,4123,0,46.93761384335155
+m57q,antenatal care: unqualified doctor,object,2,4123,4123,0,46.93761384335155
+m57r,antenatal care: private pharmacy,object,2,4123,4123,0,46.93761384335155
+m57rx,antenatal care: other private,object,2,4123,4123,0,46.93761384335155
+m57na,na - antenatal care: ngo hospital,object,0,8784,8784,0,100.0
+m57nb,antenatal care: ngo static clinic,object,2,4123,4123,0,46.93761384335155
+m57nc,antenatal care: ngo sattelite clinic,object,2,4123,4123,0,46.93761384335155
+m57nd,na - antenatal care: ngo medical,object,0,8784,8784,0,100.0
+m57ne,na - antenatal care: ngo medical,object,0,8784,8784,0,100.0
+m57s,na - antenatal care: cs other,object,0,8784,8784,0,100.0
+m57t,na - antenatal care: cs other,object,0,8784,8784,0,100.0
+m57u,na - antenatal care: cs other,object,0,8784,8784,0,100.0
+m57v,na - antenatal care: cs other,object,0,8784,8784,0,100.0
+m57x,antenatal care: other,object,2,4123,4123,0,46.93761384335155
+m60,na - drugs for intestinal parasites during pregnancy,object,0,8784,8784,0,100.0
+m61,time spent at place of delivery,object,51,5544,5534,10,63.114754098360656
+m62,respondent's health checked after delivery before discharge,object,2,5544,5544,0,63.114754098360656
+m63,how long after delivery respondent's health check before discharge took place,object,46,5936,5936,0,67.57741347905282
+m64,who checked respondent's health before discharge,object,13,5936,5936,0,67.57741347905282
+m66,respondent's health checked after discharge/delivery at home,object,2,3730,3720,10,42.46357012750455
+m67,how long after delivery respondent's health check (after discharge/home delivery,object,62,6549,6549,0,74.55601092896174
+m68,who checked respondent's health after discharge/delivery at home,object,14,6549,6549,0,74.55601092896174
+m69,where respondent's check after discharge/delivery at home took place,object,16,6549,6549,0,74.55601092896174
+m70,child's health checked after discharge/delivery at home,object,3,3730,3730,0,42.46357012750455
+m71,how long after delivery child's health check (after discharge/home delivery) too,object,68,6654,6654,0,75.75136612021858
+m72,who checked child's health after discharge/home delivery,object,15,6654,6654,0,75.75136612021858
+m73,where child's health check after discharge/home delivery took place,object,16,6654,6654,0,75.75136612021858
+m74,child's health checked before discharge,object,3,5544,5534,10,63.114754098360656
+m75,how long after delivery child's health check before discharge took place,object,37,5970,5970,0,67.96448087431693
+m76,who checked child's health before discharge,object,12,5970,5970,0,67.96448087431693
+m77,was child put on mother's chest and bare skin after birth,object,5,3720,3720,0,42.349726775956285
+m77a,time after birth baby was put on bare skin,object,18,7493,7493,0,85.30282331511839
+m78a,during first 2 days health provider: examine cord,object,3,3720,3720,0,42.349726775956285
+m78b,during first 2 days health provider: measure temperature,object,3,3720,3720,0,42.349726775956285
+m78c,during first 2 days health provider: signs baby needs medical attentions,object,3,3720,3720,0,42.349726775956285
+m78d,during first 2 days health provider: counsel on breastfeeding,object,3,3720,3720,0,42.349726775956285
+m78e,during first 2 days health provider: observe breastfeeding,object,3,3720,3720,0,42.349726775956285
+m78f,during first 2 days health provider: measure blood pressure,object,3,3720,3720,0,42.349726775956285
+m78g,during first 2 days health provider: discuss vaginal bleeding,object,3,3720,3720,0,42.349726775956285
+m78h,during first 2 days health provider: discuss family planning,object,3,3720,3720,0,42.349726775956285
+m78i,na - during first 2 days health provider: tell where to get help with breastfeed,object,0,8784,8784,0,100.0
+m78j,during first 2 days health provider: ask for any urination problem,object,3,3720,3720,0,42.349726775956285
+m78k,during first 2 days health provider: ask if you had any pain,object,3,3720,3720,0,42.349726775956285
+m78l,during first 2 days health provider: ask if you feel sad or depressed,object,3,3720,3720,0,42.349726775956285
+m80,pregnancy outcome for this section,object,2,3442,3442,0,39.18488160291439
+m81a,na - place obtained iron tablets/syrup: government hospital,object,0,8784,8784,0,100.0
+m81b,na - place obtained iron tablets/syrup: cs public sector,object,0,8784,8784,0,100.0
+m81c,na - place obtained iron tablets/syrup: cs public sector,object,0,8784,8784,0,100.0
+m81d,na - place obtained iron tablets/syrup: cs public sector,object,0,8784,8784,0,100.0
+m81e,na - place obtained iron tablets/syrup: cs public sector,object,0,8784,8784,0,100.0
+m81f,na - place obtained iron tablets/syrup: cs public sector,object,0,8784,8784,0,100.0
+m81g,na - place obtained iron tablets/syrup: cs public sector,object,0,8784,8784,0,100.0
+m81h,na - place obtained iron tablets/syrup: cs public sector,object,0,8784,8784,0,100.0
+m81i,na - place obtained iron tablets/syrup: cs public sector,object,0,8784,8784,0,100.0
+m81j,na - place obtained iron tablets/syrup: private hospital,object,0,8784,8784,0,100.0
+m81k,na - place obtained iron tablets/syrup: pharmacy,object,0,8784,8784,0,100.0
+m81l,na - place obtained iron tablets/syrup: private doctor,object,0,8784,8784,0,100.0
+m81m,na - place obtained iron tablets/syrup: cs private medical,object,0,8784,8784,0,100.0
+m81n,na - place obtained iron tablets/syrup: cs private medical,object,0,8784,8784,0,100.0
+m81o,na - place obtained iron tablets/syrup: cs private medical,object,0,8784,8784,0,100.0
+m81p,na - place obtained iron tablets/syrup: cs private medical,object,0,8784,8784,0,100.0
+m81q,na - place obtained iron tablets/syrup: cs private medical,object,0,8784,8784,0,100.0
+m81r,na - place obtained iron tablets/syrup: cs private medical,object,0,8784,8784,0,100.0
+m81na,na - place obtained iron tablets/syrup: ngo hospital,object,0,8784,8784,0,100.0
+m81nb,na - place obtained iron tablets/syrup: cs ngo,object,0,8784,8784,0,100.0
+m81nc,na - place obtained iron tablets/syrup: cs ngo,object,0,8784,8784,0,100.0
+m81nd,na - place obtained iron tablets/syrup: cs ngo,object,0,8784,8784,0,100.0
+m81ne,na - place obtained iron tablets/syrup: cs ngo,object,0,8784,8784,0,100.0
+m81s,na - place obtained iron tablets/syrup: cs other sector,object,0,8784,8784,0,100.0
+m81t,na - place obtained iron tablets/syrup: cs other sector,object,0,8784,8784,0,100.0
+m81u,na - place obtained iron tablets/syrup: cs other sector,object,0,8784,8784,0,100.0
+m81v,na - place obtained iron tablets/syrup: cs other sector,object,0,8784,8784,0,100.0
+m81w,na - place obtained iron tablets/syrup: cs other sector,object,0,8784,8784,0,100.0
+m81x,na - place obtained iron tablets/syrup: other,object,0,8784,8784,0,100.0
+m82,na - during pregnancy received food/cash through assistance program,object,0,8784,8784,0,100.0
+ml0,na - type of mosquito bed net(s) child slept under last night,object,0,8784,8784,0,100.0
+ml1,na - number of times took fansidar during pregnancy,object,0,8784,8784,0,100.0
+ml2,na - source of antimalarial during pregnancy,object,0,8784,8784,0,100.0
+mnb1,time after birth child was bathed,object,65,3720,3720,0,42.349726775956285
+mnb3,device used to cut the cord,object,5,6960,6960,0,79.23497267759562
+mnb4,was the device new or had it been used before,object,3,6985,6985,0,79.51958105646631
+mnb5,was the device boiled before used to cut the cord,object,3,6985,6985,0,79.51958105646631
+mnb6,anything applied to the cord from the time it was cut until it fell off,object,3,3720,3720,0,42.349726775956285
+mnb7a,what was applied to the cord: chlorhexidine,object,2,5273,5273,0,60.029599271402546
+mnb7b,"what was applied to the cord: other antiseptic (alcohol, spirit, gentian violet)",object,2,5273,5273,0,60.029599271402546
+mnb7c,what was applied to the cord: mustard oil,object,2,5273,5273,0,60.029599271402546
+mnb7d,what was applied to the cord: ash,object,2,5273,5273,0,60.029599271402546
+mnb7e,what was applied to the cord: animal dung,object,2,5273,5273,0,60.029599271402546
+mnb7f,na - what was applied to the cord: cs,object,0,8784,8784,0,100.0
+mnb7g,na - what was applied to the cord: cs,object,0,8784,8784,0,100.0
+mnb7h,na - what was applied to the cord: cs,object,0,8784,8784,0,100.0
+mnb7i,na - what was applied to the cord: cs,object,0,8784,8784,0,100.0
+mnb7j,na - what was applied to the cord: cs,object,0,8784,8784,0,100.0
+mnb7x,what was applied to the cord: other,object,2,5273,5273,0,60.029599271402546
+mnb7z,what was applied to the cord: don't know,object,2,5273,5273,0,60.029599271402546
+mnb10,was chlorhexidine applied to the cord at any time,object,3,6822,6822,0,77.6639344262295
+mnb11,time after cord was cut chlorhexidine was first applied,object,31,6953,6953,0,79.15528233151184
+mnb12,days chlorhexidine was applied to the cord,object,8,6953,6953,0,79.15528233151184
+mh3a,na - during antenatal care discussed: where to deliver baby,object,0,8784,8784,0,100.0
+mh3b,"na - during antenatal care discussed: if wanted a relative, friend, neighbor dur",object,0,8784,8784,0,100.0
+mh3c,na - during antenatal care discussed: transportation to delivery place,object,0,8784,8784,0,100.0
+mh3d,na - during antenatal care discussed: source of funds for delivery,object,0,8784,8784,0,100.0
+mh3e,na - during antenatal care discussed: asking someone as blood donor if necessary,object,0,8784,8784,0,100.0
+mh3f,na - during antenatal care discussed: find healthcare provider to deliver child,object,0,8784,8784,0,100.0
+mh3g,na - during antenatal care discussed: cs,object,0,8784,8784,0,100.0
+mh3h,na - during antenatal care discussed: cs,object,0,8784,8784,0,100.0
+mh3i,na - during antenatal care discussed: cs,object,0,8784,8784,0,100.0
+mh5,na - healthcare provider measure blood pressure before delivery,object,0,8784,8784,0,100.0
+mh6,na - while in labor wanted to have someone by your side,object,0,8784,8784,0,100.0
+mh7,na - while in labor the person you wanted by your side was with you,object,0,8784,8784,0,100.0
+mh8,na - while in labor how much time the person you wanted by your side was allowed,object,0,8784,8784,0,100.0
+mh9,na - reason the person you wanted by your side was not with you during labor,object,0,8784,8784,0,100.0
+mh10,na - during delivery wanted to have someone by your side,object,0,8784,8784,0,100.0
+mh11,na - during delivery the person you wanted by your side was with you,object,0,8784,8784,0,100.0
+mh12,na - during delivery how much time the person you wanted by your side was allowe,object,0,8784,8784,0,100.0
+mh13,na - reason the person you wanted by your side was not with you during delivery,object,0,8784,8784,0,100.0
+mh14,na - was an instrument used to help pull out the baby,object,0,8784,8784,0,100.0
+mh15,na - while in labor or delivery did feel ignored/neglected by facility staff,object,0,8784,8784,0,100.0
+mh16,na - while in labor or delivery did have privacy,object,0,8784,8784,0,100.0
+mh17a,na - at delivery place did healthcare providers: treated you with respect,object,0,8784,8784,0,100.0
+mh17b,na - at delivery place did healthcare providers: explained examinations/procedur,object,0,8784,8784,0,100.0
+mh17c,na - at delivery place did healthcare providers: took best care of you,object,0,8784,8784,0,100.0
+mh17d,na - at delivery place did healthcare providers: cs,object,0,8784,8784,0,100.0
+mh17e,na - at delivery place did healthcare providers: cs,object,0,8784,8784,0,100.0
+mh18a,na - during stay at health facility: shared bed with other patient,object,0,8784,8784,0,100.0
+mh18b,na - during stay at health facility: rest/sleep on floor without mattress,object,0,8784,8784,0,100.0
+mh18c,na - during stay at health facility: cs,object,0,8784,8784,0,100.0
+mh18d,na - during stay at health facility: cs,object,0,8784,8784,0,100.0
+mh19,na - during stay at health facility were denied medical services for lack of mon,object,0,8784,8784,0,100.0
+mh20,na - were delayed or prevented to leave facility because of lack of payment,object,0,8784,8784,0,100.0
+mh21a,na - during stay staff at health facility: slap you,object,0,8784,8784,0,100.0
+mh21b,na - during stay staff at health facility: hit or punch you,object,0,8784,8784,0,100.0
+mh21c,na - during stay staff at health facility: physically threaten you,object,0,8784,8784,0,100.0
+mh21d,na - during stay staff at health facility: physically mistreat or harm you,object,0,8784,8784,0,100.0
+mh21e,na - during stay staff at health facility: cs,object,0,8784,8784,0,100.0
+mh21f,na - during stay staff at health facility: cs,object,0,8784,8784,0,100.0
+mh22a,na - during stay staff at health facility: shout at you,object,0,8784,8784,0,100.0
+mh22b,na - during stay staff at health facility: say or do something to humilliate you,object,0,8784,8784,0,100.0
+mh22c,na - during stay staff at health facility: verbally threaten,object,0,8784,8784,0,100.0
+mh22d,na - during stay staff at health facility: verbally mistreat you in any other wa,object,0,8784,8784,0,100.0
+mh22e,na - during stay staff at health facility: cs,object,0,8784,8784,0,100.0
+mh22f,na - during stay staff at health facility: cs,object,0,8784,8784,0,100.0
+mh23,na - did health facility have toilet/latrine for patitents,object,0,8784,8784,0,100.0
+mh24,na - at any time wanted to use toilet/latrine but was not working,object,0,8784,8784,0,100.0
+mh25,na - where did baby stay in first two days after birth,object,0,8784,8784,0,100.0
+v400,line number of child used for questions on liquids and foods,object,2,4522,4522,0,51.47996357012751
+v409,gave child plain water,object,2,4522,4522,0,51.47996357012751
+v409a,na - gave child sugar water,object,0,8784,8784,0,100.0
+v410,gave child fruit juice/fruit flavored drinks,object,3,4522,4522,0,51.47996357012751
+v410a,gave child tea or coffee/herbal drinks,object,3,4522,4522,0,51.47996357012751
+v410as,tea or coffee/herbal drink was sweetened,object,3,8549,8549,0,97.32468123861567
+v411,"gave child tinned, powdered or fresh milk",object,3,4522,4522,0,51.47996357012751
+v411s,"tinned, powdered or fresh milk was sweetened",object,3,8138,8138,0,92.64571948998179
+v411a,gave child baby formula,object,3,4522,4522,0,51.47996357012751
+v412,na - gave child fresh milk,object,0,8784,8784,0,100.0
+v412a,"na - gave child fortified baby food (cerelac, etc)",object,0,8784,8784,0,100.0
+v412b,na - gave child other porridge/gruel,object,0,8784,8784,0,100.0
+v412c,gave child soup/clear broth,object,3,4522,4522,0,51.47996357012751
+v413,gave child other liquid,object,3,4522,4522,0,51.47996357012751
+v413s,other liquid was sweetened,object,2,8775,8775,0,99.89754098360656
+v413a,gave child yogurt as a drink,object,3,4522,4522,0,51.47996357012751
+v413as,yogurt as a drink was sweetened,object,2,8732,8732,0,99.408014571949
+v413b,na - gave child soy milk,object,0,8784,8784,0,100.0
+v413bs,na - soy milk was sweetened,object,0,8784,8784,0,100.0
+v413c,gave child chocolate flavored drinks,object,3,4522,4522,0,51.47996357012751
+v413d,gave child sodas/malt/sports/energy drinks,object,3,4522,4522,0,51.47996357012751
+v413e,na - gave child cs liquid,object,0,8784,8784,0,100.0
+v413f,na - gave child cs liquid,object,0,8784,8784,0,100.0
+v413g,na - gave child cs liquid,object,0,8784,8784,0,100.0
+v413h,na - gave child cs liquid,object,0,8784,8784,0,100.0
+v413i,na - gave child cs liquid,object,0,8784,8784,0,100.0
+v414a,gave child any other vegetables,object,3,4522,4522,0,51.47996357012751
+v414b,"gave child sausages, hot dogs, frankfurters, ham, bacon, salami, canned food",object,3,4522,4522,0,51.47996357012751
+v414c,"gave child nuts, seeds",object,3,4522,4522,0,51.47996357012751
+v414d,na - gave child any insects,object,0,8784,8784,0,100.0
+v414e,"gave child bread, noodles, other made from grains",object,3,4522,4522,0,51.47996357012751
+v414f,"gave child plantains, potatoes, cassava, or other tubers",object,3,4522,4522,0,51.47996357012751
+v414g,gave child eggs,object,3,4522,4522,0,51.47996357012751
+v414h,"gave child any other meat (beef, pork, lamb, chicken, etc)",object,3,4522,4522,0,51.47996357012751
+v414i,"gave child pumpkin, carrots, squash (yellow or orange inside)",object,3,4522,4522,0,51.47996357012751
+v414j,gave child any dark green leafy vegetables,object,3,4522,4522,0,51.47996357012751
+v414k,"gave child mangoes, papayas, other vitamin a fruits",object,3,4522,4522,0,51.47996357012751
+v414l,gave child any other fruits,object,3,4522,4522,0,51.47996357012751
+v414m,"gave child liver, heart, other organs",object,3,4522,4522,0,51.47996357012751
+v414n,gave child fish or shellfish,object,3,4522,4522,0,51.47996357012751
+v414o,"gave child food made from beans, peas, lentils",object,3,4522,4522,0,51.47996357012751
+v414p,gave child hard/soft cheese,object,3,4522,4522,0,51.47996357012751
+v414q,"na - gave child oil, fats, butter, products made of them",object,0,8784,8784,0,100.0
+v414r,"gave child chocolates, sweets, candies, pastries, etc",object,3,4522,4522,0,51.47996357012751
+v414s,gave child other solid-semisolid food,object,3,4522,4522,0,51.47996357012751
+v414t,"gave child chips, crisps, french fries, fried dough, instant noodles",object,3,4522,4522,0,51.47996357012751
+v414u,na - gave child red palm oil,object,0,8784,8784,0,100.0
+v414v,gave child yogurt,object,3,4522,4522,0,51.47996357012751
+v414w,na - gave child [common sentinel sweet food],object,0,8784,8784,0,100.0
+v414wa,na - gave child cs foods,object,0,8784,8784,0,100.0
+v414wb,na - gave child cs foods,object,0,8784,8784,0,100.0
+v414wc,na - gave child cs foods,object,0,8784,8784,0,100.0
+v414wd,na - gave child cs foods,object,0,8784,8784,0,100.0
+v414we,na - gave child cs foods,object,0,8784,8784,0,100.0
+v465,na - disposal of youngest child's stools when not using toilet,object,0,8784,8784,0,100.0
+v469e,times gave child powdered/tinned/fresh milk,object,8,8138,8138,0,92.64571948998179
+v469f,times gave child infant formula,object,8,8149,8149,0,92.77094717668488
+v469x,times gave child yogurt,object,6,8732,8732,0,99.408014571949
+v486,"na - last 6 months, health care provider advised what to feed to child",object,0,8784,8784,0,100.0
+hidx,na - index to birth history,object,0,8784,8784,0,100.0
+h1,na - has health card,object,0,8784,8784,0,100.0
+h1a,na - has health card and or other vaccination document,object,0,8784,8784,0,100.0
+h2,na - received bcg,object,0,8784,8784,0,100.0
+h2d,na - bcg day,object,0,8784,8784,0,100.0
+h2m,na - bcg month,object,0,8784,8784,0,100.0
+h2y,na - bcg year,object,0,8784,8784,0,100.0
+h3,na - received dpt 1,object,0,8784,8784,0,100.0
+h3d,na - dpt 1 day,object,0,8784,8784,0,100.0
+h3m,na - dpt 1 month,object,0,8784,8784,0,100.0
+h3y,na - dpt 1 year,object,0,8784,8784,0,100.0
+h4,na - received polio 1,object,0,8784,8784,0,100.0
+h4d,na - polio 1 day,object,0,8784,8784,0,100.0
+h4m,na - polio 1 month,object,0,8784,8784,0,100.0
+h4y,na - polio 1 year,object,0,8784,8784,0,100.0
+h5,na - received dpt 2,object,0,8784,8784,0,100.0
+h5d,na - dpt 2 day,object,0,8784,8784,0,100.0
+h5m,na - dpt 2 month,object,0,8784,8784,0,100.0
+h5y,na - dpt 2 year,object,0,8784,8784,0,100.0
+h6,na - received polio 2,object,0,8784,8784,0,100.0
+h6d,na - polio 2 day,object,0,8784,8784,0,100.0
+h6m,na - polio 2 month,object,0,8784,8784,0,100.0
+h6y,na - polio 2 year,object,0,8784,8784,0,100.0
+h7,na - received dpt 3,object,0,8784,8784,0,100.0
+h7d,na - dpt 3 day,object,0,8784,8784,0,100.0
+h7m,na - dpt 3 month,object,0,8784,8784,0,100.0
+h7y,na - dpt 3 year,object,0,8784,8784,0,100.0
+h8,na - received polio 3,object,0,8784,8784,0,100.0
+h8d,na - polio 3 day,object,0,8784,8784,0,100.0
+h8m,na - polio 3 month,object,0,8784,8784,0,100.0
+h8y,na - polio 3 year,object,0,8784,8784,0,100.0
+h9,na - received measles 1,object,0,8784,8784,0,100.0
+h9d,na - measles 1 day,object,0,8784,8784,0,100.0
+h9m,na - measles 1 month,object,0,8784,8784,0,100.0
+h9y,na - measles 1 year,object,0,8784,8784,0,100.0
+h9a,na - received measles 2,object,0,8784,8784,0,100.0
+h9ad,na - measles 2 day,object,0,8784,8784,0,100.0
+h9am,na - measles 2 month,object,0,8784,8784,0,100.0
+h9ay,na - measles 2 year,object,0,8784,8784,0,100.0
+h0,na - received polio 0,object,0,8784,8784,0,100.0
+h0d,na - polio 0 day,object,0,8784,8784,0,100.0
+h0m,na - polio 0 month,object,0,8784,8784,0,100.0
+h0y,na - polio 0 year,object,0,8784,8784,0,100.0
+h10,na - ever had vaccination,object,0,8784,8784,0,100.0
+h25d,na - day of birth from vaccination card,object,0,8784,8784,0,100.0
+h25m,na - month of birth from vaccination card,object,0,8784,8784,0,100.0
+h25y,na - year of birth from vaccination card,object,0,8784,8784,0,100.0
+h26,na - photograph of vaccination card available,object,0,8784,8784,0,100.0
+h33,na - received vitamin a1 (most recent),object,0,8784,8784,0,100.0
+h33d,na - vitamin a1 day,object,0,8784,8784,0,100.0
+h33m,na - vitamin a1 month,object,0,8784,8784,0,100.0
+h33y,na - vitamin a1 year,object,0,8784,8784,0,100.0
+h40,na - received vitamin a2 (2nd most recent),object,0,8784,8784,0,100.0
+h40d,na - vitamin a2 day,object,0,8784,8784,0,100.0
+h40m,na - vitamin a2 month,object,0,8784,8784,0,100.0
+h40y,na - vitamin a2 year,object,0,8784,8784,0,100.0
+h50,na - received hepatitis b at birth,object,0,8784,8784,0,100.0
+h50d,na - hepatitis b at birth day,object,0,8784,8784,0,100.0
+h50m,na - hepatitis b at birth month,object,0,8784,8784,0,100.0
+h50y,na - hepatitis b at birth year,object,0,8784,8784,0,100.0
+h51,na - received pentavalent 1,object,0,8784,8784,0,100.0
+h51d,na - pentavalent 1 day,object,0,8784,8784,0,100.0
+h51m,na - pentavalent 1 month,object,0,8784,8784,0,100.0
+h51y,na - pentavalent 1 year,object,0,8784,8784,0,100.0
+h52,na - received pentavalent 2,object,0,8784,8784,0,100.0
+h52d,na - pentavalent 2 day,object,0,8784,8784,0,100.0
+h52m,na - pentavalent 2 month,object,0,8784,8784,0,100.0
+h52y,na - pentavalent 2 year,object,0,8784,8784,0,100.0
+h53,na - received pentavalent 3,object,0,8784,8784,0,100.0
+h53d,na - pentavalent 3 day,object,0,8784,8784,0,100.0
+h53m,na - pentavalent 3 month,object,0,8784,8784,0,100.0
+h53y,na - pentavalent 3 year,object,0,8784,8784,0,100.0
+h54,na - received pneumococcal 1,object,0,8784,8784,0,100.0
+h54d,na - pneumococcal 1 day,object,0,8784,8784,0,100.0
+h54m,na - pneumococcal 1 month,object,0,8784,8784,0,100.0
+h54y,na - pneumococcal 1 year,object,0,8784,8784,0,100.0
+h55,na - received pneumococcal 2,object,0,8784,8784,0,100.0
+h55d,na - pneumococcal 2 day,object,0,8784,8784,0,100.0
+h55m,na - pneumococcal 2 month,object,0,8784,8784,0,100.0
+h55y,na - pneumococcal 2 year,object,0,8784,8784,0,100.0
+h56,na - received pneumococcal 3,object,0,8784,8784,0,100.0
+h56d,na - pneumococcal 3 day,object,0,8784,8784,0,100.0
+h56m,na - pneumococcal 3 month,object,0,8784,8784,0,100.0
+h56y,na - pneumococcal 3 year,object,0,8784,8784,0,100.0
+h57,na - received rotavirus 1,object,0,8784,8784,0,100.0
+h57d,na - rotavirus 1 day,object,0,8784,8784,0,100.0
+h57m,na - rotavirus 1 month,object,0,8784,8784,0,100.0
+h57y,na - rotavirus 1 year,object,0,8784,8784,0,100.0
+h58,na - received rotavirus 2,object,0,8784,8784,0,100.0
+h58d,na - rotavirus 2 day,object,0,8784,8784,0,100.0
+h58m,na - rotavirus 2 month,object,0,8784,8784,0,100.0
+h58y,na - rotavirus 2 year,object,0,8784,8784,0,100.0
+h59,na - received rotavirus 3,object,0,8784,8784,0,100.0
+h59d,na - rotavirus 3 day,object,0,8784,8784,0,100.0
+h59m,na - rotavirus 3 month,object,0,8784,8784,0,100.0
+h59y,na - rotavirus 3 year,object,0,8784,8784,0,100.0
+h60,na - received inactivated polio (ipv),object,0,8784,8784,0,100.0
+h60d,na - inactivated polio (ipv) day,object,0,8784,8784,0,100.0
+h60m,na - inactivated polio (ipv) month,object,0,8784,8784,0,100.0
+h60y,na - inactivated polio (ipv) year,object,0,8784,8784,0,100.0
+h61,na - received hepatitis b 1,object,0,8784,8784,0,100.0
+h61d,na - hepatitis b 1 day,object,0,8784,8784,0,100.0
+h61m,na - hepatitis b 1 month,object,0,8784,8784,0,100.0
+h61y,na - hepatitis b 1 year,object,0,8784,8784,0,100.0
+h62,na - received hepatitis b 2,object,0,8784,8784,0,100.0
+h62d,na - hepatitis b 2 day,object,0,8784,8784,0,100.0
+h62m,na - hepatitis b 2 month,object,0,8784,8784,0,100.0
+h62y,na - hepatitis b 2 year,object,0,8784,8784,0,100.0
+h63,na - received hepatitis b 3,object,0,8784,8784,0,100.0
+h63d,na - hepatitis b 3 day,object,0,8784,8784,0,100.0
+h63m,na - hepatitis b 3 month,object,0,8784,8784,0,100.0
+h63y,na - hepatitis b 3 year,object,0,8784,8784,0,100.0
+h64,na - received hib 1,object,0,8784,8784,0,100.0
+h64d,na - hib 1 day,object,0,8784,8784,0,100.0
+h64m,na - hib 1 month,object,0,8784,8784,0,100.0
+h64y,na - hib 1 year,object,0,8784,8784,0,100.0
+h65,na - received hib 2,object,0,8784,8784,0,100.0
+h65d,na - hib 2 day,object,0,8784,8784,0,100.0
+h65m,na - hib 2 month,object,0,8784,8784,0,100.0
+h65y,na - hib 2 year,object,0,8784,8784,0,100.0
+h66,na - received hib 3,object,0,8784,8784,0,100.0
+h66d,na - hib 3 day,object,0,8784,8784,0,100.0
+h66m,na - hib 3 month,object,0,8784,8784,0,100.0
+h66y,na - hib 3 year,object,0,8784,8784,0,100.0
+h67,na - received pentavalent 4,object,0,8784,8784,0,100.0
+h67d,na - pentavalent 4 day,object,0,8784,8784,0,100.0
+h67m,na - pentavalent 4 month,object,0,8784,8784,0,100.0
+h67y,na - pentavalent 4 year,object,0,8784,8784,0,100.0
+h68,na - hepatitis b at birth received within 24 of birth,object,0,8784,8784,0,100.0
+h69,na - place where most vaccinations were received,object,0,8784,8784,0,100.0
+hidxa,index to birth history,object,4,276,276,0,3.1420765027322406
+h11,had diarrhea recently,object,3,276,276,0,3.1420765027322406
+h11b,na - blood in the stools,object,0,8784,8784,0,100.0
+h12a,diarrhea: specialized government hospital,object,2,8374,8374,0,95.33242258652095
+h12b,diarrhea: medical collage hospital -  cs,object,2,8374,8374,0,95.33242258652095
+h12c,diarrhea: district hospital,object,2,8374,8374,0,95.33242258652095
+h12d,diarrhea: mcwc,object,2,8374,8374,0,95.33242258652095
+h12e,diarrhea: uhc,object,2,8374,8374,0,95.33242258652095
+h12f,diarrhea: uh & fwc,object,2,8374,8374,0,95.33242258652095
+h12g,diarrhea: community clinic,object,2,8374,8374,0,95.33242258652095
+h12h,diarrhea: satellite clinic,object,1,8374,8374,0,95.33242258652095
+h12i,diarrhea: fwa,object,1,8374,8374,0,95.33242258652095
+h12j,diarrhea: private hospital,object,2,8374,8374,0,95.33242258652095
+h12k,diarrhea: private pharmacy,object,2,8374,8374,0,95.33242258652095
+h12l,diarrhea: private qualified doctor,object,2,8374,8374,0,95.33242258652095
+h12m,diarrhea: private medical collage hospital,object,1,8374,8374,0,95.33242258652095
+h12n,diarrhea: private clinic,object,2,8374,8374,0,95.33242258652095
+h12o,diarrhea: unqualified doctor chamber,object,2,8374,8374,0,95.33242258652095
+h12p,diarrhea: other private medical,object,1,8374,8374,0,95.33242258652095
+h12q,na - diarrhea: cs private medical,object,0,8784,8784,0,100.0
+h12r,na - diarrhea: cs private medical,object,0,8784,8784,0,100.0
+h12na,na - diarrhea: ngo hospital,object,0,8784,8784,0,100.0
+h12nb,diarrhea: ngo static clinic,object,2,8374,8374,0,95.33242258652095
+h12nc,diarrhea: ngo satellite clinic,object,2,8374,8374,0,95.33242258652095
+h12nd,diarrhea: ngo depo holder,object,1,8374,8374,0,95.33242258652095
+h12ne,diarrhea: ngo field worker,object,1,8374,8374,0,95.33242258652095
+h12s,na - diarrhea: cs other sector,object,0,8784,8784,0,100.0
+h12t,na - diarrhea: cs other sector,object,0,8784,8784,0,100.0
+h12u,na - diarrhea: cs other sector,object,0,8784,8784,0,100.0
+h12v,na - diarrhea: cs other sector,object,0,8784,8784,0,100.0
+h12w,na - diarrhea: cs other sector,object,0,8784,8784,0,100.0
+h12x,diarrhea: other,object,2,8374,8374,0,95.33242258652095
+h12y,diarrhea: no treatment,object,2,8374,8374,0,95.33242258652095
+h12z,diarrhea: medical treatment,object,2,8374,8374,0,95.33242258652095
+h13,given oral rehydration,object,2,8374,8374,0,95.33242258652095
+h13b,na - given pre-packaged ors liquid,object,0,8784,8784,0,100.0
+h14,given recommended home solution,object,2,8374,8374,0,95.33242258652095
+h15,na - given antibiotic pills or syrups,object,0,8784,8784,0,100.0
+h15a,na - given antimotility,object,0,8784,8784,0,100.0
+h15b,na - given antibiotic injection,object,0,8784,8784,0,100.0
+h15c,na - given intravenous (iv),object,0,8784,8784,0,100.0
+h15d,"na - given home remedy, herbal medicine",object,0,8784,8784,0,100.0
+h15e,given zinc,object,3,8374,8374,0,95.33242258652095
+h15f,"na - given other (not antibiotic, antimotility, zinc)",object,0,8784,8784,0,100.0
+h15g,na - given unknown pill or syrup,object,0,8784,8784,0,100.0
+h15h,na - given non-antibiotic injection,object,0,8784,8784,0,100.0
+h15i,na - given unknown injection,object,0,8784,8784,0,100.0
+h15j,na - given cs,object,0,8784,8784,0,100.0
+h15k,na - given cs,object,0,8784,8784,0,100.0
+h15l,na - given cs,object,0,8784,8784,0,100.0
+h15m,na - given cs,object,0,8784,8784,0,100.0
+h20,na - given other treatment,object,0,8784,8784,0,100.0
+h21a,na - given no treatment,object,0,8784,8784,0,100.0
+h21,received any treatment,object,2,8374,8374,0,95.33242258652095
+h22,had fever in last two weeks,object,3,276,276,0,3.1420765027322406
+h31,had cough in last two weeks,object,3,276,276,0,3.1420765027322406
+h31b,"short, rapid breaths",object,3,276,276,0,3.1420765027322406
+h31c,problem in the chest or blocked or running nose,object,5,8320,8320,0,94.71766848816029
+h31d,na - had fever/cough in last 2 weeks: amount offered to drink,object,0,8784,8784,0,100.0
+h31e,na - had fever/cough in last 2 weeks: amount offered to eat,object,0,8784,8784,0,100.0
+h32a,fever/cough: specified government hospital,object,2,6047,6047,0,68.84107468123861
+h32b,fever/cough: medical collage hospital -  cs,object,2,6047,6047,0,68.84107468123861
+h32c,fever/cough: district hospital,object,2,6047,6047,0,68.84107468123861
+h32d,fever/cough: mcwc,object,2,6047,6047,0,68.84107468123861
+h32e,fever/cough: uhc,object,2,6047,6047,0,68.84107468123861
+h32f,fever/cough: us & fwc,object,2,6047,6047,0,68.84107468123861
+h32g,fever/cough: community clinic,object,2,6047,6047,0,68.84107468123861
+h32h,fever/cough: satellite clinic/epi outreach,object,2,6047,6047,0,68.84107468123861
+h32i,fever/cough: fwa,object,2,6047,6047,0,68.84107468123861
+h32j,fever/cough: private hospital,object,2,6047,6047,0,68.84107468123861
+h32k,fever/cough: private pharmacy,object,2,6047,6047,0,68.84107468123861
+h32l,fever/cough: private qualified doctor,object,2,6047,6047,0,68.84107468123861
+h32m,fever/cough: private medical collage hospital,object,2,6047,6047,0,68.84107468123861
+h32n,fever/cough: private clinic,object,2,6047,6047,0,68.84107468123861
+h32o,fever/cough: unqualified doctor,object,2,6047,6047,0,68.84107468123861
+h32p,fever/cough: other private medical,object,1,6047,6047,0,68.84107468123861
+h32q,na - fever/cough: cs private non medica,object,0,8784,8784,0,100.0
+h32r,na - fever/cough: cs private medical,object,0,8784,8784,0,100.0
+h32na,na - fever/cough: ngo hospital,object,0,8784,8784,0,100.0
+h32nb,fever/cough: ngo static clinic,object,2,6047,6047,0,68.84107468123861
+h32nc,fever/cough: ngo satellite clinic,object,1,6047,6047,0,68.84107468123861
+h32nd,fever/cough: ngo depo holder,object,1,6047,6047,0,68.84107468123861
+h32ne,fever/cough: ngo field worker,object,1,6047,6047,0,68.84107468123861
+h32s,na - fever/cough: cs other sector,object,0,8784,8784,0,100.0
+h32t,na - fever/cough: cs other sector,object,0,8784,8784,0,100.0
+h32u,na - fever/cough: cs other sector,object,0,8784,8784,0,100.0
+h32v,na - fever/cough: cs other sector,object,0,8784,8784,0,100.0
+h32w,na - fever/cough: cs other sector,object,0,8784,8784,0,100.0
+h32x,fever/cough: other,object,2,6047,6047,0,68.84107468123861
+h32y,fever/cough: no treatment,object,2,6047,6047,0,68.84107468123861
+h32z,fever/cough: medical treatment,object,2,6047,6047,0,68.84107468123861
+h34,vitamin a in last 6 months,object,3,276,276,0,3.1420765027322406
+h37a,sp/fansidar taken for fever,object,2,6047,6047,0,68.84107468123861
+h37b,chloroquine taken for fever,object,2,6047,6047,0,68.84107468123861
+h37c,primaquine taken for fever,object,2,6047,6047,0,68.84107468123861
+h37d,quinine taken for fever,object,2,6047,6047,0,68.84107468123861
+h37da,na - quinine injection/iv taken for fever,object,0,8784,8784,0,100.0
+h37e,combination with artemisinin taken for fever,object,2,6047,6047,0,68.84107468123861
+h37aa,na - artesunate rectal taken for fever,object,0,8784,8784,0,100.0
+h37ab,na - artesunate injection/iv taken for fever,object,0,8784,8784,0,100.0
+h37f,na antimalarial taken for fever,object,0,8784,8784,0,100.0
+h37g,na antimalarial taken for fever,object,0,8784,8784,0,100.0
+h37h,other antimalarial taken for fever,object,2,6047,6047,0,68.84107468123861
+h37i,na - antibiotic pill/syrup taken for fever,object,0,8784,8784,0,100.0
+h37j,na - antibiotic injection taken for fever,object,0,8784,8784,0,100.0
+h37k,aspirin taken for fever,object,2,6047,6047,0,68.84107468123861
+h37l,acetaminophen/paracetamol/panadol taken for fever,object,2,6047,6047,0,68.84107468123861
+h37m,ibuprofen taken for fever,object,2,6047,6047,0,68.84107468123861
+h37n,na - amoxicillin taken for fever,object,0,8784,8784,0,100.0
+h37o,cotrimoxazole taken for fever/cough,object,2,6047,6047,0,68.84107468123861
+h37p,beta lactum tab/syrup taken for fever/cough,object,2,6047,6047,0,68.84107468123861
+h37q,macrolides tablets taken for fever/cough,object,2,6047,6047,0,68.84107468123861
+h37r,quinolone syrup taken for fever/cough,object,2,6047,6047,0,68.84107468123861
+h37x,other taken for fever,object,2,6047,6047,0,68.84107468123861
+h37y,nothing taken and didn't seek treatment for fever/cough,object,2,6047,6047,0,68.84107468123861
+h37z,don't know if or what was taken for fever,object,2,6047,6047,0,68.84107468123861
+h38,diarrhea in last 2 weeks: amount offered to drink,object,5,8374,8374,0,95.33242258652095
+h39,diarrhea in last 2 weeks: amount offered to eat,object,7,8374,8374,0,95.33242258652095
+h42,"last 12 months given iron pills, sprinkles or syrup",object,3,276,276,0,3.1420765027322406
+h43,drugs for intestinal parasites in last 6 months,object,3,276,276,0,3.1420765027322406
+h44a,na - place first sought treatment for diarrhea,object,0,8784,8784,0,100.0
+h46a,place first sought treatment for fever,object,18,6734,6734,0,76.66211293260473
+h46b,number of days after fever began sought advice or treatment,object,13,6734,6734,0,76.66211293260473
+h47,na - blood taken from child's finger/heel for testing,object,0,8784,8784,0,100.0
+h70a,na - past 3 months health care provider measured child's weight,object,0,8784,8784,0,100.0
+h70b,na - past 3 months health care provider measured child's length/height,object,0,8784,8784,0,100.0
+h70c,na - past 3 months health care provider measured child's upper arm,object,0,8784,8784,0,100.0
+h71,na - was respondent told that child had malaria,object,0,8784,8784,0,100.0
+h80a,last 12 months given: local name for multiple micronutrient powder,object,3,276,276,0,3.1420765027322406
+h80b,na - last 12 months given: local name ready to use therapeutic food,object,0,8784,8784,0,100.0
+h80c,na - last 12 months given: local name for ready to use supplemental food,object,0,8784,8784,0,100.0
+h80d,na - last 12 months given: cs,object,0,8784,8784,0,100.0
+h80e,na - last 12 months given: cs,object,0,8784,8784,0,100.0
+h80f,na - last 12 months given: cs,object,0,8784,8784,0,100.0
+h80g,na - last 12 months given: cs,object,0,8784,8784,0,100.0
+ml20a,na - timing of start of combination with artemisinin,object,0,8784,8784,0,100.0
+hwidx,index to birth history,object,4,276,276,0,3.1420765027322406
+hw1,child's age in months,object,60,4558,4558,0,51.88979963570127
+hw2,child's weight in kilograms (1 decimal),object,207,4559,4559,0,51.9011839708561
+hw3,child's height in centimeters (1 decimal),object,659,4559,4559,0,51.9011839708561
+hw13,result of measurement - height/weight,object,5,276,276,0,3.1420765027322406
+hw15,height: lying or standing,object,3,4558,4558,0,51.88979963570127
+hw16,day of birth of child,object,31,4558,4558,0,51.88979963570127
+hw17,date measured (day),object,31,4559,4559,0,51.9011839708561
+hw18,date measured (month),object,7,4559,4559,0,51.9011839708561
+hw19,date measured (year),object,1,4559,4559,0,51.9011839708561
+hw51,na - line number of parent/caretaker,object,0,8784,8784,0,100.0
+hw52,na - read consent statement - hemoglobin,object,0,8784,8784,0,100.0
+hw53,na - hemoglobin level (g/dl - 1 decimal),object,0,8784,8784,0,100.0
+hw55,na - result of measurement - hemoglobin,object,0,8784,8784,0,100.0
+hw56,na - hemoglobin level adjusted for altitude (g/dl - 1 decimal),object,0,8784,8784,0,100.0
+hw57,na - anemia level,object,0,8784,8784,0,100.0
+hw58,na - agrees to referral - anemia,object,0,8784,8784,0,100.0
+hw70,height/age standard deviation (new who),object,638,4666,4559,107,53.11930783242259
+hw71,weight/age standard deviation (new who),object,589,4624,4559,65,52.64116575591985
+hw72,weight/height standard deviation (new who),object,596,4661,4559,102,53.06238615664846
+hw73,bmi standard deviation (new who),object,605,4666,4559,107,53.11930783242259
+seligbm,hh selected for biomarker and long/short woman qre,int64,2,0,0,0,0.0
+sbpbg,hh selected for bp/blood glucose test,int64,2,0,0,0,0.0
+sdist,district,int64,64,0,0,0,0.0
+sqtype,type of woman questionnaire,int64,1,0,0,0,0.0
+s111a,marital status,int64,5,0,0,0,0.0
+s113,ever attended school,int64,2,0,0,0,0.0
+s113a,type of school attended,object,2,549,549,0,6.25
+s114,highest level attended,int64,4,0,0,0,0.0
+s115,highest grade completed at that level,object,19,549,549,0,6.25
+s115_1,highest educational level,int64,5,0,0,0,0.0
+s230a,no. of deaths since january 2017,int64,4,0,0,0,0.0
+s230c,get more information on deaths of young children,object,2,8312,8312,0,94.62659380692168
+s331ay,source of family planning for non-users: friend/relative,object,2,6319,6319,0,71.93761384335154
+s331b,visited fieldworker in last 6 months,int64,4,0,0,0,0.0
+s331ca,type of field worker visited to about fp - govt. fp worker,object,2,7026,7026,0,79.9863387978142
+s331cb,type of field worker visited to about fp - govt. health worker,object,2,7026,7026,0,79.9863387978142
+s331cc,type of field worker visited to about fp - ngo worker,object,2,7026,7026,0,79.9863387978142
+s331cx,type of field worker visited to about fp - other,object,2,7026,7026,0,79.9863387978142
+s331d,no. of times visited in last 6 months,object,18,7026,7026,0,79.9863387978142
+s331e,time of last visit by fieldworker,object,9,7026,7026,0,79.9863387978142
+s636dn,times gave child lassi/yogurt as a drink,object,6,8732,8732,0,99.408014571949
+s709a,times husband coae home in past 12 months,object,40,7380,7380,0,84.01639344262296
+s716a,right age you got married,int64,3,0,0,0,0.0
+s716b,preferred age to get married,object,15,5382,5382,0,61.270491803278695
+s716c,studying just before marriage,int64,2,0,0,0,0.0
+s716d,continued study after marriage,object,5,2547,2547,0,28.99590163934426
+s716e,working outside home before marriage,int64,2,0,0,0,0.0
+s716f,continued work after marriage,object,5,7992,7992,0,90.98360655737704
+s723a,no. of times intercourse last month,object,45,498,498,0,5.669398907103825
+s812a,preferred contraceptive method to use,object,12,7452,7452,0,84.8360655737705
+s812b,main reason of not using contraceptive in future,object,16,7686,7686,0,87.5
+s816a,heard about fp from chw last month,int64,2,0,0,0,0.0
+s816b,type of chw- govt or non-govt.,object,4,7821,7821,0,89.03688524590164
+s903,husband ever attended school,object,2,117,117,0,1.331967213114754
+s903a,type of schooling husband attended,object,2,1483,1483,0,16.88296903460838
+s904,husband's level of education,object,4,1483,1483,0,16.88296903460838
+s905,husband's highest grade,object,19,1500,1500,0,17.076502732240435
+s1115a,have health card for free or subsidized health care services,int64,2,0,0,0,0.0
+s905_1,husband's highest educational level attended (used in final tables),object,5,134,117,17,1.5255009107468125
+smth6,last 2 weeks took medication prescribed by doctor/health worker for mental healt,int64,2,0,0,0,0.0
+idx92,index to birth history,int64,4,0,0,0,0.0
+idx92p,index to pregnancy history,int64,4,0,0,0,0.0
+s228bd,day of death (children <5 years for va),object,32,8358,8358,0,95.15027322404372
+s228bm,month of death (children <5 years for va),object,13,8358,8358,0,95.15027322404372
+s228by,year of death (children <5 years for va),object,31,8358,8358,0,95.15027322404372
+idx94,index to birth history,object,3,3442,3442,0,39.18488160291439
+idx94p,index to pregnancy history,object,4,3442,3442,0,39.18488160291439
+s440,time after birth baby was put on bare skin in hours,object,25,7493,7493,0,85.30282331511839
+s435a,provider discussed/counseled about fp,object,4,5393,5382,11,61.39571948998178
+s435ba,information on family planning methods,object,2,8079,8079,0,91.974043715847
+s435bb,sources of family planning methods,object,2,8079,8079,0,91.974043715847
+s435bc,importance of spacing and or limiting births,object,2,8079,8079,0,91.974043715847
+s435bd,immediate iud insertion,object,2,8079,8079,0,91.974043715847
+s435be,immediate implant insertion,object,2,8079,8079,0,91.974043715847
+s435bf,immediate tubal ligation,object,2,8079,8079,0,91.974043715847
+s435bg,use of lam,object,2,8079,8079,0,91.974043715847
+s435bh,exclusive breastfeeding,object,2,8079,8079,0,91.974043715847
+s436a,total money paid for last delivery (nrs),object,116,5393,5382,11,61.39571948998178
+s436ba,sources of money: family fund,object,2,5393,5393,0,61.39571948998178
+s436bb,sources of money: borrowed,object,2,5393,5393,0,61.39571948998178
+s436bc,sources of money: sold assets/mortgage,object,2,5393,5393,0,61.39571948998178
+s436bd,sources of money: gift from family,object,2,5393,5393,0,61.39571948998178
+s436be,sources of money: gift from neighbor/friend,object,2,5393,5393,0,61.39571948998178
+s436bf,sources of money: voucher,object,2,5393,5393,0,61.39571948998178
+s436bg,sources of money: insurance,object,2,5393,5393,0,61.39571948998178
+s436bx,sources of money: other,object,2,5393,5393,0,61.39571948998178
+s446,respondent treated with respect at facility,object,3,5544,5534,10,63.114754098360656
+idx96,index to birth history,object,4,276,276,0,3.1420765027322406
+s612i,diarrhea: health assistant,object,1,8374,8374,0,95.33242258652095
+s612k,diarrhea: other public,object,1,8374,8374,0,95.33242258652095
+s612w,diarrhea: other ngo sector,object,1,8374,8374,0,95.33242258652095
+s626i,fever/cough: health assistant,object,2,6047,6047,0,68.84107468123861
+s626k,fever/cough: other public,object,2,6047,6047,0,68.84107468123861
+s626w,fever/cough: other ngo,object,2,6047,6047,0,68.84107468123861
+s631j,cephalosporin syrup taken for fever/cough,object,2,6047,6047,0,68.84107468123861
+s631k,gentamycin injection taken for fever/cough,object,2,6047,6047,0,68.84107468123861

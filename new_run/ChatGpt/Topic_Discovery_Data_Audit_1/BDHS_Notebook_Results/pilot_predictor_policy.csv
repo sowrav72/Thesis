@@ -1,0 +1,13 @@
+category,label_rule,matched_variables,policy_result,final_thesis_feature
+Demographic,\bage of child\b|\bchild age\b|\bage.*months\b,"b7, b8, b19, hw1",ambiguous; human review,False
+Child characteristics,\bsex of child\b|\bchild.*sex\b,b4,unique match; pilot candidate,False
+Child characteristics,\bbirth order\b,bord,unique match; pilot candidate,False
+Maternal,\bage of respondent\b|\brespondent.*age\b,"v012, v212",ambiguous; human review,False
+Maternal,\beducation\b|\beducational level\b,"v106, v107, v133, v701, v702, v715, s115_1, s904, s905_1",ambiguous; human review,False
+Maternal,\bmarital status\b,"v501, s111a",ambiguous; human review,False
+Maternal,\bcurrently working\b|\bworking status\b|\brespondent.*work,"v714, v719, v721, v731, v740, v741",ambiguous; human review,False
+Socioeconomic,\bwealth index\b,"awfactw, v190, v191, v190a, v191a",ambiguous; human review,False
+Geographic/survey-design,\btype of place of residence\b|\burban.*rural\b|\brural.*urban\b|\bregion\b|\bdivision\b,"v024, v025, v101, v102, v105a, v139, v140, awfactu, v190a, v191a",ambiguous; human review,False
+Household,\bnumber of household members\b|\bhousehold size\b,v136,unique match; pilot candidate,False
+Household,\bsource of drinking water\b|\bdrinking water source\b,v113,unique match; pilot candidate,False
+Household,\btoilet\b|\bsanitation\b,"v116, v160, v247f, mh23, mh24, v465",ambiguous; human review,False

@@ -1,0 +1,10 @@
+{
+  "variable_dictionary": {
+    "status": "not available",
+    "expected_path": "/content/drive/MyDrive/BDHS/reference/variable_dictionary_metadata.csv"
+  },
+  "literature_matrix": {
+    "status": "not available",
+    "expected_path": "/content/drive/MyDrive/BDHS/reference/literature_matrix_hybrid_master_v3.csv"
+  }
+}

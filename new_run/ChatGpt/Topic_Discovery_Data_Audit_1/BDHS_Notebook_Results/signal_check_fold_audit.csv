@@ -1,0 +1,1 @@
+candidate_outcome,model,fold,fold_status,skip_reason,train_n,test_n,test_positive_n,test_negative_n,group_variable,grouping_provisional

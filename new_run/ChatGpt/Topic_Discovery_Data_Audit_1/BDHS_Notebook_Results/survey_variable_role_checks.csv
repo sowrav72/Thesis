@@ -1,0 +1,16 @@
+variable,role_under_review,present,actual_variable_label,label_check,expected_label_pattern,unique_nonmissing_values
+v000,country / survey phase,True,country code and phase,verified,country.*code.*phase|country.*phase,1
+v007,survey year,True,year of interview,verified,year.*interview|interview.*year,1
+v001,cluster / PSU candidate,True,cluster number,verified,cluster,674
+v021,PSU candidate,True,primary sampling unit,verified,primary sampling unit|cluster,674
+v022,strata candidate,True,sample strata for sampling errors,verified,stratification|strata,16
+v023,strata candidate,True,stratification used in sample design,verified,stratification|strata,16
+v005,sampling weight,True,women's individual sample weight (6 decimals),verified,sample weight,660
+v002,household identifier component,True,household number,verified,household number,184
+v003,mother/respondent identifier component,True,respondent's line number,verified,respondent.*line number|line number.*respondent,18
+caseid,mother/respondent identifier,True,case identification,verified,respondent.*id|case identification,7697
+b16,child identifier candidate,True,child's line number in household,verified,child.*line number|line number.*child,22
+bidx,birth column / birth index candidate,True,birth column number,verified,birth.*column|birth.*index|index.*birth,4
+b5,child alive status,True,child is alive,verified,alive,2
+b19,child age in months,True,current age of child in months (months since birth for dead children),verified,age.*months,60
+hw13,anthropometry measurement status,True,result of measurement - height/weight,verified,result of measurement.*height.*weight,5

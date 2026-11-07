@@ -1,0 +1,10 @@
+quantity,n,source,interpretation
+"KR living children age 0-59, b5=Yes",8508,"Private KR file, labels verified",Reference universe in this recode.
+KR hw13 measured,4123,"Private KR file, hw13 labels",Measured-status count; not full eligible denominator.
+KR provisional known-hw13 cohort excluding no-measurement-found,4226,"Private KR file, operational proxy",Candidate denominator; not asserted equal to FR386.
+KR hw13 no measurement found in household,4282,"Private KR file, hw13 labels",Separate status group; excluded from provisional cohort.
+FR386 C.8 total eligible for anthropometry,4420,"Bangladesh DHS 2022 Final Report, Table C.8",Published denominator; source/recode scope may differ.
+FR386 C.8 mothers interviewed,4199,"Bangladesh DHS 2022 Final Report, Table C.8",Closest published subgroup for KR comparison; not presumed identical.
+FR386 C.8 mother not interviewed but in household,221,"Bangladesh DHS 2022 Final Report, Table C.8",Included in published total; KR representation requires review.
+KR cohort minus FR386 interviewed-mother count,27,Calculated aggregate difference,Unresolved; no cause assumed.
+FR386 total minus KR provisional cohort,194,Calculated aggregate difference,Unresolved; do not attribute solely to maternal interview status.

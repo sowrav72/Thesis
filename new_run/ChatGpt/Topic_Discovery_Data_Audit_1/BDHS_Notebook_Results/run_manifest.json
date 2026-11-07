@@ -1,0 +1,214 @@
+{
+  "run_id": "BDHS0-RUN-20261107T152503Z-751bfb20",
+  "run_timestamp_utc": "2026-11-07T15:25:03.576219+00:00",
+  "experiment_config_id": "BDHS0-CFG-f22330f3af25031e",
+  "experiment_config_identity_sha256": "f22330f3af25031ec9e912c7f3a6090fe101d334b1d03cc5a19ac13cbb6fe6a1",
+  "dataset_sha256": "df91e8988c6a6522b71860bb5d9f3fdfb6210ee880b0c1d214569d78096a63fa",
+  "dataset_file_size_bytes": 12160116,
+  "reference_input_files": {
+    "variable_dictionary_metadata": {
+      "path": "/content/drive/MyDrive/BDHS/reference/variable_dictionary_metadata.csv",
+      "available": false,
+      "size_bytes": null,
+      "sha256": null
+    },
+    "literature_matrix": {
+      "path": "/content/drive/MyDrive/BDHS/reference/literature_matrix_hybrid_master_v3.csv",
+      "available": false,
+      "size_bytes": null,
+      "sha256": null
+    }
+  },
+  "dataset_metadata_file": "dataset_metadata.json",
+  "output_files": [
+    "dataset_metadata.json",
+    "variable_inventory.csv",
+    "candidate_outcomes.csv",
+    "outcome_quality.csv",
+    "anthropometry_measurement_status.csv",
+    "anthropometry_denominator_bridge.csv",
+    "anthropometry_validity_comparison.csv",
+    "leakage_audit.csv",
+    "pilot_predictor_policy.csv",
+    "predictor_inventory.csv",
+    "survey_variable_role_checks.csv",
+    "cluster_support_by_outcome.csv",
+    "survey_structure.json",
+    "signal_check.csv",
+    "signal_check_fold_metrics.csv",
+    "signal_check_fold_audit.csv",
+    "signal_check_skips.csv",
+    "topic_evidence_matrix.csv",
+    "reference_source_audit.json",
+    "variable_dictionary_crosscheck.csv (if reference supplied)",
+    "literature_matrix_inventory.csv (if reference supplied)",
+    "run_manifest.json",
+    "topic_discovery_report.md"
+  ],
+  "python_version": "3.13.18",
+  "package_versions": {
+    "pandas": "2.2.3",
+    "numpy": "2.4.6",
+    "scikit_learn": "1.6.1",
+    "pyreadstat": "1.3.7",
+    "matplotlib": "3.10.0",
+    "psutil": "5.9.5",
+    "scipy": "1.16.3",
+    "ipython": "7.34.0"
+  },
+  "notebook_version": "0.2.2",
+  "runtime_information": {
+    "python": "3.13.18",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "colab_release_tag": "release-colab-external-images_20261106-060046_RC00",
+    "colab_backend_version": "next",
+    "cpu_count": 2,
+    "available_memory_bytes_at_start": 11871031296,
+    "packages": {
+      "pandas": "2.2.3",
+      "numpy": "2.4.6",
+      "scikit_learn": "1.6.1",
+      "pyreadstat": "1.3.7",
+      "matplotlib": "3.10.0",
+      "psutil": "5.9.5",
+      "scipy": "1.16.3",
+      "ipython": "7.34.0"
+    }
+  },
+  "configuration": {
+    "random_seed": 20261030,
+    "requested_grouped_cv_folds": 5,
+    "notebook_code_revision": "BDHS_TOPIC_AUDIT_0.2.2_source_crosschecks_partial_fold_status_r1",
+    "primary_input_filename": "BDKR81FL.DTA",
+    "output_directory": "/content/drive/MyDrive/BDHS/audit_outputs",
+    "output_persistence": "Google Drive",
+    "candidate_outcomes_scope": "Current research-discussion candidates; not exhaustive.",
+    "pilot_predictor_policy": "Dictionary-label screened general-purpose policy; not final thesis feature set.",
+    "preliminary_models": [
+      "LogisticRegression",
+      "RandomForestClassifier"
+    ],
+    "preliminary_model_parameters": {
+      "logistic_regression": {
+        "max_iter": 500
+      },
+      "random_forest": {
+        "n_estimators": 120,
+        "min_samples_leaf": 3,
+        "n_jobs": 1
+      }
+    },
+    "run_predictive_feasibility_screen_requested": true,
+    "survey_weights_used_in_predictability_metrics": false,
+    "unweighted_pilot_decision_confirmed": false,
+    "prediction_time_definition": "OPEN: define the time point and which predictors are available at or before it.",
+    "prediction_time_confirmed": false,
+    "prediction_population_decision": "OPEN: define the target population/estimand (e.g., sample-level classification, not population prevalence).",
+    "prediction_population_confirmed": false,
+    "survey_weight_modeling_decision": "OPEN: confirm that this preliminary feasibility screen is intentionally unweighted.",
+    "team_confirmed_psu_variable": null,
+    "grouped_feasibility_policy": "If label-verified v001 and v021 induce identical partitions, run a provisional grouped screen on their joint equivalence partition without selecting a canonical PSU.",
+    "anthropometric_bounds_100x": {
+      "hw70_HAZ": [
+        -600,
+        600
+      ],
+      "hw71_WAZ": [
+        -600,
+        500
+      ],
+      "hw72_WHZ": [
+        -500,
+        500
+      ]
+    },
+    "explainers_used": [],
+    "display_or_export_raw_records": false,
+    "team_reviewed_outcome_definitions": [],
+    "team_confirmed_outcome_definitions": [],
+    "team_reviewed_leakage_audits": [],
+    "team_confirmed_leakage_audits": [],
+    "reference_input_files": {
+      "variable_dictionary_metadata": {
+        "path": "/content/drive/MyDrive/BDHS/reference/variable_dictionary_metadata.csv",
+        "available": false,
+        "size_bytes": null,
+        "sha256": null
+      },
+      "literature_matrix": {
+        "path": "/content/drive/MyDrive/BDHS/reference/literature_matrix_hybrid_master_v3.csv",
+        "available": false,
+        "size_bytes": null,
+        "sha256": null
+      }
+    }
+  },
+  "candidate_outcomes_evaluated": [
+    {
+      "candidate_outcome": "stunting",
+      "status": "computed for audit",
+      "eligible_n": 4226,
+      "predictability_feasibility_eligible": true
+    },
+    {
+      "candidate_outcome": "wasting",
+      "status": "computed for audit",
+      "eligible_n": 4226,
+      "predictability_feasibility_eligible": true
+    },
+    {
+      "candidate_outcome": "underweight",
+      "status": "computed for audit",
+      "eligible_n": 4226,
+      "predictability_feasibility_eligible": true
+    },
+    {
+      "candidate_outcome": "fever",
+      "status": "computed for audit",
+      "eligible_n": 8508,
+      "predictability_feasibility_eligible": true
+    },
+    {
+      "candidate_outcome": "diarrhea",
+      "status": "computed for audit",
+      "eligible_n": 8508,
+      "predictability_feasibility_eligible": true
+    },
+    {
+      "candidate_outcome": "ari_symptoms",
+      "status": "TODO / REVIEW — not computed",
+      "eligible_n": 8508,
+      "predictability_feasibility_eligible": false
+    },
+    {
+      "candidate_outcome": "child_anemia",
+      "status": "TODO / REVIEW — not computed",
+      "eligible_n": 7593,
+      "predictability_feasibility_eligible": false
+    },
+    {
+      "candidate_outcome": "full_age_appropriate_immunisation",
+      "status": "TODO / REVIEW — not computed",
+      "eligible_n": 1636,
+      "predictability_feasibility_eligible": false
+    },
+    {
+      "candidate_outcome": "mortality_related",
+      "status": "computed for audit",
+      "eligible_n": 8784,
+      "predictability_feasibility_eligible": false
+    }
+  ],
+  "code_git_commit": null,
+  "raw_dataset_copied_to_output_directory": false,
+  "reference_source_audit": {
+    "variable_dictionary": {
+      "status": "not available",
+      "expected_path": "/content/drive/MyDrive/BDHS/reference/variable_dictionary_metadata.csv"
+    },
+    "literature_matrix": {
+      "status": "not available",
+      "expected_path": "/content/drive/MyDrive/BDHS/reference/literature_matrix_hybrid_master_v3.csv"
+    }
+  }
+}

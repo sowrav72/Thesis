@@ -1,0 +1,76 @@
+{
+  "run_id": "BDHS0-RUN-20261107T152503Z-751bfb20",
+  "notebook_version": "0.2.2",
+  "input_path": "/content/drive/MyDrive/BDHS/BDKR81DT/BDKR81FL.DTA",
+  "filename": "BDKR81FL.DTA",
+  "file_size_bytes": 12160116,
+  "sha256": "df91e8988c6a6522b71860bb5d9f3fdfb6210ee880b0c1d214569d78096a63fa",
+  "rows": 8784,
+  "columns": 1238,
+  "stata_file_label": "",
+  "stata_file_encoding": "",
+  "survey_metadata_observed": {
+    "v000": {
+      "variable_label": "country code and phase",
+      "aggregate_value_counts": [
+        {
+          "code": "BD8",
+          "count": 8784
+        }
+      ],
+      "distinct_nonmissing_values": 1
+    },
+    "v007": {
+      "variable_label": "year of interview",
+      "aggregate_value_counts": [
+        {
+          "code": "2022",
+          "count": 8784
+        }
+      ],
+      "distinct_nonmissing_values": 1
+    }
+  },
+  "verification_issues": [],
+  "verification_notes": [],
+  "v000_label_verified_as_country_phase": true,
+  "v000_values_verified_as_bangladesh_phase_codes": true,
+  "user_defined_missing_code_counts_by_variable": {
+    "v445": 42,
+    "hw70": 107,
+    "hw71": 65,
+    "hw72": 102,
+    "hw73": 107,
+    "v624": 13,
+    "v401": 13,
+    "m17": 11,
+    "m61": 10,
+    "m66": 10,
+    "m74": 10,
+    "s435a": 11,
+    "s436a": 11,
+    "s446": 10,
+    "s905_1": 17,
+    "v446a": 3,
+    "v446d": 3,
+    "v421": 95
+  },
+  "survey_year_inferred_from_v007": 2022,
+  "v000_country_phase_values": [
+    "BD8"
+  ],
+  "v000_label": "country code and phase",
+  "v007_label": "year of interview",
+  "child_recode_label_checks": {
+    "bidx_birth_column_label": true,
+    "b19_child_age_months_label": true,
+    "h11_diarrhea_label": true,
+    "h22_fever_label": true,
+    "hw70_height_for_age_label": true,
+    "hw71_weight_for_age_label": true,
+    "hw72_weight_for_height_label": true
+  },
+  "appears_to_be_expected_bdhs_2022_child_recode": true,
+  "verification_rule": "Require label-verified v007=2022; label-verified v000 Bangladesh phase codes; label-verified b19 child age in months; and at least two KR health/anthropometry labels. bidx is separately reported and not assumed. Filename is not proof.",
+  "raw_dataset_copied_to_output_directory": false
+}

@@ -1,0 +1,901 @@
+candidate_outcome,variable,classification,reason,action,evidence,present
+stunting,awfactu,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,all woman factor - urban/rural,True
+stunting,awfactw,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,all woman factor - wealth index,True
+stunting,b16,uncertain,Administrative/identifier: Child line identifier candidate; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,child's line number in household,True
+stunting,b19,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,current age of child in months (months since birth for dead children),True
+stunting,b4,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,sex of child,True
+stunting,b7,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,"age at death (months, imputed)",True
+stunting,b8,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,current age of child,True
+stunting,bidx,uncertain,Administrative/identifier: Birth column/index candidate; do not include automatically. Actual label supports this role.,exclude from predictors; verify role from dictionary,birth column number,True
+stunting,bord,legitimate_predictor,Birth-order label; child characteristic domain.,pilot candidate only; prediction-time review required,birth order number,True
+stunting,caseid,uncertain,Administrative/identifier: Respondent identifier; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,case identification,True
+stunting,h70a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - past 3 months health care provider measured child's weight,True
+stunting,h70b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - past 3 months health care provider measured child's length/height,True
+stunting,hw1,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,child's age in months,True
+stunting,hw13,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,result of measurement - height/weight,True
+stunting,hw15,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,height: lying or standing,True
+stunting,hw2,derived_leakage,Actual label verifies a raw anthropometric input or z-score used in the target family.,exclude from predictors,child's weight in kilograms (1 decimal),True
+stunting,hw3,derived_leakage,Actual label verifies a raw anthropometric input or z-score used in the target family.,exclude from predictors,child's height in centimeters (1 decimal),True
+stunting,hw70,direct_leakage,Label-verified target field/direct target component.,exclude from predictors,height/age standard deviation (new who),True
+stunting,hw71,derived_leakage,Actual label verifies a raw anthropometric input or z-score used in the target family.,exclude from predictors,weight/age standard deviation (new who),True
+stunting,hw72,derived_leakage,Actual label verifies a raw anthropometric input or z-score used in the target family.,exclude from predictors,weight/height standard deviation (new who),True
+stunting,hw73,derived_leakage,Actual label verifies a raw anthropometric input or z-score used in the target family.,exclude from predictors,bmi standard deviation (new who),True
+stunting,m19,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,birth weight in kilograms (3 decimals),True
+stunting,m19a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,weight at birth/recall,True
+stunting,m42b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during pregnancy: height measured,True
+stunting,mh23,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - did health facility have toilet/latrine for patitents,True
+stunting,mh24,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - at any time wanted to use toilet/latrine but was not working,True
+stunting,s111a,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,marital status,True
+stunting,s115_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+stunting,s904,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's level of education,True
+stunting,s905_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's highest educational level attended (used in final tables),True
+stunting,v001,uncertain,"Geographic/survey-design: Cluster/PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,cluster number,True
+stunting,v002,uncertain,Administrative/identifier: Household identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,household number,True
+stunting,v003,uncertain,Administrative/identifier: Mother/respondent line identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,respondent's line number,True
+stunting,v005,uncertain,"Geographic/survey-design: Sampling weight; audit only in Notebook 0, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,women's individual sample weight (6 decimals),True
+stunting,v012,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,respondent's current age,True
+stunting,v021,uncertain,"Geographic/survey-design: PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,primary sampling unit,True
+stunting,v022,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,sample strata for sampling errors,True
+stunting,v023,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,stratification used in sample design,True
+stunting,v024,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+stunting,v025,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+stunting,v101,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+stunting,v102,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+stunting,v105a,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division of previous residence,True
+stunting,v106,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+stunting,v107,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest year of education,True
+stunting,v113,legitimate_predictor,Water-source label; household living-conditions domain.,pilot candidate only; prediction-time review required,source of drinking water,True
+stunting,v116,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,type of toilet facility,True
+stunting,v133,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,education in single years,True
+stunting,v136,legitimate_predictor,"Household-size label; household context, not an identifier.",pilot candidate only; prediction-time review required,number of household members (listed),True
+stunting,v139,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure region of residence,True
+stunting,v140,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure type of place of residence,True
+stunting,v160,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,toilet facilities shared with other households,True
+stunting,v190,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index combined,True
+stunting,v191,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index factor score combined (5 decimals),True
+stunting,v212,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,age of respondent at 1st birth,True
+stunting,v247f,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - collection of menstrual blood: toilet paper,True
+stunting,v419,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,entries in height/weight roster,True
+stunting,v437,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,respondent's weight in kilograms (1 decimal),True
+stunting,v438,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,respondent's height in centimeters (1 decimal),True
+stunting,v446a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,height/age standard deviation (new who) (women age 15-19),True
+stunting,v447,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,result of measurement - height/weight,True
+stunting,v465,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - disposal of youngest child's stools when not using toilet,True
+stunting,v501,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,current marital status,True
+stunting,v701,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's education level,True
+stunting,v702,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's highest year of education (at level in v701),True
+stunting,v714,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent currently working,True
+stunting,v715,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's total number of years of education,True
+stunting,v719,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,"respondent works for family, others, self",True
+stunting,v721,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - respondent works at home or away,True
+stunting,v731,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent worked in last 12 months,True
+stunting,v740,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - type of land where respondent works,True
+stunting,v741,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,type of earnings from respondent's work,True
+wasting,awfactu,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,all woman factor - urban/rural,True
+wasting,awfactw,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,all woman factor - wealth index,True
+wasting,b16,uncertain,Administrative/identifier: Child line identifier candidate; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,child's line number in household,True
+wasting,b19,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,current age of child in months (months since birth for dead children),True
+wasting,b4,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,sex of child,True
+wasting,b7,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,"age at death (months, imputed)",True
+wasting,b8,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,current age of child,True
+wasting,bidx,uncertain,Administrative/identifier: Birth column/index candidate; do not include automatically. Actual label supports this role.,exclude from predictors; verify role from dictionary,birth column number,True
+wasting,bord,legitimate_predictor,Birth-order label; child characteristic domain.,pilot candidate only; prediction-time review required,birth order number,True
+wasting,caseid,uncertain,Administrative/identifier: Respondent identifier; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,case identification,True
+wasting,h70a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - past 3 months health care provider measured child's weight,True
+wasting,h70b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - past 3 months health care provider measured child's length/height,True
+wasting,hw1,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,child's age in months,True
+wasting,hw13,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,result of measurement - height/weight,True
+wasting,hw15,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,height: lying or standing,True
+wasting,hw2,derived_leakage,Actual label verifies a raw anthropometric input or z-score used in the target family.,exclude from predictors,child's weight in kilograms (1 decimal),True
+wasting,hw3,derived_leakage,Actual label verifies a raw anthropometric input or z-score used in the target family.,exclude from predictors,child's height in centimeters (1 decimal),True
+wasting,hw70,derived_leakage,Actual label verifies a raw anthropometric input or z-score used in the target family.,exclude from predictors,height/age standard deviation (new who),True
+wasting,hw71,derived_leakage,Actual label verifies a raw anthropometric input or z-score used in the target family.,exclude from predictors,weight/age standard deviation (new who),True
+wasting,hw72,direct_leakage,Label-verified target field/direct target component.,exclude from predictors,weight/height standard deviation (new who),True
+wasting,hw73,derived_leakage,Actual label verifies a raw anthropometric input or z-score used in the target family.,exclude from predictors,bmi standard deviation (new who),True
+wasting,m19,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,birth weight in kilograms (3 decimals),True
+wasting,m19a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,weight at birth/recall,True
+wasting,m42b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during pregnancy: height measured,True
+wasting,mh23,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - did health facility have toilet/latrine for patitents,True
+wasting,mh24,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - at any time wanted to use toilet/latrine but was not working,True
+wasting,s111a,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,marital status,True
+wasting,s115_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+wasting,s904,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's level of education,True
+wasting,s905_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's highest educational level attended (used in final tables),True
+wasting,v001,uncertain,"Geographic/survey-design: Cluster/PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,cluster number,True
+wasting,v002,uncertain,Administrative/identifier: Household identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,household number,True
+wasting,v003,uncertain,Administrative/identifier: Mother/respondent line identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,respondent's line number,True
+wasting,v005,uncertain,"Geographic/survey-design: Sampling weight; audit only in Notebook 0, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,women's individual sample weight (6 decimals),True
+wasting,v012,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,respondent's current age,True
+wasting,v021,uncertain,"Geographic/survey-design: PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,primary sampling unit,True
+wasting,v022,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,sample strata for sampling errors,True
+wasting,v023,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,stratification used in sample design,True
+wasting,v024,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+wasting,v025,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+wasting,v101,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+wasting,v102,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+wasting,v105a,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division of previous residence,True
+wasting,v106,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+wasting,v107,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest year of education,True
+wasting,v113,legitimate_predictor,Water-source label; household living-conditions domain.,pilot candidate only; prediction-time review required,source of drinking water,True
+wasting,v116,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,type of toilet facility,True
+wasting,v133,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,education in single years,True
+wasting,v136,legitimate_predictor,"Household-size label; household context, not an identifier.",pilot candidate only; prediction-time review required,number of household members (listed),True
+wasting,v139,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure region of residence,True
+wasting,v140,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure type of place of residence,True
+wasting,v160,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,toilet facilities shared with other households,True
+wasting,v190,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index combined,True
+wasting,v191,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index factor score combined (5 decimals),True
+wasting,v212,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,age of respondent at 1st birth,True
+wasting,v247f,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - collection of menstrual blood: toilet paper,True
+wasting,v419,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,entries in height/weight roster,True
+wasting,v437,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,respondent's weight in kilograms (1 decimal),True
+wasting,v438,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,respondent's height in centimeters (1 decimal),True
+wasting,v446a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,height/age standard deviation (new who) (women age 15-19),True
+wasting,v447,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,result of measurement - height/weight,True
+wasting,v465,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - disposal of youngest child's stools when not using toilet,True
+wasting,v501,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,current marital status,True
+wasting,v701,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's education level,True
+wasting,v702,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's highest year of education (at level in v701),True
+wasting,v714,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent currently working,True
+wasting,v715,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's total number of years of education,True
+wasting,v719,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,"respondent works for family, others, self",True
+wasting,v721,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - respondent works at home or away,True
+wasting,v731,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent worked in last 12 months,True
+wasting,v740,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - type of land where respondent works,True
+wasting,v741,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,type of earnings from respondent's work,True
+underweight,awfactu,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,all woman factor - urban/rural,True
+underweight,awfactw,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,all woman factor - wealth index,True
+underweight,b16,uncertain,Administrative/identifier: Child line identifier candidate; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,child's line number in household,True
+underweight,b19,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,current age of child in months (months since birth for dead children),True
+underweight,b4,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,sex of child,True
+underweight,b7,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,"age at death (months, imputed)",True
+underweight,b8,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,current age of child,True
+underweight,bidx,uncertain,Administrative/identifier: Birth column/index candidate; do not include automatically. Actual label supports this role.,exclude from predictors; verify role from dictionary,birth column number,True
+underweight,bord,legitimate_predictor,Birth-order label; child characteristic domain.,pilot candidate only; prediction-time review required,birth order number,True
+underweight,caseid,uncertain,Administrative/identifier: Respondent identifier; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,case identification,True
+underweight,h70a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - past 3 months health care provider measured child's weight,True
+underweight,h70b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - past 3 months health care provider measured child's length/height,True
+underweight,hw1,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,child's age in months,True
+underweight,hw13,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,result of measurement - height/weight,True
+underweight,hw15,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,height: lying or standing,True
+underweight,hw2,derived_leakage,Actual label verifies a raw anthropometric input or z-score used in the target family.,exclude from predictors,child's weight in kilograms (1 decimal),True
+underweight,hw3,derived_leakage,Actual label verifies a raw anthropometric input or z-score used in the target family.,exclude from predictors,child's height in centimeters (1 decimal),True
+underweight,hw70,derived_leakage,Actual label verifies a raw anthropometric input or z-score used in the target family.,exclude from predictors,height/age standard deviation (new who),True
+underweight,hw71,direct_leakage,Label-verified target field/direct target component.,exclude from predictors,weight/age standard deviation (new who),True
+underweight,hw72,derived_leakage,Actual label verifies a raw anthropometric input or z-score used in the target family.,exclude from predictors,weight/height standard deviation (new who),True
+underweight,hw73,derived_leakage,Actual label verifies a raw anthropometric input or z-score used in the target family.,exclude from predictors,bmi standard deviation (new who),True
+underweight,m19,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,birth weight in kilograms (3 decimals),True
+underweight,m19a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,weight at birth/recall,True
+underweight,m42b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during pregnancy: height measured,True
+underweight,mh23,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - did health facility have toilet/latrine for patitents,True
+underweight,mh24,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - at any time wanted to use toilet/latrine but was not working,True
+underweight,s111a,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,marital status,True
+underweight,s115_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+underweight,s904,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's level of education,True
+underweight,s905_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's highest educational level attended (used in final tables),True
+underweight,v001,uncertain,"Geographic/survey-design: Cluster/PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,cluster number,True
+underweight,v002,uncertain,Administrative/identifier: Household identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,household number,True
+underweight,v003,uncertain,Administrative/identifier: Mother/respondent line identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,respondent's line number,True
+underweight,v005,uncertain,"Geographic/survey-design: Sampling weight; audit only in Notebook 0, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,women's individual sample weight (6 decimals),True
+underweight,v012,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,respondent's current age,True
+underweight,v021,uncertain,"Geographic/survey-design: PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,primary sampling unit,True
+underweight,v022,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,sample strata for sampling errors,True
+underweight,v023,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,stratification used in sample design,True
+underweight,v024,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+underweight,v025,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+underweight,v101,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+underweight,v102,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+underweight,v105a,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division of previous residence,True
+underweight,v106,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+underweight,v107,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest year of education,True
+underweight,v113,legitimate_predictor,Water-source label; household living-conditions domain.,pilot candidate only; prediction-time review required,source of drinking water,True
+underweight,v116,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,type of toilet facility,True
+underweight,v133,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,education in single years,True
+underweight,v136,legitimate_predictor,"Household-size label; household context, not an identifier.",pilot candidate only; prediction-time review required,number of household members (listed),True
+underweight,v139,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure region of residence,True
+underweight,v140,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure type of place of residence,True
+underweight,v160,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,toilet facilities shared with other households,True
+underweight,v190,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index combined,True
+underweight,v191,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index factor score combined (5 decimals),True
+underweight,v212,uncertain,Age/sex may be available at prediction time but also define anthropometric reference/eligibility.,hold from pilot pending team decision; do not carry exclusion into final model automatically,age of respondent at 1st birth,True
+underweight,v247f,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - collection of menstrual blood: toilet paper,True
+underweight,v419,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,entries in height/weight roster,True
+underweight,v437,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,respondent's weight in kilograms (1 decimal),True
+underweight,v438,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,respondent's height in centimeters (1 decimal),True
+underweight,v446a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,height/age standard deviation (new who) (women age 15-19),True
+underweight,v447,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,result of measurement - height/weight,True
+underweight,v465,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - disposal of youngest child's stools when not using toilet,True
+underweight,v501,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,current marital status,True
+underweight,v701,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's education level,True
+underweight,v702,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's highest year of education (at level in v701),True
+underweight,v714,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent currently working,True
+underweight,v715,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's total number of years of education,True
+underweight,v719,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,"respondent works for family, others, self",True
+underweight,v721,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - respondent works at home or away,True
+underweight,v731,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent worked in last 12 months,True
+underweight,v740,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - type of land where respondent works,True
+underweight,v741,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,type of earnings from respondent's work,True
+fever,awfactu,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,all woman factor - urban/rural,True
+fever,awfactw,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,all woman factor - wealth index,True
+fever,b16,uncertain,Administrative/identifier: Child line identifier candidate; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,child's line number in household,True
+fever,b19,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,current age of child in months (months since birth for dead children),True
+fever,b4,legitimate_predictor,Child-sex label; review its role in anthropometric reference standards.,pilot candidate only; prediction-time review required,sex of child,True
+fever,b7,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,"age at death (months, imputed)",True
+fever,b8,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,current age of child,True
+fever,bidx,uncertain,Administrative/identifier: Birth column/index candidate; do not include automatically. Actual label supports this role.,exclude from predictors; verify role from dictionary,birth column number,True
+fever,bord,legitimate_predictor,Birth-order label; child characteristic domain.,pilot candidate only; prediction-time review required,birth order number,True
+fever,caseid,uncertain,Administrative/identifier: Respondent identifier; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,case identification,True
+fever,h12y,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: no treatment,True
+fever,h12z,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: medical treatment,True
+fever,h15d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,"na - given home remedy, herbal medicine",True
+fever,h20,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - given other treatment,True
+fever,h21,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,received any treatment,True
+fever,h21a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - given no treatment,True
+fever,h22,direct_leakage,Label-verified target field/direct target component.,exclude from predictors,had fever in last two weeks,True
+fever,h31d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - had fever/cough in last 2 weeks: amount offered to drink,True
+fever,h31e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - had fever/cough in last 2 weeks: amount offered to eat,True
+fever,h32a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: specified government hospital,True
+fever,h32b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: medical collage hospital -  cs,True
+fever,h32c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: district hospital,True
+fever,h32d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: mcwc,True
+fever,h32e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: uhc,True
+fever,h32f,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: us & fwc,True
+fever,h32g,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: community clinic,True
+fever,h32h,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: satellite clinic/epi outreach,True
+fever,h32i,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: fwa,True
+fever,h32j,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: private hospital,True
+fever,h32k,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: private pharmacy,True
+fever,h32l,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: private qualified doctor,True
+fever,h32m,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: private medical collage hospital,True
+fever,h32n,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: private clinic,True
+fever,h32na,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - fever/cough: ngo hospital,True
+fever,h32nb,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: ngo static clinic,True
+fever,h32nc,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: ngo satellite clinic,True
+fever,h32nd,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: ngo depo holder,True
+fever,h32ne,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: ngo field worker,True
+fever,h32o,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: unqualified doctor,True
+fever,h32p,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: other private medical,True
+fever,h32q,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - fever/cough: cs private non medica,True
+fever,h32r,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - fever/cough: cs private medical,True
+fever,h32s,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - fever/cough: cs other sector,True
+fever,h32t,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - fever/cough: cs other sector,True
+fever,h32u,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - fever/cough: cs other sector,True
+fever,h32v,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - fever/cough: cs other sector,True
+fever,h32w,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - fever/cough: cs other sector,True
+fever,h32x,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: other,True
+fever,h32y,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: no treatment,True
+fever,h32z,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: medical treatment,True
+fever,h37a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,sp/fansidar taken for fever,True
+fever,h37aa,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - artesunate rectal taken for fever,True
+fever,h37ab,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - artesunate injection/iv taken for fever,True
+fever,h37b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,chloroquine taken for fever,True
+fever,h37c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,primaquine taken for fever,True
+fever,h37d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,quinine taken for fever,True
+fever,h37da,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - quinine injection/iv taken for fever,True
+fever,h37e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,combination with artemisinin taken for fever,True
+fever,h37f,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na antimalarial taken for fever,True
+fever,h37g,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na antimalarial taken for fever,True
+fever,h37h,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,other antimalarial taken for fever,True
+fever,h37i,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - antibiotic pill/syrup taken for fever,True
+fever,h37j,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - antibiotic injection taken for fever,True
+fever,h37k,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,aspirin taken for fever,True
+fever,h37l,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,acetaminophen/paracetamol/panadol taken for fever,True
+fever,h37m,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,ibuprofen taken for fever,True
+fever,h37n,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - amoxicillin taken for fever,True
+fever,h37o,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,cotrimoxazole taken for fever/cough,True
+fever,h37p,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,beta lactum tab/syrup taken for fever/cough,True
+fever,h37q,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,macrolides tablets taken for fever/cough,True
+fever,h37r,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,quinolone syrup taken for fever/cough,True
+fever,h37x,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,other taken for fever,True
+fever,h37y,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,nothing taken and didn't seek treatment for fever/cough,True
+fever,h37z,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,don't know if or what was taken for fever,True
+fever,h44a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - place first sought treatment for diarrhea,True
+fever,h46a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,place first sought treatment for fever,True
+fever,h46b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,number of days after fever began sought advice or treatment,True
+fever,h70a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - past 3 months health care provider measured child's weight,True
+fever,h70b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - past 3 months health care provider measured child's length/height,True
+fever,h70c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - past 3 months health care provider measured child's upper arm,True
+fever,hw1,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,child's age in months,True
+fever,m78a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: examine cord,True
+fever,m78b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: measure temperature,True
+fever,m78c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: signs baby needs medical attentions,True
+fever,m78d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: counsel on breastfeeding,True
+fever,m78e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: observe breastfeeding,True
+fever,m78f,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: measure blood pressure,True
+fever,m78g,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: discuss vaginal bleeding,True
+fever,m78h,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: discuss family planning,True
+fever,m78i,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during first 2 days health provider: tell where to get help with breastfeed,True
+fever,m78j,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: ask for any urination problem,True
+fever,m78k,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: ask if you had any pain,True
+fever,m78l,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: ask if you feel sad or depressed,True
+fever,mh17a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - at delivery place did healthcare providers: treated you with respect,True
+fever,mh17b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - at delivery place did healthcare providers: explained examinations/procedur,True
+fever,mh17c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - at delivery place did healthcare providers: took best care of you,True
+fever,mh17d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - at delivery place did healthcare providers: cs,True
+fever,mh17e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - at delivery place did healthcare providers: cs,True
+fever,mh18a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay at health facility: shared bed with other patient,True
+fever,mh18b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay at health facility: rest/sleep on floor without mattress,True
+fever,mh18c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay at health facility: cs,True
+fever,mh18d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay at health facility: cs,True
+fever,mh19,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay at health facility were denied medical services for lack of mon,True
+fever,mh21a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: slap you,True
+fever,mh21b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: hit or punch you,True
+fever,mh21c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: physically threaten you,True
+fever,mh21d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: physically mistreat or harm you,True
+fever,mh21e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: cs,True
+fever,mh21f,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: cs,True
+fever,mh22a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: shout at you,True
+fever,mh22b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: say or do something to humilliate you,True
+fever,mh22c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: verbally threaten,True
+fever,mh22d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: verbally mistreat you in any other wa,True
+fever,mh22e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: cs,True
+fever,mh22f,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: cs,True
+fever,mh23,proxy_risk,Label indicates outcome-domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - did health facility have toilet/latrine for patitents,True
+fever,mh24,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - at any time wanted to use toilet/latrine but was not working,True
+fever,mh3f,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during antenatal care discussed: find healthcare provider to deliver child,True
+fever,mh5,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - healthcare provider measure blood pressure before delivery,True
+fever,s111a,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,marital status,True
+fever,s115_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+fever,s435a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,provider discussed/counseled about fp,True
+fever,s626i,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: health assistant,True
+fever,s626k,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: other public,True
+fever,s626w,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: other ngo,True
+fever,s631j,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,cephalosporin syrup taken for fever/cough,True
+fever,s631k,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,gentamycin injection taken for fever/cough,True
+fever,s904,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's level of education,True
+fever,s905_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's highest educational level attended (used in final tables),True
+fever,v001,uncertain,"Geographic/survey-design: Cluster/PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,cluster number,True
+fever,v002,uncertain,Administrative/identifier: Household identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,household number,True
+fever,v003,uncertain,Administrative/identifier: Mother/respondent line identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,respondent's line number,True
+fever,v005,uncertain,"Geographic/survey-design: Sampling weight; audit only in Notebook 0, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,women's individual sample weight (6 decimals),True
+fever,v012,legitimate_predictor,Respondent-age label; maternal demographic domain.,pilot candidate only; prediction-time review required,respondent's current age,True
+fever,v021,uncertain,"Geographic/survey-design: PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,primary sampling unit,True
+fever,v022,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,sample strata for sampling errors,True
+fever,v023,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,stratification used in sample design,True
+fever,v024,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+fever,v025,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+fever,v101,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+fever,v102,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+fever,v105a,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division of previous residence,True
+fever,v106,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+fever,v107,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest year of education,True
+fever,v113,legitimate_predictor,Water-source label; household living-conditions domain.,pilot candidate only; prediction-time review required,source of drinking water,True
+fever,v116,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,type of toilet facility,True
+fever,v133,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,education in single years,True
+fever,v136,legitimate_predictor,"Household-size label; household context, not an identifier.",pilot candidate only; prediction-time review required,number of household members (listed),True
+fever,v139,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure region of residence,True
+fever,v140,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure type of place of residence,True
+fever,v160,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,toilet facilities shared with other households,True
+fever,v190,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index combined,True
+fever,v191,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index factor score combined (5 decimals),True
+fever,v212,legitimate_predictor,Respondent-age label; maternal demographic domain.,pilot candidate only; prediction-time review required,age of respondent at 1st birth,True
+fever,v247f,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - collection of menstrual blood: toilet paper,True
+fever,v394,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - visited health facility last 12 months,True
+fever,v395,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,"na - at health facility, told of family planning",True
+fever,v465,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - disposal of youngest child's stools when not using toilet,True
+fever,v466,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,"na - when child is seriously ill, can decide whether medical treatment sought",True
+fever,v467c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,getting medical help for self: getting money needed for treatment,True
+fever,v467d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,getting medical help for self: distance to health facility,True
+fever,v467g,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - getting medical help for self: concern no female health provider,True
+fever,v467h,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - getting medical help for self: concern no provider,True
+fever,v484a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - breasts examined for cancer by health care provider,True
+fever,v484b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - ever tested for cervical cancer by health care provider,True
+fever,v486,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,"na - last 6 months, health care provider advised what to feed to child",True
+fever,v501,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,current marital status,True
+fever,v701,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's education level,True
+fever,v702,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's highest year of education (at level in v701),True
+fever,v714,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent currently working,True
+fever,v715,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's total number of years of education,True
+fever,v719,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,"respondent works for family, others, self",True
+fever,v721,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - respondent works at home or away,True
+fever,v731,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent worked in last 12 months,True
+fever,v740,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - type of land where respondent works,True
+fever,v741,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,type of earnings from respondent's work,True
+diarrhea,awfactu,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,all woman factor - urban/rural,True
+diarrhea,awfactw,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,all woman factor - wealth index,True
+diarrhea,b16,uncertain,Administrative/identifier: Child line identifier candidate; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,child's line number in household,True
+diarrhea,b19,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,current age of child in months (months since birth for dead children),True
+diarrhea,b4,legitimate_predictor,Child-sex label; review its role in anthropometric reference standards.,pilot candidate only; prediction-time review required,sex of child,True
+diarrhea,b7,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,"age at death (months, imputed)",True
+diarrhea,b8,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,current age of child,True
+diarrhea,bidx,uncertain,Administrative/identifier: Birth column/index candidate; do not include automatically. Actual label supports this role.,exclude from predictors; verify role from dictionary,birth column number,True
+diarrhea,bord,legitimate_predictor,Birth-order label; child characteristic domain.,pilot candidate only; prediction-time review required,birth order number,True
+diarrhea,caseid,uncertain,Administrative/identifier: Respondent identifier; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,case identification,True
+diarrhea,h11,direct_leakage,Label-verified target field/direct target component.,exclude from predictors,had diarrhea recently,True
+diarrhea,h12a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: specialized government hospital,True
+diarrhea,h12b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: medical collage hospital -  cs,True
+diarrhea,h12c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: district hospital,True
+diarrhea,h12d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: mcwc,True
+diarrhea,h12e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: uhc,True
+diarrhea,h12f,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: uh & fwc,True
+diarrhea,h12g,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: community clinic,True
+diarrhea,h12h,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: satellite clinic,True
+diarrhea,h12i,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: fwa,True
+diarrhea,h12j,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: private hospital,True
+diarrhea,h12k,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: private pharmacy,True
+diarrhea,h12l,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: private qualified doctor,True
+diarrhea,h12m,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: private medical collage hospital,True
+diarrhea,h12n,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: private clinic,True
+diarrhea,h12na,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - diarrhea: ngo hospital,True
+diarrhea,h12nb,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: ngo static clinic,True
+diarrhea,h12nc,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: ngo satellite clinic,True
+diarrhea,h12nd,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: ngo depo holder,True
+diarrhea,h12ne,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: ngo field worker,True
+diarrhea,h12o,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: unqualified doctor chamber,True
+diarrhea,h12p,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: other private medical,True
+diarrhea,h12q,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - diarrhea: cs private medical,True
+diarrhea,h12r,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - diarrhea: cs private medical,True
+diarrhea,h12s,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - diarrhea: cs other sector,True
+diarrhea,h12t,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - diarrhea: cs other sector,True
+diarrhea,h12u,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - diarrhea: cs other sector,True
+diarrhea,h12v,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - diarrhea: cs other sector,True
+diarrhea,h12w,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - diarrhea: cs other sector,True
+diarrhea,h12x,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: other,True
+diarrhea,h12y,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: no treatment,True
+diarrhea,h12z,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: medical treatment,True
+diarrhea,h13b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - given pre-packaged ors liquid,True
+diarrhea,h15d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,"na - given home remedy, herbal medicine",True
+diarrhea,h15e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,given zinc,True
+diarrhea,h15f,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,"na - given other (not antibiotic, antimotility, zinc)",True
+diarrhea,h20,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - given other treatment,True
+diarrhea,h21,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,received any treatment,True
+diarrhea,h21a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - given no treatment,True
+diarrhea,h32y,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: no treatment,True
+diarrhea,h32z,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,fever/cough: medical treatment,True
+diarrhea,h37y,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,nothing taken and didn't seek treatment for fever/cough,True
+diarrhea,h38,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea in last 2 weeks: amount offered to drink,True
+diarrhea,h39,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea in last 2 weeks: amount offered to eat,True
+diarrhea,h44a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - place first sought treatment for diarrhea,True
+diarrhea,h46a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,place first sought treatment for fever,True
+diarrhea,h46b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,number of days after fever began sought advice or treatment,True
+diarrhea,h70a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - past 3 months health care provider measured child's weight,True
+diarrhea,h70b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - past 3 months health care provider measured child's length/height,True
+diarrhea,h70c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - past 3 months health care provider measured child's upper arm,True
+diarrhea,hw1,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,child's age in months,True
+diarrhea,m78a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: examine cord,True
+diarrhea,m78b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: measure temperature,True
+diarrhea,m78c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: signs baby needs medical attentions,True
+diarrhea,m78d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: counsel on breastfeeding,True
+diarrhea,m78e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: observe breastfeeding,True
+diarrhea,m78f,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: measure blood pressure,True
+diarrhea,m78g,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: discuss vaginal bleeding,True
+diarrhea,m78h,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: discuss family planning,True
+diarrhea,m78i,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during first 2 days health provider: tell where to get help with breastfeed,True
+diarrhea,m78j,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: ask for any urination problem,True
+diarrhea,m78k,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: ask if you had any pain,True
+diarrhea,m78l,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: ask if you feel sad or depressed,True
+diarrhea,mh17a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - at delivery place did healthcare providers: treated you with respect,True
+diarrhea,mh17b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - at delivery place did healthcare providers: explained examinations/procedur,True
+diarrhea,mh17c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - at delivery place did healthcare providers: took best care of you,True
+diarrhea,mh17d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - at delivery place did healthcare providers: cs,True
+diarrhea,mh17e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - at delivery place did healthcare providers: cs,True
+diarrhea,mh18a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay at health facility: shared bed with other patient,True
+diarrhea,mh18b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay at health facility: rest/sleep on floor without mattress,True
+diarrhea,mh18c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay at health facility: cs,True
+diarrhea,mh18d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay at health facility: cs,True
+diarrhea,mh19,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay at health facility were denied medical services for lack of mon,True
+diarrhea,mh21a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: slap you,True
+diarrhea,mh21b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: hit or punch you,True
+diarrhea,mh21c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: physically threaten you,True
+diarrhea,mh21d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: physically mistreat or harm you,True
+diarrhea,mh21e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: cs,True
+diarrhea,mh21f,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: cs,True
+diarrhea,mh22a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: shout at you,True
+diarrhea,mh22b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: say or do something to humilliate you,True
+diarrhea,mh22c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: verbally threaten,True
+diarrhea,mh22d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: verbally mistreat you in any other wa,True
+diarrhea,mh22e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: cs,True
+diarrhea,mh22f,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: cs,True
+diarrhea,mh23,proxy_risk,Label indicates outcome-domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - did health facility have toilet/latrine for patitents,True
+diarrhea,mh24,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - at any time wanted to use toilet/latrine but was not working,True
+diarrhea,mh3f,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during antenatal care discussed: find healthcare provider to deliver child,True
+diarrhea,mh5,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - healthcare provider measure blood pressure before delivery,True
+diarrhea,s111a,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,marital status,True
+diarrhea,s115_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+diarrhea,s435a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,provider discussed/counseled about fp,True
+diarrhea,s612i,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: health assistant,True
+diarrhea,s612k,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: other public,True
+diarrhea,s612w,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: other ngo sector,True
+diarrhea,s904,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's level of education,True
+diarrhea,s905_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's highest educational level attended (used in final tables),True
+diarrhea,v001,uncertain,"Geographic/survey-design: Cluster/PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,cluster number,True
+diarrhea,v002,uncertain,Administrative/identifier: Household identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,household number,True
+diarrhea,v003,uncertain,Administrative/identifier: Mother/respondent line identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,respondent's line number,True
+diarrhea,v005,uncertain,"Geographic/survey-design: Sampling weight; audit only in Notebook 0, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,women's individual sample weight (6 decimals),True
+diarrhea,v012,legitimate_predictor,Respondent-age label; maternal demographic domain.,pilot candidate only; prediction-time review required,respondent's current age,True
+diarrhea,v021,uncertain,"Geographic/survey-design: PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,primary sampling unit,True
+diarrhea,v022,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,sample strata for sampling errors,True
+diarrhea,v023,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,stratification used in sample design,True
+diarrhea,v024,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+diarrhea,v025,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+diarrhea,v101,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+diarrhea,v102,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+diarrhea,v105a,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division of previous residence,True
+diarrhea,v106,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+diarrhea,v107,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest year of education,True
+diarrhea,v113,legitimate_predictor,Water-source label; household living-conditions domain.,pilot candidate only; prediction-time review required,source of drinking water,True
+diarrhea,v116,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,type of toilet facility,True
+diarrhea,v133,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,education in single years,True
+diarrhea,v136,legitimate_predictor,"Household-size label; household context, not an identifier.",pilot candidate only; prediction-time review required,number of household members (listed),True
+diarrhea,v139,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure region of residence,True
+diarrhea,v140,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure type of place of residence,True
+diarrhea,v160,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,toilet facilities shared with other households,True
+diarrhea,v190,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index combined,True
+diarrhea,v191,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index factor score combined (5 decimals),True
+diarrhea,v212,legitimate_predictor,Respondent-age label; maternal demographic domain.,pilot candidate only; prediction-time review required,age of respondent at 1st birth,True
+diarrhea,v247f,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - collection of menstrual blood: toilet paper,True
+diarrhea,v394,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - visited health facility last 12 months,True
+diarrhea,v395,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,"na - at health facility, told of family planning",True
+diarrhea,v3a00l,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,source of family planning for non-users: private doctors,True
+diarrhea,v465,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - disposal of youngest child's stools when not using toilet,True
+diarrhea,v466,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,"na - when child is seriously ill, can decide whether medical treatment sought",True
+diarrhea,v467c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,getting medical help for self: getting money needed for treatment,True
+diarrhea,v467d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,getting medical help for self: distance to health facility,True
+diarrhea,v467g,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - getting medical help for self: concern no female health provider,True
+diarrhea,v467h,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - getting medical help for self: concern no provider,True
+diarrhea,v484a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - breasts examined for cancer by health care provider,True
+diarrhea,v484b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - ever tested for cervical cancer by health care provider,True
+diarrhea,v486,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,"na - last 6 months, health care provider advised what to feed to child",True
+diarrhea,v501,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,current marital status,True
+diarrhea,v701,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's education level,True
+diarrhea,v702,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's highest year of education (at level in v701),True
+diarrhea,v714,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent currently working,True
+diarrhea,v715,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's total number of years of education,True
+diarrhea,v719,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,"respondent works for family, others, self",True
+diarrhea,v721,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - respondent works at home or away,True
+diarrhea,v731,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent worked in last 12 months,True
+diarrhea,v740,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - type of land where respondent works,True
+diarrhea,v741,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,type of earnings from respondent's work,True
+ari_symptoms,awfactu,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,all woman factor - urban/rural,True
+ari_symptoms,awfactw,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,all woman factor - wealth index,True
+ari_symptoms,b16,uncertain,Administrative/identifier: Child line identifier candidate; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,child's line number in household,True
+ari_symptoms,b19,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,current age of child in months (months since birth for dead children),True
+ari_symptoms,b4,legitimate_predictor,Child-sex label; review its role in anthropometric reference standards.,pilot candidate only; prediction-time review required,sex of child,True
+ari_symptoms,b7,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,"age at death (months, imputed)",True
+ari_symptoms,b8,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,current age of child,True
+ari_symptoms,bidx,uncertain,Administrative/identifier: Birth column/index candidate; do not include automatically. Actual label supports this role.,exclude from predictors; verify role from dictionary,birth column number,True
+ari_symptoms,bord,legitimate_predictor,Birth-order label; child characteristic domain.,pilot candidate only; prediction-time review required,birth order number,True
+ari_symptoms,caseid,uncertain,Administrative/identifier: Respondent identifier; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,case identification,True
+ari_symptoms,h12y,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: no treatment,True
+ari_symptoms,h12z,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,diarrhea: medical treatment,True
+ari_symptoms,h15d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,"na - given home remedy, herbal medicine",True
+ari_symptoms,h20,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - given other treatment,True
+ari_symptoms,h21,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,received any treatment,True
+ari_symptoms,h21a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - given no treatment,True
+ari_symptoms,h31,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,had cough in last two weeks,True
+ari_symptoms,h31b,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,"short, rapid breaths",True
+ari_symptoms,h31c,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,problem in the chest or blocked or running nose,True
+ari_symptoms,h31d,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - had fever/cough in last 2 weeks: amount offered to drink,True
+ari_symptoms,h31e,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - had fever/cough in last 2 weeks: amount offered to eat,True
+ari_symptoms,h32a,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: specified government hospital,True
+ari_symptoms,h32b,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: medical collage hospital -  cs,True
+ari_symptoms,h32c,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: district hospital,True
+ari_symptoms,h32d,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: mcwc,True
+ari_symptoms,h32e,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: uhc,True
+ari_symptoms,h32f,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: us & fwc,True
+ari_symptoms,h32g,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: community clinic,True
+ari_symptoms,h32h,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: satellite clinic/epi outreach,True
+ari_symptoms,h32i,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: fwa,True
+ari_symptoms,h32j,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: private hospital,True
+ari_symptoms,h32k,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: private pharmacy,True
+ari_symptoms,h32l,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: private qualified doctor,True
+ari_symptoms,h32m,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: private medical collage hospital,True
+ari_symptoms,h32n,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: private clinic,True
+ari_symptoms,h32na,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - fever/cough: ngo hospital,True
+ari_symptoms,h32nb,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: ngo static clinic,True
+ari_symptoms,h32nc,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: ngo satellite clinic,True
+ari_symptoms,h32nd,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: ngo depo holder,True
+ari_symptoms,h32ne,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: ngo field worker,True
+ari_symptoms,h32o,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: unqualified doctor,True
+ari_symptoms,h32p,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: other private medical,True
+ari_symptoms,h32q,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - fever/cough: cs private non medica,True
+ari_symptoms,h32r,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - fever/cough: cs private medical,True
+ari_symptoms,h32s,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - fever/cough: cs other sector,True
+ari_symptoms,h32t,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - fever/cough: cs other sector,True
+ari_symptoms,h32u,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - fever/cough: cs other sector,True
+ari_symptoms,h32v,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - fever/cough: cs other sector,True
+ari_symptoms,h32w,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - fever/cough: cs other sector,True
+ari_symptoms,h32x,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: other,True
+ari_symptoms,h32y,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: no treatment,True
+ari_symptoms,h32z,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: medical treatment,True
+ari_symptoms,h37o,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,cotrimoxazole taken for fever/cough,True
+ari_symptoms,h37p,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,beta lactum tab/syrup taken for fever/cough,True
+ari_symptoms,h37q,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,macrolides tablets taken for fever/cough,True
+ari_symptoms,h37r,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,quinolone syrup taken for fever/cough,True
+ari_symptoms,h37y,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,nothing taken and didn't seek treatment for fever/cough,True
+ari_symptoms,h44a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - place first sought treatment for diarrhea,True
+ari_symptoms,h46a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,place first sought treatment for fever,True
+ari_symptoms,h46b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,number of days after fever began sought advice or treatment,True
+ari_symptoms,h70a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - past 3 months health care provider measured child's weight,True
+ari_symptoms,h70b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - past 3 months health care provider measured child's length/height,True
+ari_symptoms,h70c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - past 3 months health care provider measured child's upper arm,True
+ari_symptoms,hw1,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,child's age in months,True
+ari_symptoms,m77,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,was child put on mother's chest and bare skin after birth,True
+ari_symptoms,m78a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: examine cord,True
+ari_symptoms,m78b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: measure temperature,True
+ari_symptoms,m78c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: signs baby needs medical attentions,True
+ari_symptoms,m78d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: counsel on breastfeeding,True
+ari_symptoms,m78e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: observe breastfeeding,True
+ari_symptoms,m78f,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: measure blood pressure,True
+ari_symptoms,m78g,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: discuss vaginal bleeding,True
+ari_symptoms,m78h,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: discuss family planning,True
+ari_symptoms,m78i,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during first 2 days health provider: tell where to get help with breastfeed,True
+ari_symptoms,m78j,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: ask for any urination problem,True
+ari_symptoms,m78k,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: ask if you had any pain,True
+ari_symptoms,m78l,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,during first 2 days health provider: ask if you feel sad or depressed,True
+ari_symptoms,mh17a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - at delivery place did healthcare providers: treated you with respect,True
+ari_symptoms,mh17b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - at delivery place did healthcare providers: explained examinations/procedur,True
+ari_symptoms,mh17c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - at delivery place did healthcare providers: took best care of you,True
+ari_symptoms,mh17d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - at delivery place did healthcare providers: cs,True
+ari_symptoms,mh17e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - at delivery place did healthcare providers: cs,True
+ari_symptoms,mh18a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay at health facility: shared bed with other patient,True
+ari_symptoms,mh18b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay at health facility: rest/sleep on floor without mattress,True
+ari_symptoms,mh18c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay at health facility: cs,True
+ari_symptoms,mh18d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay at health facility: cs,True
+ari_symptoms,mh19,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay at health facility were denied medical services for lack of mon,True
+ari_symptoms,mh21a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: slap you,True
+ari_symptoms,mh21b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: hit or punch you,True
+ari_symptoms,mh21c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: physically threaten you,True
+ari_symptoms,mh21d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: physically mistreat or harm you,True
+ari_symptoms,mh21e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: cs,True
+ari_symptoms,mh21f,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: cs,True
+ari_symptoms,mh22a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: shout at you,True
+ari_symptoms,mh22b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: say or do something to humilliate you,True
+ari_symptoms,mh22c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: verbally threaten,True
+ari_symptoms,mh22d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: verbally mistreat you in any other wa,True
+ari_symptoms,mh22e,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: cs,True
+ari_symptoms,mh22f,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during stay staff at health facility: cs,True
+ari_symptoms,mh23,proxy_risk,Label indicates outcome-domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - did health facility have toilet/latrine for patitents,True
+ari_symptoms,mh24,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - at any time wanted to use toilet/latrine but was not working,True
+ari_symptoms,mh3f,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - during antenatal care discussed: find healthcare provider to deliver child,True
+ari_symptoms,mh5,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - healthcare provider measure blood pressure before delivery,True
+ari_symptoms,s111a,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,marital status,True
+ari_symptoms,s115_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+ari_symptoms,s435a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,provider discussed/counseled about fp,True
+ari_symptoms,s626i,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: health assistant,True
+ari_symptoms,s626k,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: other public,True
+ari_symptoms,s626w,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,fever/cough: other ngo,True
+ari_symptoms,s631j,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,cephalosporin syrup taken for fever/cough,True
+ari_symptoms,s631k,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,gentamycin injection taken for fever/cough,True
+ari_symptoms,s904,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's level of education,True
+ari_symptoms,s905_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's highest educational level attended (used in final tables),True
+ari_symptoms,v001,uncertain,"Geographic/survey-design: Cluster/PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,cluster number,True
+ari_symptoms,v002,uncertain,Administrative/identifier: Household identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,household number,True
+ari_symptoms,v003,uncertain,Administrative/identifier: Mother/respondent line identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,respondent's line number,True
+ari_symptoms,v005,uncertain,"Geographic/survey-design: Sampling weight; audit only in Notebook 0, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,women's individual sample weight (6 decimals),True
+ari_symptoms,v012,legitimate_predictor,Respondent-age label; maternal demographic domain.,pilot candidate only; prediction-time review required,respondent's current age,True
+ari_symptoms,v021,uncertain,"Geographic/survey-design: PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,primary sampling unit,True
+ari_symptoms,v022,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,sample strata for sampling errors,True
+ari_symptoms,v023,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,stratification used in sample design,True
+ari_symptoms,v024,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+ari_symptoms,v025,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+ari_symptoms,v101,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+ari_symptoms,v102,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+ari_symptoms,v105a,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division of previous residence,True
+ari_symptoms,v106,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+ari_symptoms,v107,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest year of education,True
+ari_symptoms,v113,legitimate_predictor,Water-source label; household living-conditions domain.,pilot candidate only; prediction-time review required,source of drinking water,True
+ari_symptoms,v116,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,type of toilet facility,True
+ari_symptoms,v133,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,education in single years,True
+ari_symptoms,v136,legitimate_predictor,"Household-size label; household context, not an identifier.",pilot candidate only; prediction-time review required,number of household members (listed),True
+ari_symptoms,v139,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure region of residence,True
+ari_symptoms,v140,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure type of place of residence,True
+ari_symptoms,v160,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,toilet facilities shared with other households,True
+ari_symptoms,v190,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index combined,True
+ari_symptoms,v191,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index factor score combined (5 decimals),True
+ari_symptoms,v212,legitimate_predictor,Respondent-age label; maternal demographic domain.,pilot candidate only; prediction-time review required,age of respondent at 1st birth,True
+ari_symptoms,v247f,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - collection of menstrual blood: toilet paper,True
+ari_symptoms,v394,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - visited health facility last 12 months,True
+ari_symptoms,v395,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,"na - at health facility, told of family planning",True
+ari_symptoms,v465,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - disposal of youngest child's stools when not using toilet,True
+ari_symptoms,v466,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,"na - when child is seriously ill, can decide whether medical treatment sought",True
+ari_symptoms,v467c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,getting medical help for self: getting money needed for treatment,True
+ari_symptoms,v467d,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,getting medical help for self: distance to health facility,True
+ari_symptoms,v467g,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - getting medical help for self: concern no female health provider,True
+ari_symptoms,v467h,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - getting medical help for self: concern no provider,True
+ari_symptoms,v484a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - breasts examined for cancer by health care provider,True
+ari_symptoms,v484b,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - ever tested for cervical cancer by health care provider,True
+ari_symptoms,v486,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,"na - last 6 months, health care provider advised what to feed to child",True
+ari_symptoms,v501,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,current marital status,True
+ari_symptoms,v701,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's education level,True
+ari_symptoms,v702,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's highest year of education (at level in v701),True
+ari_symptoms,v714,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent currently working,True
+ari_symptoms,v715,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's total number of years of education,True
+ari_symptoms,v719,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,"respondent works for family, others, self",True
+ari_symptoms,v721,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - respondent works at home or away,True
+ari_symptoms,v731,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent worked in last 12 months,True
+ari_symptoms,v740,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - type of land where respondent works,True
+ari_symptoms,v741,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,type of earnings from respondent's work,True
+child_anemia,awfactu,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,all woman factor - urban/rural,True
+child_anemia,awfactw,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,all woman factor - wealth index,True
+child_anemia,b16,uncertain,Administrative/identifier: Child line identifier candidate; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,child's line number in household,True
+child_anemia,b19,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,current age of child in months (months since birth for dead children),True
+child_anemia,b4,legitimate_predictor,Child-sex label; review its role in anthropometric reference standards.,pilot candidate only; prediction-time review required,sex of child,True
+child_anemia,b7,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,"age at death (months, imputed)",True
+child_anemia,b8,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,current age of child,True
+child_anemia,bidx,uncertain,Administrative/identifier: Birth column/index candidate; do not include automatically. Actual label supports this role.,exclude from predictors; verify role from dictionary,birth column number,True
+child_anemia,bord,legitimate_predictor,Birth-order label; child characteristic domain.,pilot candidate only; prediction-time review required,birth order number,True
+child_anemia,caseid,uncertain,Administrative/identifier: Respondent identifier; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,case identification,True
+child_anemia,hw1,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,child's age in months,True
+child_anemia,hw52,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - read consent statement - hemoglobin,True
+child_anemia,hw53,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - hemoglobin level (g/dl - 1 decimal),True
+child_anemia,hw55,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - result of measurement - hemoglobin,True
+child_anemia,hw56,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - hemoglobin level adjusted for altitude (g/dl - 1 decimal),True
+child_anemia,hw57,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - anemia level,True
+child_anemia,hw58,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - agrees to referral - anemia,True
+child_anemia,mh23,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - did health facility have toilet/latrine for patitents,True
+child_anemia,mh24,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - at any time wanted to use toilet/latrine but was not working,True
+child_anemia,s111a,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,marital status,True
+child_anemia,s115_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+child_anemia,s904,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's level of education,True
+child_anemia,s905_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's highest educational level attended (used in final tables),True
+child_anemia,v001,uncertain,"Geographic/survey-design: Cluster/PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,cluster number,True
+child_anemia,v002,uncertain,Administrative/identifier: Household identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,household number,True
+child_anemia,v003,uncertain,Administrative/identifier: Mother/respondent line identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,respondent's line number,True
+child_anemia,v005,uncertain,"Geographic/survey-design: Sampling weight; audit only in Notebook 0, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,women's individual sample weight (6 decimals),True
+child_anemia,v012,legitimate_predictor,Respondent-age label; maternal demographic domain.,pilot candidate only; prediction-time review required,respondent's current age,True
+child_anemia,v021,uncertain,"Geographic/survey-design: PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,primary sampling unit,True
+child_anemia,v022,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,sample strata for sampling errors,True
+child_anemia,v023,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,stratification used in sample design,True
+child_anemia,v024,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+child_anemia,v025,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+child_anemia,v042,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - household selected for hemoglobin,True
+child_anemia,v101,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+child_anemia,v102,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+child_anemia,v105a,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division of previous residence,True
+child_anemia,v106,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+child_anemia,v107,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest year of education,True
+child_anemia,v113,legitimate_predictor,Water-source label; household living-conditions domain.,pilot candidate only; prediction-time review required,source of drinking water,True
+child_anemia,v116,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,type of toilet facility,True
+child_anemia,v133,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,education in single years,True
+child_anemia,v136,legitimate_predictor,"Household-size label; household context, not an identifier.",pilot candidate only; prediction-time review required,number of household members (listed),True
+child_anemia,v139,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure region of residence,True
+child_anemia,v140,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure type of place of residence,True
+child_anemia,v160,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,toilet facilities shared with other households,True
+child_anemia,v190,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index combined,True
+child_anemia,v191,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index factor score combined (5 decimals),True
+child_anemia,v212,legitimate_predictor,Respondent-age label; maternal demographic domain.,pilot candidate only; prediction-time review required,age of respondent at 1st birth,True
+child_anemia,v247f,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - collection of menstrual blood: toilet paper,True
+child_anemia,v452c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - read consent statement - hemoglobin,True
+child_anemia,v453,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - hemoglobin level (g/dl - 1 decimal),True
+child_anemia,v455,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - result of measurement - hemoglobin,True
+child_anemia,v456,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - hemoglobin level adjusted for altitude and smoking (g/dl - 1 decimal),True
+child_anemia,v457,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - anemia level,True
+child_anemia,v458,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,na - agrees to referral - anemia,True
+child_anemia,v465,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - disposal of youngest child's stools when not using toilet,True
+child_anemia,v501,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,current marital status,True
+child_anemia,v701,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's education level,True
+child_anemia,v702,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's highest year of education (at level in v701),True
+child_anemia,v714,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent currently working,True
+child_anemia,v715,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's total number of years of education,True
+child_anemia,v719,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,"respondent works for family, others, self",True
+child_anemia,v721,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - respondent works at home or away,True
+child_anemia,v731,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent worked in last 12 months,True
+child_anemia,v740,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - type of land where respondent works,True
+child_anemia,v741,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,type of earnings from respondent's work,True
+full_age_appropriate_immunisation,awfactu,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,all woman factor - urban/rural,True
+full_age_appropriate_immunisation,awfactw,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,all woman factor - wealth index,True
+full_age_appropriate_immunisation,b16,uncertain,Administrative/identifier: Child line identifier candidate; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,child's line number in household,True
+full_age_appropriate_immunisation,b19,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,current age of child in months (months since birth for dead children),True
+full_age_appropriate_immunisation,b4,legitimate_predictor,Child-sex label; review its role in anthropometric reference standards.,pilot candidate only; prediction-time review required,sex of child,True
+full_age_appropriate_immunisation,b7,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,"age at death (months, imputed)",True
+full_age_appropriate_immunisation,b8,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,current age of child,True
+full_age_appropriate_immunisation,bidx,uncertain,Administrative/identifier: Birth column/index candidate; do not include automatically. Actual label supports this role.,exclude from predictors; verify role from dictionary,birth column number,True
+full_age_appropriate_immunisation,bord,legitimate_predictor,Birth-order label; child characteristic domain.,pilot candidate only; prediction-time review required,birth order number,True
+full_age_appropriate_immunisation,caseid,uncertain,Administrative/identifier: Respondent identifier; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,case identification,True
+full_age_appropriate_immunisation,h10,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - ever had vaccination,True
+full_age_appropriate_immunisation,h1a,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - has health card and or other vaccination document,True
+full_age_appropriate_immunisation,h25d,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - day of birth from vaccination card,True
+full_age_appropriate_immunisation,h25m,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - month of birth from vaccination card,True
+full_age_appropriate_immunisation,h25y,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - year of birth from vaccination card,True
+full_age_appropriate_immunisation,h26,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - photograph of vaccination card available,True
+full_age_appropriate_immunisation,h69,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - place where most vaccinations were received,True
+full_age_appropriate_immunisation,hw1,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,child's age in months,True
+full_age_appropriate_immunisation,mh23,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - did health facility have toilet/latrine for patitents,True
+full_age_appropriate_immunisation,mh24,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - at any time wanted to use toilet/latrine but was not working,True
+full_age_appropriate_immunisation,s111a,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,marital status,True
+full_age_appropriate_immunisation,s115_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+full_age_appropriate_immunisation,s904,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's level of education,True
+full_age_appropriate_immunisation,s905_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's highest educational level attended (used in final tables),True
+full_age_appropriate_immunisation,v001,uncertain,"Geographic/survey-design: Cluster/PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,cluster number,True
+full_age_appropriate_immunisation,v002,uncertain,Administrative/identifier: Household identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,household number,True
+full_age_appropriate_immunisation,v003,uncertain,Administrative/identifier: Mother/respondent line identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,respondent's line number,True
+full_age_appropriate_immunisation,v005,uncertain,"Geographic/survey-design: Sampling weight; audit only in Notebook 0, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,women's individual sample weight (6 decimals),True
+full_age_appropriate_immunisation,v012,legitimate_predictor,Respondent-age label; maternal demographic domain.,pilot candidate only; prediction-time review required,respondent's current age,True
+full_age_appropriate_immunisation,v021,uncertain,"Geographic/survey-design: PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,primary sampling unit,True
+full_age_appropriate_immunisation,v022,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,sample strata for sampling errors,True
+full_age_appropriate_immunisation,v023,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,stratification used in sample design,True
+full_age_appropriate_immunisation,v024,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+full_age_appropriate_immunisation,v025,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+full_age_appropriate_immunisation,v101,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+full_age_appropriate_immunisation,v102,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+full_age_appropriate_immunisation,v105a,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division of previous residence,True
+full_age_appropriate_immunisation,v106,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+full_age_appropriate_immunisation,v107,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest year of education,True
+full_age_appropriate_immunisation,v113,legitimate_predictor,Water-source label; household living-conditions domain.,pilot candidate only; prediction-time review required,source of drinking water,True
+full_age_appropriate_immunisation,v116,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,type of toilet facility,True
+full_age_appropriate_immunisation,v133,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,education in single years,True
+full_age_appropriate_immunisation,v136,legitimate_predictor,"Household-size label; household context, not an identifier.",pilot candidate only; prediction-time review required,number of household members (listed),True
+full_age_appropriate_immunisation,v139,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure region of residence,True
+full_age_appropriate_immunisation,v140,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure type of place of residence,True
+full_age_appropriate_immunisation,v160,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,toilet facilities shared with other households,True
+full_age_appropriate_immunisation,v190,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index combined,True
+full_age_appropriate_immunisation,v191,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index factor score combined (5 decimals),True
+full_age_appropriate_immunisation,v212,legitimate_predictor,Respondent-age label; maternal demographic domain.,pilot candidate only; prediction-time review required,age of respondent at 1st birth,True
+full_age_appropriate_immunisation,v247f,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - collection of menstrual blood: toilet paper,True
+full_age_appropriate_immunisation,v418,uncertain,Target-related field is not part of a verified recipe.,human review; do not predict from it,na - entries in immunization roster,True
+full_age_appropriate_immunisation,v465,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - disposal of youngest child's stools when not using toilet,True
+full_age_appropriate_immunisation,v501,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,current marital status,True
+full_age_appropriate_immunisation,v701,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's education level,True
+full_age_appropriate_immunisation,v702,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's highest year of education (at level in v701),True
+full_age_appropriate_immunisation,v714,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent currently working,True
+full_age_appropriate_immunisation,v715,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's total number of years of education,True
+full_age_appropriate_immunisation,v719,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,"respondent works for family, others, self",True
+full_age_appropriate_immunisation,v721,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - respondent works at home or away,True
+full_age_appropriate_immunisation,v731,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent worked in last 12 months,True
+full_age_appropriate_immunisation,v740,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - type of land where respondent works,True
+full_age_appropriate_immunisation,v741,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,type of earnings from respondent's work,True
+mortality_related,awfactu,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,all woman factor - urban/rural,True
+mortality_related,awfactw,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,all woman factor - wealth index,True
+mortality_related,b13,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,flag for age at death,True
+mortality_related,b16,uncertain,Administrative/identifier: Child line identifier candidate; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,child's line number in household,True
+mortality_related,b19,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,current age of child in months (months since birth for dead children),True
+mortality_related,b4,legitimate_predictor,Child-sex label; review its role in anthropometric reference standards.,pilot candidate only; prediction-time review required,sex of child,True
+mortality_related,b5,direct_leakage,Label-verified target field/direct target component.,exclude from predictors,child is alive,True
+mortality_related,b6,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,age at death,True
+mortality_related,b7,proxy_risk,Label indicates outcome-domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,"age at death (months, imputed)",True
+mortality_related,b8,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,current age of child,True
+mortality_related,bidx,uncertain,Administrative/identifier: Birth column/index candidate; do not include automatically. Actual label supports this role.,exclude from predictors; verify role from dictionary,birth column number,True
+mortality_related,bord,legitimate_predictor,Birth-order label; child characteristic domain.,pilot candidate only; prediction-time review required,birth order number,True
+mortality_related,caseid,uncertain,Administrative/identifier: Respondent identifier; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,case identification,True
+mortality_related,hw1,legitimate_predictor,Child-age label; timing and eligibility require review.,pilot candidate only; prediction-time review required,child's age in months,True
+mortality_related,mh23,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - did health facility have toilet/latrine for patitents,True
+mortality_related,mh24,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - at any time wanted to use toilet/latrine but was not working,True
+mortality_related,s111a,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,marital status,True
+mortality_related,s115_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+mortality_related,s228bd,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,day of death (children <5 years for va),True
+mortality_related,s228bm,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,month of death (children <5 years for va),True
+mortality_related,s228by,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,year of death (children <5 years for va),True
+mortality_related,s230a,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,no. of deaths since january 2017,True
+mortality_related,s230c,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,get more information on deaths of young children,True
+mortality_related,s904,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's level of education,True
+mortality_related,s905_1,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband's highest educational level attended (used in final tables),True
+mortality_related,v001,uncertain,"Geographic/survey-design: Cluster/PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,cluster number,True
+mortality_related,v002,uncertain,Administrative/identifier: Household identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,household number,True
+mortality_related,v003,uncertain,Administrative/identifier: Mother/respondent line identifier component; never a predictor. Actual label supports this role.,exclude from predictors; verify role from dictionary,respondent's line number,True
+mortality_related,v005,uncertain,"Geographic/survey-design: Sampling weight; audit only in Notebook 0, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,women's individual sample weight (6 decimals),True
+mortality_related,v012,legitimate_predictor,Respondent-age label; maternal demographic domain.,pilot candidate only; prediction-time review required,respondent's current age,True
+mortality_related,v021,uncertain,"Geographic/survey-design: PSU candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,primary sampling unit,True
+mortality_related,v022,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,sample strata for sampling errors,True
+mortality_related,v023,uncertain,"Geographic/survey-design: Strata candidate; audit only, never a predictor. Actual label supports this role.",exclude from predictors; verify role from dictionary,stratification used in sample design,True
+mortality_related,v024,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+mortality_related,v025,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+mortality_related,v101,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division,True
+mortality_related,v102,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,type of place of residence,True
+mortality_related,v105a,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,division of previous residence,True
+mortality_related,v106,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest educational level,True
+mortality_related,v107,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,highest year of education,True
+mortality_related,v113,legitimate_predictor,Water-source label; household living-conditions domain.,pilot candidate only; prediction-time review required,source of drinking water,True
+mortality_related,v116,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,type of toilet facility,True
+mortality_related,v133,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,education in single years,True
+mortality_related,v136,legitimate_predictor,"Household-size label; household context, not an identifier.",pilot candidate only; prediction-time review required,number of household members (listed),True
+mortality_related,v139,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure region of residence,True
+mortality_related,v140,legitimate_predictor,Residence or broad-region label; never use cluster/PSU identifiers as predictors.,pilot candidate only; prediction-time review required,de jure type of place of residence,True
+mortality_related,v160,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,toilet facilities shared with other households,True
+mortality_related,v190,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index combined,True
+mortality_related,v191,legitimate_predictor,Wealth-index label; review its construction.,pilot candidate only; prediction-time review required,wealth index factor score combined (5 decimals),True
+mortality_related,v206,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,sons who have died,True
+mortality_related,v207,proxy_risk,Same outcome domain or likely post-outcome treatment/care-seeking.,exclude pending timing review,daughters who have died,True
+mortality_related,v212,legitimate_predictor,Respondent-age label; maternal demographic domain.,pilot candidate only; prediction-time review required,age of respondent at 1st birth,True
+mortality_related,v247f,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - collection of menstrual blood: toilet paper,True
+mortality_related,v465,legitimate_predictor,Toilet/sanitation label; household living-conditions domain.,pilot candidate only; prediction-time review required,na - disposal of youngest child's stools when not using toilet,True
+mortality_related,v501,legitimate_predictor,Marital-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,current marital status,True
+mortality_related,v701,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's education level,True
+mortality_related,v702,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's highest year of education (at level in v701),True
+mortality_related,v714,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent currently working,True
+mortality_related,v715,legitimate_predictor,Education label; verify whose education is recorded.,pilot candidate only; prediction-time review required,husband/partner's total number of years of education,True
+mortality_related,v719,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,"respondent works for family, others, self",True
+mortality_related,v721,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - respondent works at home or away,True
+mortality_related,v731,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,respondent worked in last 12 months,True
+mortality_related,v740,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,na - type of land where respondent works,True
+mortality_related,v741,legitimate_predictor,Work-status label; maternal characteristic domain.,pilot candidate only; prediction-time review required,type of earnings from respondent's work,True
