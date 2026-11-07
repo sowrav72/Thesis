@@ -1,0 +1,19 @@
+candidate_outcome,psu_candidate,team_confirmed_choice,cluster_count,positive_clusters,negative_clusters,status
+stunting,v001,False,670.0,475.0,664.0,computed from outcome only
+stunting,v021,False,670.0,475.0,664.0,computed from outcome only
+wasting,v001,False,670.0,341.0,666.0,computed from outcome only
+wasting,v021,False,670.0,341.0,666.0,computed from outcome only
+underweight,v001,False,670.0,469.0,663.0,computed from outcome only
+underweight,v021,False,670.0,469.0,663.0,computed from outcome only
+fever,v001,False,674.0,642.0,674.0,computed from outcome only
+fever,v021,False,674.0,642.0,674.0,computed from outcome only
+diarrhea,v001,False,674.0,268.0,674.0,computed from outcome only
+diarrhea,v021,False,674.0,268.0,674.0,computed from outcome only
+ari_symptoms,v001,False,,,,not assessed: outcome construction pending
+ari_symptoms,v021,False,,,,not assessed: outcome construction pending
+child_anemia,v001,False,0.0,0.0,0.0,computed from outcome only
+child_anemia,v021,False,0.0,0.0,0.0,computed from outcome only
+full_age_appropriate_immunisation,v001,False,,,,not assessed: outcome construction pending
+full_age_appropriate_immunisation,v021,False,,,,not assessed: outcome construction pending
+mortality_related,v001,False,674.0,204.0,674.0,computed from outcome only
+mortality_related,v021,False,674.0,204.0,674.0,computed from outcome only

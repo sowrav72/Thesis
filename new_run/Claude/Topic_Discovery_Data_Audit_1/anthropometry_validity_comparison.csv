@@ -1,0 +1,4 @@
+candidate_outcome,kr_provisional_cohort_n,kr_valid_score_n,kr_valid_score_n_hw13_measured,kr_valid_score_n_hw13_other_status,kr_valid_pct_of_provisional_cohort,fr386_c8_valid_pct_interviewed_mothers,difference_percentage_points,interpretation
+stunting,4226,4105,4105,0,97.13677236157123,97.2,-0.06322763842877066,Rough aggregate comparison only; denominator/scope unresolved; indicator-specific valid scores govern. WAZ may be valid without the composite hw13 measured status.
+wasting,4226,4104,4104,0,97.1131093232371,97.2,-0.08689067676290563,Rough aggregate comparison only; denominator/scope unresolved; indicator-specific valid scores govern. WAZ may be valid without the composite hw13 measured status.
+underweight,4226,4158,4116,42,98.3909133932797,98.5,-0.10908660672029669,Rough aggregate comparison only; denominator/scope unresolved; indicator-specific valid scores govern. WAZ may be valid without the composite hw13 measured status.

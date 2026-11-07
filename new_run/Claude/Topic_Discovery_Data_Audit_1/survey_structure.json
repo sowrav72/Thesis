@@ -1,0 +1,95 @@
+{
+  "psu_strata_candidate_labels_and_distinct_counts": {
+    "v001": {
+      "label": "cluster number",
+      "role_under_review": "cluster / PSU candidate",
+      "label_check": "verified",
+      "distinct_nonmissing_values": 674
+    },
+    "v021": {
+      "label": "primary sampling unit",
+      "role_under_review": "PSU candidate",
+      "label_check": "verified",
+      "distinct_nonmissing_values": 674
+    },
+    "v022": {
+      "label": "sample strata for sampling errors",
+      "role_under_review": "strata candidate",
+      "label_check": "verified",
+      "distinct_nonmissing_values": 16
+    },
+    "v023": {
+      "label": "stratification used in sample design",
+      "role_under_review": "strata candidate",
+      "label_check": "verified",
+      "distinct_nonmissing_values": 16
+    }
+  },
+  "psu_candidate_aggregate_structure": {
+    "v001": {
+      "cluster_count": 674,
+      "children_per_cluster_median": 13.0,
+      "children_per_cluster_max": 29
+    },
+    "v021": {
+      "cluster_count": 674,
+      "children_per_cluster_median": 13.0,
+      "children_per_cluster_max": 29
+    }
+  },
+  "verified_psu_candidates": [
+    "v001",
+    "v021"
+  ],
+  "v001_v021_values_identical_if_both_label_verified": true,
+  "v001_v021_values_differ_if_both_label_verified": false,
+  "v001_v021_partitions_identical_if_both_label_verified": true,
+  "team_confirmed_psu_variable": null,
+  "group_variable_used_for_pilot": null,
+  "grouping_partition_used_for_pilot": "joint v001+v021 equivalence partition",
+  "grouping_provisional_pending_survey_documentation": true,
+  "group_resolution": "Provisional grouped feasibility: v001/v021 labels are verified and partitions identical. Joint partition avoids choosing a canonical PSU; human confirmation of survey-design meaning is still required before final interpretation.",
+  "group_validation_ready": true,
+  "group_validation_gate": "Provisional grouped feasibility: v001/v021 labels are verified and partitions identical. Joint partition avoids choosing a canonical PSU; human confirmation of survey-design meaning is still required before final interpretation.",
+  "verified_strata_variables": [
+    "v022",
+    "v023"
+  ],
+  "v022_v023_values_identical_if_both_label_verified": true,
+  "v022_v023_partitions_identical_if_both_label_verified": true,
+  "verified_sampling_weight_variable": "v005",
+  "verified_mother_key_components": [
+    "v001",
+    "v002",
+    "v003"
+  ],
+  "verified_child_line_identifier": "b16",
+  "verified_birth_record_key_components": [
+    "caseid",
+    "bidx"
+  ],
+  "birth_record_key_complete": true,
+  "birth_record_key_duplicate_rows": 0,
+  "birth_record_key_unique": true,
+  "mother_to_psu_nesting_by_candidate": {
+    "v001": {
+      "status": "structurally nested: verified mother key contains v001 and PSU partitions are identical; cross-PSU count would be tautological",
+      "mothers_spanning_multiple_psus_n": null,
+      "mothers_with_psu_observed_n": null,
+      "mothers_spanning_multiple_psus_pct": null
+    },
+    "v021": {
+      "status": "structurally nested: verified mother key contains v001 and PSU partitions are identical; cross-PSU count would be tautological",
+      "mothers_spanning_multiple_psus_n": null,
+      "mothers_with_psu_observed_n": null,
+      "mothers_spanning_multiple_psus_pct": null
+    }
+  },
+  "mother_nesting_structurally_guaranteed_by_composite_key": true,
+  "cluster_count": 674,
+  "children_per_cluster_median": 13.0,
+  "children_per_cluster_max": 29,
+  "mother_count": 7697,
+  "children_per_mother_median": 1.0,
+  "children_per_mother_max": 4
+}
